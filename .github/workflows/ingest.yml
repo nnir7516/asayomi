@@ -41,7 +41,14 @@ jobs:
           for attempt in 1 2 3 4 5; do
             git fetch -q origin main
             git reset -q --hard origin/main
-            for f in $NEW; do git show "origin/incoming:$f" > "$f"; done
+            mkdir -p data/figures
+            for f in $NEW; do
+              git show "origin/incoming:$f" > "$f"
+              id=$(basename "$f" .json)
+              for fig in $(git ls-tree --name-only origin/incoming data/figures/ 2>/dev/null | grep -E "^data/figures/${id}-fig[1-9]\.svg$" || true); do
+                git show "origin/incoming:$fig" > "$fig"
+              done
+            done
             python3 tools/publish_issue.py --rebuild-index
             git add data
             git commit -q -m "記事を取り込み:$IDS"

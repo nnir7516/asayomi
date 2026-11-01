@@ -56,7 +56,17 @@
     out = out.replace(/(^|[\s（(：:])(https?:\/\/[^\s<）)」]+)/g, '$1<a href="$2" target="_blank" rel="noopener">$2</a>');
     return out;
   }
-  function md(text) {
+  function figureHTML(issue, figId, alt) {
+    var figs = issue && Array.isArray(issue.figures) ? issue.figures : [];
+    var meta = null;
+    for (var i = 0; i < figs.length; i++) if (figs[i] && figs[i].id === figId) meta = figs[i];
+    var file = meta && typeof meta.file === "string" && /^data\/figures\/[\w.-]+\.svg$/.test(meta.file) ? meta.file
+      : "data/figures/" + encodeURIComponent((issue && issue.id) || "") + "-" + figId + ".svg";
+    var cap = (meta && meta.caption) || alt || "";
+    return '<figure class="fig"><a href="' + esc(file) + '" target="_blank" rel="noopener" aria-label="図を拡大して見る"><img src="' + esc(file) + '" alt="' + esc(cap) + '" loading="lazy"></a>' +
+      (cap ? '<figcaption>' + esc(cap) + '</figcaption>' : '') + '</figure>';
+  }
+  function md(text, issue) {
     var lines = String(text || "").replace(/\r\n?/g, "\n").split("\n");
     var html = "", para = [], list = null;
     function flushPara() { if (para.length) { html += "<p>" + para.map(inline).join("<br>") + "</p>"; para = []; } }
@@ -65,6 +75,9 @@
       var line = raw.replace(/\s+$/, "");
       var m;
       if (!line.trim()) { flushPara(); flushList(); return; }
+      if ((m = /^\s*!\[([^\]]*)\]\(fig:(fig[1-9])\)\s*$/.exec(line))) {
+        flushPara(); flushList(); html += figureHTML(issue, m[2], m[1]); return;
+      }
       if ((m = /^(#{1,4})\s+(.*)$/.exec(line))) {
         flushPara(); flushList();
         var lv = Math.min(4, Math.max(2, m[1].length === 1 ? 2 : m[1].length));
@@ -264,7 +277,7 @@
       else { html += '<div class="empty"><h2>本文を読み込み中</h2><p>少しお待ちください。</p></div>'; loadIssue(id); }
       main.innerHTML = html; return;
     }
-    html += '<article class="prose">' + md(issue.body) + '</article>';
+    html += '<article class="prose">' + md(issue.body, issue) + '</article>';
     var items = Array.isArray(issue.items) ? issue.items : [];
     if (items.length) {
       html += '<div class="section-h"><h2>評価とクイズ</h2><p>' + items.length + '件</p></div><div class="cards">' +

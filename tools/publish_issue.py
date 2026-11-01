@@ -11,14 +11,27 @@ issue.json の形式は README.md の「記事データの形式」を参照。
 import json
 import re
 import sys
+import xml.etree.ElementTree as ET
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 ISSUES = DATA / "issues"
+FIGURES = DATA / "figures"
 INDEX = DATA / "index.json"
 JST = timezone(timedelta(hours=9))
+
+SVG_NS = "http://www.w3.org/2000/svg"
+XLINK_NS = "http://www.w3.org/1999/xlink"
+ET.register_namespace("", SVG_NS)
+ET.register_namespace("xlink", XLINK_NS)
+# 図に使ってよい要素（スクリプトや外部読み込みにつながる要素は除く）
+SVG_ALLOWED = {
+    "svg", "g", "defs", "title", "desc", "path", "rect", "circle", "ellipse", "line", "polyline", "polygon",
+    "text", "tspan", "marker", "linearGradient", "radialGradient", "stop", "clipPath", "pattern", "use", "symbol",
+}
+FIG_REQUIRED = {"ai": (0, 3), "thermal": (1, 3)}  # （最小枚数, 最大枚数）
 
 CATS = {
     "ai": ["モデル・製品", "研究", "規制・政策", "半導体・データセンター", "ビジネス・投資", "日本の動き"],
@@ -39,6 +52,58 @@ def need(cond, msg):
 
 def nonempty_str(v):
     return isinstance(v, str) and v.strip() != ""
+
+
+def sanitize_svg(src, where):
+    """SVG を検証し、スクリプト・イベント属性・外部参照を取り除いた文字列を返す。"""
+    need(isinstance(src, str) and src.lstrip().startswith("<svg"), f"{where}.svg は <svg で始まる文字列にしてください")
+    need(len(src.encode("utf-8")) <= 200_000, f"{where}.svg が大きすぎます（200KBまで）")
+    try:
+        root = ET.fromstring(src)
+    except ET.ParseError as e:
+        raise Invalid(f"{where}.svg をXMLとして読めません: {e}")
+    need(root.tag in ("svg", f"{{{SVG_NS}}}svg"), f"{where}.svg の最上位は <svg> にしてください")
+    need(root.get("viewBox"), f"{where}.svg に viewBox を付けてください（スマホ幅で縮むように）")
+
+    def local(tag):
+        return tag.split("}", 1)[-1] if isinstance(tag, str) else ""
+
+    def clean(el):
+        for child in list(el):
+            if local(child.tag) not in SVG_ALLOWED:
+                el.remove(child)
+                continue
+            clean(child)
+        for k in list(el.attrib):
+            name = local(k).lower()
+            v = el.attrib[k]
+            if name.startswith("on") or name == "style" and ("url(" in v and "url(#" not in v):
+                del el.attrib[k]
+            elif name == "href" and not v.startswith("#"):
+                del el.attrib[k]
+    clean(root)
+    if root.tag == "svg":
+        root.tag = f"{{{SVG_NS}}}svg"
+        for el in root.iter():
+            if isinstance(el.tag, str) and "}" not in el.tag:
+                el.tag = f"{{{SVG_NS}}}{el.tag}"
+    return ET.tostring(root, encoding="unicode")
+
+
+def validate_figures(issue):
+    figs = issue.get("figures", [])
+    lo, hi = FIG_REQUIRED[issue["series"]]
+    need(isinstance(figs, list) and lo <= len(figs) <= hi, f"figures（図）は{lo}〜{hi}枚にしてください")
+    ids = set()
+    for n, f in enumerate(figs):
+        where = f"figures[{n}]"
+        need(isinstance(f, dict), f"{where} がオブジェクトではありません")
+        need(isinstance(f.get("id"), str) and re.fullmatch(r"fig[1-9]", f["id"]), f"{where}.id は fig1〜fig9 にしてください")
+        need(f["id"] not in ids, f"{where}.id が重複しています")
+        ids.add(f["id"])
+        need(nonempty_str(f.get("caption")), f"{where}.caption（図の説明）が空です")
+        f["svg"] = sanitize_svg(f.get("svg"), where)
+        need(f"(fig:{f['id']})" in issue["body"], f"本文に ![説明](fig:{f['id']}) を入れて、{f['id']} を表示する位置を指定してください")
 
 
 def validate(issue):
@@ -84,6 +149,7 @@ def validate(issue):
             need(isinstance(ch, list) and len(ch) == 4 and all(nonempty_str(c) for c in ch), f"{qw}.choices は4つの文字列にしてください")
             need(isinstance(q.get("answer"), int) and 0 <= q["answer"] <= 3, f"{qw}.answer は0〜3の整数にしてください")
             need(nonempty_str(q.get("explain")), f"{qw}.explain が空です")
+    validate_figures(issue)
 
 
 def load_issues():
@@ -169,6 +235,13 @@ def main(argv):
         print("検証OK")
         return 0
     ISSUES.mkdir(parents=True, exist_ok=True)
+    figs = issue.get("figures", [])
+    if figs:
+        FIGURES.mkdir(parents=True, exist_ok=True)
+        for f in figs:
+            fname = f"{issue['id']}-{f['id']}.svg"
+            (FIGURES / fname).write_text(f.pop("svg") + "\n", encoding="utf-8")
+            f["file"] = f"data/figures/{fname}"
     dest.write_text(json.dumps(issue, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     idx = build_index(existing + [issue])
     print(f"保存しました: data/issues/{dest.name}（索引 {len(idx['issues'])}号）")

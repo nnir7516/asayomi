@@ -103,6 +103,11 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .prose hr{border:0;border-top:1px solid var(--line);margin:20px 0}
 .prose code{font-family:var(--font-mono);font-size:13px;background:var(--chip);padding:1px 5px;border-radius:4px}
 .prose a{color:var(--ai);text-underline-offset:2px}
+/* 図：線画はどちらのテーマでも読めるよう白地の板にのせる */
+.fig{margin:6px 0 18px;padding:0}
+.fig a{display:block;background:#FFFFFF;border:1px solid var(--line);border-radius:var(--r);padding:10px;line-height:0}
+.fig img{display:block;width:100%;height:auto;max-width:100%}
+.fig figcaption{margin-top:6px;font-size:13px;color:var(--muted);line-height:1.6}
 .section-h{display:flex;align-items:baseline;gap:10px;margin:32px 0 12px}
 .section-h h2{font-size:17px}
 .section-h p{margin:0;font-size:13px;color:var(--muted)}
