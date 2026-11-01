@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 310" font-family="sans-serif">
+<rect width="400" height="310" fill="#fff" />
+<text x="200" y="20" font-size="16" text-anchor="middle" fill="#222">出口 幅25.4 mm（CPU側）</text>
+<line x1="200" y1="52" x2="200" y2="30" stroke="#c0392b" stroke-width="4" /><polygon points="200,26 192,38 208,38" fill="#c0392b" />
+<rect x="40" y="55" width="320" height="190" fill="#f4f6f8" stroke="#444" stroke-width="2" />
+<rect x="125" y="75" width="150" height="60" fill="#f6c27a" stroke="#a0651a" stroke-width="2" />
+<text x="200" y="100" font-size="16" text-anchor="middle" fill="#222">CPU</text>
+<text x="200" y="124" font-size="16" text-anchor="middle" fill="#222">300 W</text>
+<rect x="60" y="150" width="105" height="80" fill="#f1948a" stroke="#922b21" stroke-width="2" />
+<text x="112" y="182" font-size="16" text-anchor="middle" fill="#222">GPU</text>
+<text x="112" y="206" font-size="16" text-anchor="middle" fill="#222">1,200 W</text>
+<rect x="235" y="150" width="105" height="80" fill="#f1948a" stroke="#922b21" stroke-width="2" />
+<text x="287" y="182" font-size="16" text-anchor="middle" fill="#222">GPU</text>
+<text x="287" y="206" font-size="16" text-anchor="middle" fill="#222">1,200 W</text>
+<line x1="200" y1="278" x2="200" y2="250" stroke="#1f6fb2" stroke-width="4" /><polygon points="200,246 192,258 208,258" fill="#1f6fb2" />
+<text x="200" y="300" font-size="16" text-anchor="middle" fill="#222">入口 25 ℃・幅25.4 mm（GPU側）</text>
+</svg>
