@@ -1,0 +1,98 @@
+{
+ "id": "2026-11-01-ai",
+ "date": "2026-11-01",
+ "series": "ai",
+ "title": "AI学習の拒否設定を共通化する動き、AppleのAIは中国でQwen採用",
+ "lead": [
+  "OpenAIやGoogleなどがAI学習の拒否を共通の合図で示せる仕組みへの対応を表明（草案段階）。",
+  "中国版Apple IntelligenceはAlibabaのQwenが支える形で報じられた。",
+  "GoogleのMN州データセンター承認の報（未確認）など、AI拠点の立地が焦点。"
+ ],
+ "body": "## 主要ニュース\n\n### AI学習の拒否設定を共通の合図で指定する動き\nOpenAIやGoogleなどが、サイト運営者がAI学習への利用を拒否する意向をrobots.txtなどの共通の合図で示せる仕組みに対応する方針を表明したと報じられています。実装時期は各社で異なり、Microsoftは2027年2月1日に反映される予定です。この提案はまだIETFの標準ではなく、個人提出のInternet-Draft（草案）の段階です。\n**なぜ重要か：** 学習データの扱いを、サイト側が一括で意思表示できる土台になりうるためです。\n出典：[Rio Rundown（二次情報）](https://riorundown.substack.com/p/ai-news-oct-31-2026-ai-training-preferences)\n\n### AppleのAIが中国でAlibabaのQwenを採用\n中国当局はApple Intelligenceを2026年7月15日に登録し、中国版ではAlibabaのQwenが機能の一部を支える形で報じられています。10月31日にもApple・Alibabaの両社が、Siriや文章ツールなどでQwenを使うと述べたとする報道があります（一次発表は未確認）。Baiduのモデルも併用されるとの報道もあり、役割分担はAppleから説明されていません。\n**なぜ重要か：** 世界的な端末メーカーが、地域ごとに別のAIモデルを使い分ける例だからです。\n出典：[HWBusters](https://hwbusters.com/news/apple-intelligence-clears-china-and-its-running-on-alibabas-qwen/)\n\n## 注目：AI × データセンター・電力・冷却\n\n### 米ミネソタ州でGoogleの大型データセンターを承認（未確認）\n10月31日、ミネソタ州ハーモンタウン市議会がGoogleの約170万平方フィート（約15.8万平方メートル）のデータセンター計画を全会一致で承認したとされます。単一の集約サイトの情報で、自治体の一次資料は確認できていません。\n**なぜ重要か：** AI向け大型施設の立地は、地元の合意形成と電力確保が鍵になっているためです。\n出典：[AI Agents News Brief（二次情報）](https://aiagentsdirectory.com/news/ai-agents-news-brief-october-31-2026)\n\n## 今日のトレンド\nAI学習データのルール作りと、地域ごとのモデル・インフラの分散が同時に進んでいます。\n",
+ "items": [
+  {
+   "id": "20261101-ai-01",
+   "category": "規制・政策",
+   "title": "AI学習の拒否設定を共通の合図で指定する動き",
+   "summary": "OpenAIやGoogleなどが、サイト運営者がAI学習への利用拒否を共通の合図で示せる仕組みへの対応を表明したと報じられた。実装時期は各社で異なり、Microsoftは2027年2月1日。提案はまだ個人提出のInternet-Draftで、IETF標準ではない。",
+   "why": "学習データの扱いを、サイト側が一括で意思表示できる土台になりうる。",
+   "url": "https://riorundown.substack.com/p/ai-news-oct-31-2026-ai-training-preferences",
+   "source": "Rio Rundown",
+   "keywords": [
+    "AI学習",
+    "robots.txt",
+    "Internet-Draft",
+    "データ利用"
+   ],
+   "quiz": [
+    {
+     "q": "この共通の合図の提案は現時点でどういう位置づけか。",
+     "choices": [
+      "IETFの正式な標準",
+      "個人提出のInternet-Draft（草案）",
+      "各国の法律",
+      "W3Cの勧告"
+     ],
+     "answer": 1,
+     "explain": "記事のとおり、IETFの承認を受けていない個人提出の草案の段階です。"
+    }
+   ]
+  },
+  {
+   "id": "20261101-ai-02",
+   "category": "ビジネス・投資",
+   "title": "Apple Intelligenceの中国版でAlibabaのQwenを採用と報道",
+   "summary": "中国当局はApple Intelligenceを2026年7月15日に登録した。中国版ではAlibabaのQwenが機能の一部を支えると報じられている。Baiduのモデルも併用との報道があり、役割分担はAppleから説明されていない。",
+   "why": "端末メーカーが地域ごとに別のAIモデルを使い分ける例になる。",
+   "url": "https://hwbusters.com/news/apple-intelligence-clears-china-and-its-running-on-alibabas-qwen/",
+   "source": "HWBusters",
+   "keywords": [
+    "Apple Intelligence",
+    "Qwen",
+    "Alibaba",
+    "中国市場"
+   ],
+   "quiz": [
+    {
+     "q": "中国版Apple Intelligenceについて、記事の内容に合うものはどれか。",
+     "choices": [
+      "OpenAIのモデルだけで動く",
+      "AlibabaのQwenが機能の一部を支えると報じられた",
+      "中国では提供されないと発表された",
+      "Appleが役割分担を詳細に説明した"
+     ],
+     "answer": 1,
+     "explain": "QwenがSiriなどを支える形で報じられていますが、役割分担はAppleから説明されていません。"
+    }
+   ]
+  },
+  {
+   "id": "20261101-ai-03",
+   "category": "半導体・データセンター",
+   "title": "米ミネソタ州でGoogleの大型データセンターを承認と報道（未確認）",
+   "summary": "10月31日、ミネソタ州ハーモンタウン市議会がGoogleの約170万平方フィートのデータセンター計画を全会一致で承認したとされる。単一の集約サイトの情報で、自治体の一次資料は未確認。",
+   "why": "AI向け大型施設の立地は、地元の合意形成と電力確保が鍵になる。",
+   "url": "https://aiagentsdirectory.com/news/ai-agents-news-brief-october-31-2026",
+   "source": "AI Agents News Brief",
+   "keywords": [
+    "データセンター",
+    "Google",
+    "電力",
+    "立地"
+   ],
+   "quiz": [
+    {
+     "q": "この記事で示されている点として適切なものはどれか。",
+     "choices": [
+      "計画は市議会で全会一致で承認されたと報じられた",
+      "計画は却下された",
+      "情報は一次資料で確認済み",
+      "水冷方式が採用された"
+     ],
+     "answer": 0,
+     "explain": "全会一致で承認と報じられましたが、一次資料は未確認です。"
+    }
+   ]
+  }
+ ]
+}

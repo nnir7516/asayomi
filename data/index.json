@@ -1,5 +1,55 @@
 {
  "version": 1,
- "updated": null,
- "issues": []
+ "updated": "2026-11-01T16:14:35+09:00",
+ "issues": [
+  {
+   "id": "2026-11-01-ai",
+   "date": "2026-11-01",
+   "series": "ai",
+   "title": "AI学習の拒否設定を共通化する動き、AppleのAIは中国でQwen採用",
+   "lead": [
+    "OpenAIやGoogleなどがAI学習の拒否を共通の合図で示せる仕組みへの対応を表明（草案段階）。",
+    "中国版Apple IntelligenceはAlibabaのQwenが支える形で報じられた。",
+    "GoogleのMN州データセンター承認の報（未確認）など、AI拠点の立地が焦点。"
+   ],
+   "items": [
+    {
+     "id": "20261101-ai-01",
+     "category": "規制・政策",
+     "title": "AI学習の拒否設定を共通の合図で指定する動き",
+     "url": "https://riorundown.substack.com/p/ai-news-oct-31-2026-ai-training-preferences",
+     "keywords": [
+      "AI学習",
+      "robots.txt",
+      "Internet-Draft",
+      "データ利用"
+     ]
+    },
+    {
+     "id": "20261101-ai-02",
+     "category": "ビジネス・投資",
+     "title": "Apple Intelligenceの中国版でAlibabaのQwenを採用と報道",
+     "url": "https://hwbusters.com/news/apple-intelligence-clears-china-and-its-running-on-alibabas-qwen/",
+     "keywords": [
+      "Apple Intelligence",
+      "Qwen",
+      "Alibaba",
+      "中国市場"
+     ]
+    },
+    {
+     "id": "20261101-ai-03",
+     "category": "半導体・データセンター",
+     "title": "米ミネソタ州でGoogleの大型データセンターを承認と報道（未確認）",
+     "url": "https://aiagentsdirectory.com/news/ai-agents-news-brief-october-31-2026",
+     "keywords": [
+      "データセンター",
+      "Google",
+      "電力",
+      "立地"
+     ]
+    }
+   ]
+  }
+ ]
 }
