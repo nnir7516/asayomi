@@ -1,0 +1,30 @@
+name: push-setup
+
+on:
+  push:
+    branches: [main]
+    paths: ["push/setup-request"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - id: key
+        run: node scripts/push-setup.mjs
+        env:
+          PUSH_SEED: ${{ secrets.PUSH_SEED }}
+      - if: steps.key.outputs.changed == 'true'
+        run: |
+          git config user.name "asayomi-bot"
+          git config user.email "asayomi-bot@users.noreply.github.com"
+          git add push-config.json
+          git commit -m "通知の公開鍵を設定"
+          git push

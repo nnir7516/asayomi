@@ -11,15 +11,17 @@
 1. **GitHub Pages を有効にする**
    リポジトリの Settings → Pages →「Build and deployment」で、Source を「Deploy from a branch」、Branch を `main` と `/ (root)` にして Save。
    1〜2分後、`https://<ユーザー名>.github.io/<リポジトリ名>/` でアプリが開けるようになります。
-2. **通知の送信用の鍵を登録する**
+2. **通知用の合言葉を登録する**
    Settings → Secrets and variables → Actions →「New repository secret」。
-   Name は `VAPID_PRIVATE_KEY`、Secret には Claude から受け取った文字列を貼り付けます。
+   Name は `PUSH_SEED`、Secret には自分で決めた40文字以上のでたらめな文字列を入れます（覚える必要はありません）。
+   GitHub Actions がこの合言葉から通知用の鍵を作ります。秘密鍵はどこにも保存・表示されません。
+   登録後、`push/setup-request` を書き換えて送信するか、Actions → push-setup →「Run workflow」で、公開鍵が `push-config.json` に書き込まれます。
 3. **スマホにインストールする**
    Android の Chrome で上のURLを開き、メニュー（⋮）→「アプリをインストール」（または「ホーム画面に追加」）。
 4. **通知を受け取る端末を登録する**
    インストールしたアプリの「通知と設定」→「通知を有効にする」→「宛先をコピー」。
    コピーした文字列を Claude との会話に貼り付けると、`push/subscriptions.json` に登録されます。
-   （宛先だけでは通知を送れず、送信には手順2の秘密鍵が必要なので、宛先は公開リポジトリに置いて問題ありません）
+   （宛先だけでは通知を送れず、送信には手順2の合言葉から作る秘密鍵が必要なので、宛先は公開リポジトリに置いて問題ありません）
 5. **テストする**
    Actions タブ → notify →「Run workflow」。数十秒でテスト通知が届けば完了です。
 
@@ -33,7 +35,9 @@
 | `index.html` `app.js` `app.css` | アプリ本体 |
 | `sw.js` | オフライン表示と通知の受信 |
 | `manifest.webmanifest` `icons/` | インストール用の情報とアイコン |
-| `push-config.json` | 通知の公開鍵（秘密鍵はシークレットにだけ置く） |
+| `push-config.json` | 通知の公開鍵（push-setup が書き込む） |
+| `push/subscriptions.json` | 通知を受け取る端末の宛先 |
+| `scripts/vapid.mjs` `scripts/push-setup.mjs` | 合言葉から鍵を作る処理 |
 | `data/index.json` | 号の一覧（`tools/publish_issue.py` が自動で作り直す） |
 | `data/issues/<日付>-<ai/thermal>.json` | 号ごとの本文・記事・クイズ |
 | `tools/` | 配信タスクが使う保存・重複確認のスクリプト |

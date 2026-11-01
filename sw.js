@@ -1,5 +1,5 @@
 /* 朝読みログ Service Worker：オフライン表示とプッシュ通知の受信 */
-var VERSION = "v1";
+var VERSION = "v2";
 var SHELL_CACHE = "shell-" + VERSION;
 var DATA_CACHE = "data-" + VERSION;
 var FONT_CACHE = "fonts-" + VERSION;

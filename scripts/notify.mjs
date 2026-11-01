@@ -2,12 +2,18 @@
 import fs from "node:fs";
 import { execSync } from "node:child_process";
 import webpush from "web-push";
+import { vapidFromSeed } from "./vapid.mjs";
 
-const { VAPID_PRIVATE_KEY, PUSH_SUBSCRIPTION, GITHUB_REPOSITORY, GITHUB_EVENT_NAME, BEFORE_SHA } = process.env;
-const publicKey = JSON.parse(fs.readFileSync("push-config.json", "utf8")).vapidPublicKey;
+const { PUSH_SEED, PUSH_SUBSCRIPTION, GITHUB_REPOSITORY, GITHUB_EVENT_NAME, BEFORE_SHA } = process.env;
+const keys = PUSH_SEED ? vapidFromSeed(PUSH_SEED) : null;
+const configured = JSON.parse(fs.readFileSync("push-config.json", "utf8")).vapidPublicKey;
+if (keys && configured !== keys.publicKey) {
+  console.log("push-config.json の公開鍵が合言葉と一致しません。push-setup を実行してください。");
+  process.exit(0);
+}
 
 // 宛先は push/subscriptions.json（リポジトリ内）と、シークレット PUSH_SUBSCRIPTION（任意）の両方から読む。
-// 宛先だけでは通知を送れない（送信には秘密鍵 VAPID_PRIVATE_KEY が必要）ため、宛先はリポジトリに置いてよい。
+// 宛先だけでは通知を送れない（送信には合言葉 PUSH_SEED から作る秘密鍵が必要）ため、宛先はリポジトリに置いてよい。
 let subs = [];
 function addSubs(raw, where) {
   try {
@@ -22,15 +28,15 @@ if (fs.existsSync("push/subscriptions.json")) addSubs(fs.readFileSync("push/subs
 if (PUSH_SUBSCRIPTION) addSubs(PUSH_SUBSCRIPTION, "シークレット PUSH_SUBSCRIPTION");
 subs = subs.filter((s, i) => subs.findIndex((t) => t.endpoint === s.endpoint) === i);
 
-if (!VAPID_PRIVATE_KEY || !subs.length) {
-  console.log(!VAPID_PRIVATE_KEY ? "シークレット VAPID_PRIVATE_KEY が未登録のため、通知を送りません。" : "通知の宛先が未登録のため、通知を送りません。");
+if (!keys || !subs.length) {
+  console.log(!keys ? "シークレット PUSH_SEED が未登録のため、通知を送りません。" : "通知の宛先が未登録のため、通知を送りません。");
   process.exit(0);
 }
 
 const [owner, name] = GITHUB_REPOSITORY.split("/");
 const host = `${owner.toLowerCase()}.github.io`;
 const pagesBase = name.toLowerCase() === host ? `https://${host}/` : `https://${host}/${name}/`;
-webpush.setVapidDetails(pagesBase, publicKey, VAPID_PRIVATE_KEY);
+webpush.setVapidDetails(pagesBase, keys.publicKey, keys.privateKey);
 
 function jsonAt(ref, path, fallback) {
   try { return JSON.parse(execSync(`git show ${ref}:${path}`, { encoding: "utf8", stdio: ["ignore", "pipe", "ignore"] })); }

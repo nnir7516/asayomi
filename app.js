@@ -415,8 +415,14 @@
     if (!pushSupported) { body.innerHTML = '<p><span class="state off">この端末は非対応</span></p><p>Android の Chrome でこのアプリを開いてください。</p>'; return; }
     var info = repoInfo();
     var installHint = isInstalled() ? "" : '<p class="dim">先にこのアプリをインストールしてください。Chrome のメニュー（⋮）→「アプリをインストール」または「ホーム画面に追加」。インストールしたアプリから通知を有効にすると、確実に届きます。</p>';
-    navigator.serviceWorker.ready.then(function (reg) { return reg.pushManager.getSubscription(); }).then(function (sub) {
+    var keyReady = false;
+    fetch("push-config.json", { cache: "no-cache" }).then(function (r) { return r.json(); }).then(function (cfg) { keyReady = !!(cfg && cfg.vapidPublicKey); }).catch(function () {})
+    .then(function () { return navigator.serviceWorker.ready; }).then(function (reg) { return reg.pushManager.getSubscription(); }).then(function (sub) {
       var perm = Notification.permission;
+      if (!keyReady && !sub) {
+        body.innerHTML = '<p><span class="state">準備中</span></p><p>通知を送る側（GitHub）の設定がまだ終わっていません。設定が済むと、ここに「通知を有効にする」ボタンが表示されます。</p>';
+        return;
+      }
       if (perm === "denied") {
         body.innerHTML = '<p><span class="state off">ブロック中</span></p><p>Android の「設定 → アプリ → 朝読み → 通知」で通知を許可してから、もう一度開いてください。</p>';
         return;
