@@ -1,7 +1,46 @@
 {
  "version": 1,
- "updated": "2026-11-01T19:34:41+09:00",
+ "updated": "2026-11-02T07:16:44+09:00",
  "issues": [
+  {
+   "id": "2026-11-02-ai",
+   "date": "2026-11-02",
+   "series": "ai",
+   "title": "MicrosoftのAI学校向けプライバシー基準が11月1日から適用",
+   "lead": [
+    "Microsoftが教職員組合と合意した「生徒・教員のデータでAIを学習しない」基準が、11月1日から契約校に適用される。",
+    "OpenAIは、評価額の目標を約1.25兆ドルに下げて最大300億ドル規模の資金調達を進めていると報じられている（未完了）。",
+    "AIの利用ルールと資金調達の条件、どちらも「外部の目」が強まる流れが目立つ。"
+   ],
+   "items": [
+    {
+     "id": "20261102-ai-01",
+     "category": "規制・政策",
+     "title": "Microsoft、生徒・教員のデータでAIを学習しない基準を11月1日から適用",
+     "url": "https://www.local10.com/tech/2026/09/15/microsoft-commits-to-sweeping-ai-privacy-rules-for-students-will-other-tech-giants-follow/",
+     "keywords": [
+      "Microsoft",
+      "教育AI",
+      "データ保護",
+      "AFT",
+      "AI学習"
+     ]
+    },
+    {
+     "id": "20261102-ai-02",
+     "category": "ビジネス・投資",
+     "title": "OpenAI、評価額目標を約1.25兆ドルに下げ最大300億ドル調達を進めると報道",
+     "url": "https://investinglive.com/stocks/openai-close-to-raising-up-to-30-billion-at-1-25-trillion-valuation-uae-investors-lead/",
+     "keywords": [
+      "OpenAI",
+      "資金調達",
+      "評価額",
+      "UAE",
+      "AI投資"
+     ]
+    }
+   ]
+  },
   {
    "id": "2026-11-01-thermal",
    "date": "2026-11-01",
