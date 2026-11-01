@@ -4,7 +4,7 @@ import { execSync } from "node:child_process";
 import webpush from "web-push";
 import { vapidFromSeed } from "./vapid.mjs";
 
-const { PUSH_SEED, PUSH_SUBSCRIPTION, GITHUB_REPOSITORY, GITHUB_EVENT_NAME, BEFORE_SHA } = process.env;
+const { PUSH_SEED, PUSH_SUBSCRIPTION, GITHUB_REPOSITORY, GITHUB_EVENT_NAME, BEFORE_SHA, NEW_ISSUE_IDS } = process.env;
 const keys = PUSH_SEED ? vapidFromSeed(PUSH_SEED) : null;
 const configured = JSON.parse(fs.readFileSync("push-config.json", "utf8")).vapidPublicKey;
 if (keys && configured !== keys.publicKey) {
@@ -44,8 +44,23 @@ function jsonAt(ref, path, fallback) {
 }
 const hasBefore = BEFORE_SHA && !/^0+$/.test(BEFORE_SHA);
 
+function issueMessage(i) {
+  return {
+    title: i.series === "ai" ? "AIニュース" : "熱流体リサーチ",
+    body: [i.title, Array.isArray(i.lead) ? i.lead[0] : ""].filter(Boolean).join("\n"),
+    hash: `#issue-${i.id}`,
+    tag: i.id,
+    waitFor: `data/issues/${i.id}.json`,
+  };
+}
+
 let messages = [];
-if (GITHUB_EVENT_NAME === "workflow_dispatch") {
+if (NEW_ISSUE_IDS && NEW_ISSUE_IDS.trim()) {
+  // ingest ワークフローから：取り込んだ号だけを通知する
+  const want = new Set(NEW_ISSUE_IDS.trim().split(/\s+/));
+  const cur = JSON.parse(fs.readFileSync("data/index.json", "utf8"));
+  messages = (cur.issues || []).filter((i) => want.has(i.id)).map(issueMessage);
+} else if (GITHUB_EVENT_NAME === "workflow_dispatch") {
   messages = [{ title: "朝読みログ", body: "テスト通知です。これが届けば通知の設定は完了です。", hash: "#settings", tag: "test" }];
 } else {
   // 新しく登録された端末には、登録完了の通知を送る
@@ -57,15 +72,7 @@ if (GITHUB_EVENT_NAME === "workflow_dispatch") {
   const prev = hasBefore ? jsonAt(BEFORE_SHA, "data/index.json", { issues: [] }) : { issues: [] };
   const cur = JSON.parse(fs.readFileSync("data/index.json", "utf8"));
   const prevIds = new Set((prev.issues || []).map((i) => i.id));
-  for (const i of (cur.issues || []).filter((i) => !prevIds.has(i.id))) {
-    messages.push({
-      title: i.series === "ai" ? "AIニュース" : "熱流体リサーチ",
-      body: [i.title, Array.isArray(i.lead) ? i.lead[0] : ""].filter(Boolean).join("\n"),
-      hash: `#issue-${i.id}`,
-      tag: i.id,
-      waitFor: `data/issues/${i.id}.json`,
-    });
-  }
+  for (const i of (cur.issues || []).filter((i) => !prevIds.has(i.id))) messages.push(issueMessage(i));
 }
 
 if (!messages.length) {

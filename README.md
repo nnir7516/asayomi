@@ -46,6 +46,8 @@
 ## 記事データの形式
 
 1回の配信（号）を1つのJSONにまとめ、`bash tools/publish.sh <ファイル>` で保存・送信します。
+配信タスクは main に直接書き込まず、号ごとのブランチ（`claude/issue-<id>-<時刻>`）へ送ります。
+GitHub Actions の `ingest` がそれを main に取り込み、ブランチを消して、アプリへ通知を送ります。
 
 ```json
 {

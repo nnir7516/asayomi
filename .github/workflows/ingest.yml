@@ -1,0 +1,63 @@
+name: ingest
+
+# 配信タスクが送ってきた号（claude/issue-* ブランチ）を main に取り込み、アプリへ通知する
+on:
+  push:
+    branches: ["claude/issue-**"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ingest
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - id: merge
+        name: 号を main に取り込む
+        env:
+          SRC_BRANCH: ${{ github.ref_name }}
+        run: |
+          set -euo pipefail
+          git config user.name "asayomi-bot"
+          git config user.email "asayomi-bot@users.noreply.github.com"
+          git fetch -q origin "$SRC_BRANCH:refs/remotes/origin/incoming"
+          NEW=$(git diff --name-only --diff-filter=AM origin/main origin/incoming -- 'data/issues/*.json' | grep -E '^data/issues/[0-9]{4}-[0-9]{2}-[0-9]{2}-(ai|thermal)\.json$' || true)
+          if [ -z "$NEW" ]; then echo "取り込む号がありません"; echo "ids=" >> "$GITHUB_OUTPUT"; git push -q origin --delete "$SRC_BRANCH" || true; exit 0; fi
+          IDS=""
+          for f in $NEW; do IDS="$IDS $(basename "$f" .json)"; done
+          ok=0
+          for attempt in 1 2 3 4 5; do
+            git fetch -q origin main
+            git reset -q --hard origin/main
+            for f in $NEW; do git show "origin/incoming:$f" > "$f"; done
+            python3 tools/publish_issue.py --rebuild-index
+            git add data
+            git commit -q -m "記事を取り込み:$IDS"
+            if git push -q origin HEAD:main; then ok=1; break; fi
+            sleep $((attempt * 3))
+          done
+          if [ "$ok" != 1 ]; then echo "main への取り込みに失敗しました"; exit 1; fi
+          git push -q origin --delete "$SRC_BRANCH" || true
+          echo "ids=$(echo $IDS)" >> "$GITHUB_OUTPUT"
+          echo "取り込みました:$IDS"
+      - if: steps.merge.outputs.ids != ''
+        run: npm install --no-save --no-package-lock web-push@3.6.7
+      - if: steps.merge.outputs.ids != ''
+        name: アプリへ通知
+        run: node scripts/notify.mjs
+        env:
+          PUSH_SEED: ${{ secrets.PUSH_SEED }}
+          PUSH_SUBSCRIPTION: ${{ secrets.PUSH_SUBSCRIPTION }}
+          NEW_ISSUE_IDS: ${{ steps.merge.outputs.ids }}
