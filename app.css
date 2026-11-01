@@ -121,6 +121,18 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .summary{margin:0}
 .why{margin:0;font-size:14px;color:var(--muted)}
 
+.cred{font-size:14px;border:1px solid var(--line);border-radius:6px;padding:8px 10px;background:var(--bg)}
+.cred summary{cursor:pointer;display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 8px;list-style:none}
+.cred summary::-webkit-details-marker{display:none}
+.cred summary::after{content:"詳細";margin-left:auto;font-size:12px;color:var(--muted)}
+.cred[open] summary::after{content:"閉じる"}
+.cred-level{font-weight:700;font-size:13px;padding:0 8px;border-radius:999px}
+.cred-level.hi{color:var(--good);background:var(--good-soft)}
+.cred-level.mid{color:var(--heat);background:var(--heat-soft)}
+.cred-level.lo{color:var(--bad);background:var(--bad-soft)}
+.cred-sum{color:var(--muted);flex-basis:100%}
+.cred ul{margin:8px 0 0;padding-left:1.2em;color:var(--fg)}
+.cred li{margin-bottom:2px}
 .quiz{border-top:1px dashed var(--line);padding-top:10px;display:flex;flex-direction:column;gap:12px}
 .quiz-h{font-size:12px;font-weight:500;color:var(--muted);letter-spacing:.04em}
 .q-text{margin:0 0 6px;font-weight:500}

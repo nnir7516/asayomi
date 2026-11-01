@@ -140,6 +140,14 @@ def validate(issue):
         if series == "thermal":
             need(nonempty_str(it.get("paperId")), f"{where}.paperId（DOI・arXiv ID・URL）が空です")
             need(nonempty_str(it.get("titleOriginal")), f"{where}.titleOriginal（原題）が空です")
+        cred = it.get("credibility")
+        if series == "thermal" or cred is not None:
+            need(isinstance(cred, dict), f"{where}.credibility（信ぴょう性の評価）がありません")
+            need(cred.get("level") in ("高", "中", "低"), f"{where}.credibility.level は「高」「中」「低」のいずれかにしてください")
+            need(nonempty_str(cred.get("summary")), f"{where}.credibility.summary（評価の理由）が空です")
+            ck = cred.get("checks", [])
+            need(isinstance(ck, list) and (series != "thermal" or 3 <= len(ck) <= 8) and len(ck) <= 8 and all(nonempty_str(c) for c in ck),
+                 f"{where}.credibility.checks は観点ごとの文字列の配列にしてください（熱流体は3〜8行）")
         quiz = it.get("quiz")
         need(isinstance(quiz, list) and len(quiz) == QUIZ_COUNT[series], f"{where}.quiz は{QUIZ_COUNT[series]}問にしてください")
         for qi, q in enumerate(quiz):

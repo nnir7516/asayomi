@@ -236,6 +236,15 @@
       return '<div class="q"><p class="q-text">Q' + (qi + 1) + '. ' + esc(q.q) + '</p><div class="opts">' + opts + '</div>' + verdict + '</div>';
     }).join("") + '</div>';
   }
+  function credHTML(c) {
+    if (!c || typeof c !== "object" || ["高", "中", "低"].indexOf(c.level) < 0) return "";
+    var cls = c.level === "高" ? "hi" : c.level === "中" ? "mid" : "lo";
+    var checks = Array.isArray(c.checks) ? c.checks.filter(function (x) { return typeof x === "string" && x; }) : [];
+    return '<details class="cred">' +
+      '<summary><span class="lbl">信ぴょう性</span><span class="cred-level ' + cls + '">' + esc(c.level) + '</span><span class="cred-sum">' + esc(c.summary || "") + '</span></summary>' +
+      (checks.length ? '<ul>' + checks.map(function (x) { return '<li>' + esc(x) + '</li>'; }).join("") + '</ul>' : '') +
+      '</details>';
+  }
   function cardHTML(item, issue) {
     var s = issue.series, r = ratings[item.id] || {}, url = safeUrl(item.url);
     var title = url ? '<a href="' + esc(url) + '" target="_blank" rel="noopener">' + esc(item.title) + '</a>' : esc(item.title);
@@ -251,6 +260,7 @@
       (item.titleOriginal ? '<p class="why" style="margin-top:-6px">' + esc(item.titleOriginal) + '</p>' : '') +
       (item.summary ? '<p class="summary">' + esc(item.summary) + '</p>' : '') +
       (item.why ? '<p class="why"><span class="lbl">' + (s === "ai" ? "なぜ重要か" : "設計への示唆") + '</span>' + esc(item.why) + '</p>' : '') +
+      credHTML(item.credibility) +
       quizHTML(item) +
       '<div class="rate">' +
         '<div class="rate-row"><span class="lbl">興味</span><div class="scale" role="group" aria-label="興味（1〜5）">' + pips + '</div></div>' +
