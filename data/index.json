@@ -1,7 +1,44 @@
 {
  "version": 1,
- "updated": "2026-11-02T07:18:14+09:00",
+ "updated": "2026-11-03T07:17:04+09:00",
  "issues": [
+  {
+   "id": "2026-11-03-ai",
+   "date": "2026-11-03",
+   "series": "ai",
+   "title": "Anthropicが目論見書を公開、DeepSeekはコードエージェントをOSS化",
+   "lead": [
+    "AnthropicがIPOに向けた目論見書（S-1）を10月26日に公開したと報じられている。",
+    "DeepSeekがMITライセンスのコードエージェント「DeepSeek Harness」を公開したとの報道がある（公式未確認）。",
+    "今日は24時間以内の一次情報で裏が取れた話題が少なく、2本に絞った。"
+   ],
+   "items": [
+    {
+     "id": "20261103-ai-01",
+     "category": "ビジネス・投資",
+     "title": "Anthropic、IPOに向けた目論見書（S-1）を公開と報道",
+     "url": "https://www.stlpr.org/npr/2026-10-26/ai-giant-anthropic-files-for-an-ipo-that-could-break-records",
+     "keywords": [
+      "Anthropic",
+      "IPO",
+      "S-1",
+      "AI投資"
+     ]
+    },
+    {
+     "id": "20261103-ai-02",
+     "category": "モデル・製品",
+     "title": "DeepSeek、MITライセンスのコードエージェント基盤を公開と報道（未確認）",
+     "url": "https://yuv.ai/blog/deepseek-harness-v4-1-flash",
+     "keywords": [
+      "DeepSeek",
+      "コードエージェント",
+      "オープンソース",
+      "MITライセンス"
+     ]
+    }
+   ]
+  },
   {
    "id": "2026-11-02-thermal",
    "date": "2026-11-02",
