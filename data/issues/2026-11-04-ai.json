@@ -1,0 +1,159 @@
+{
+ "id": "2026-11-04-ai",
+ "date": "2026-11-04",
+ "series": "ai",
+ "title": "OpenAI、OracleとServiceNowで企業向け提携を相次ぎ拡大",
+ "lead": [
+  "Anthropicが個人投資家向けに15〜20%の割当を検討と報道。",
+  "OpenAIがOracle・ServiceNowと企業向け提携を相次ぎ拡大。",
+  "中国版Apple Intelligenceは11月4日にテスト開始、12月公開予定。"
+ ],
+ "body": "## 主要ニュース\n\n### 1. 続報：Anthropic、IPOの個人投資家向け割当を15〜20%で検討と報道\nBloombergによると、AnthropicはIPO株式の約15〜20%を個人投資家に割り当てる案を検討しています。目論見書では日本を含む複数地域で募集する計画で、国際の個人向けはCitigroupが取りまとめる予定です。**なぜ重要か：**日本の個人もAI企業の上場に参加できる可能性があります。**確かさ：中**（Bloomberg報道を複数媒体が伝達。割当は検討段階）。出典：[The Edge Malaysia](https://theedgemalaysia.com/node/823552)\n\n### 2. OpenAI、OracleとServiceNowで企業向け提携を相次ぎ拡大\n10月28日にServiceNowとの提携拡大を発表し、ChatGPTやCodexと業務フローをつなぎます。10月27日にはOracleが、OpenAIのモデルを組み込んだ4つの製品群を発表しました。顧客は公開する機能を選べ、既存の権限ルールが適用されます。**なぜ重要か：**競争の軸が性能から業務への組み込みへ移っています。**確かさ：高**（OpenAIの公式発表）。出典：[OpenAI](https://openai.com/index/openai-servicenow-partnership-expansion/)\n\n### 3. AI設計のファージを患者に投与したと米新興企業が発表（未確認）\nRadical Numericsは10月20日、AIで設計したファージを薬剤耐性菌の患者に投与したと発表しました。試験管内では耐性菌を除去できたとしますが、転帰や臨床データは未公開です。**なぜ重要か：**AIによる生物設計が治療に使われ始めた可能性がありますが、検証はこれからです。**確かさ：低**（企業の主張と報道のみ。査読なし）。出典：[TechRadar](https://www.techradar.com/pro/a-human-subject-has-been-injected-with-an-ai-designed-virus-aiming-to-kill-antibiotic-resistant-bacteria-so-lets-see-how-that-turns-out)\n\n### 4. 続報：中国版Apple Intelligence、11月4日に開発者テスト開始\niOS 27.3の開発者ベータで11月4日にテストを始め、12月に一般公開する予定です。新しいSiriのAIなどは含まれません。**なぜ重要か：**中国の規制に沿ったAI提供が日程どおり進んでいます。**確かさ：高**（Appleの中国向け発表を複数媒体が報道）。出典：[MacRumors](https://macrumors.com/2026/10/30/ios-27-3-apple-intelligence-china)\n\n## 注目：AI × データセンター・電力・冷却\n今日は新しい確認済みニュースを見つけられなかったため、掲載を見送ります。\n\n## 今日のトレンド\nAI競争は、モデルの性能そのものから、企業システムへの組み込み、上場による資金調達、各国の規制対応へと広がっています。\n",
+ "items": [
+  {
+   "id": "20261104-ai-01",
+   "category": "ビジネス・投資",
+   "title": "続報：Anthropic、IPOの個人投資家向け割当を15〜20%で検討と報道",
+   "summary": "Bloombergによると、AnthropicはIPO株式の約15〜20%を個人投資家に割り当てる案を検討している。目論見書では日本を含む複数地域で募集を行う計画で、米国の個人向けはJPMorgan、国際の個人向けはCitigroupが取りまとめる予定。検討は続いており、内容は変わる可能性がある。",
+   "why": "日本の個人投資家もAI企業の上場に直接参加できる可能性があり、AI投資の裾野が広がる動きだから。",
+   "url": "https://theedgemalaysia.com/node/823552",
+   "source": "The Edge Malaysia（Bloomberg報道の引用）",
+   "keywords": [
+    "Anthropic",
+    "IPO",
+    "個人投資家",
+    "AI投資"
+   ],
+   "credibility": {
+    "level": "中",
+    "summary": "Bloomberg報道を複数媒体が伝えているが、正式な発表ではなく検討段階。",
+    "checks": [
+     "報道：Bloomberg（10月27日）を二次媒体が引用",
+     "一次情報：S-1提出（10月26日）は報じられているが、割当比率は未発表"
+    ]
+   },
+   "quiz": [
+    {
+     "q": "報道によると、AnthropicがIPOで検討している個人投資家向けの割当はどれくらいか。",
+     "choices": [
+      "約1〜2%",
+      "約5%",
+      "約15〜20%",
+      "約50%"
+     ],
+     "answer": 2,
+     "explain": "Bloombergは、IPO株式の約15〜20%を個人投資家に割り当てる案を検討中と報じた。内容は変わる可能性がある。"
+    }
+   ]
+  },
+  {
+   "id": "20261104-ai-02",
+   "category": "ビジネス・投資",
+   "title": "OpenAI、OracleとServiceNowで企業向け提携を相次ぎ拡大",
+   "summary": "OpenAIは10月28日にServiceNowとの提携拡大を発表し、ChatGPTやCodexとServiceNowの業務フローをつなぐ。10月27日にはOracleもOracle AI World（ラスベガス）で、OpenAIのモデルを自社のアプリやクラウドに組み込む4つの製品群を発表した。ServiceNow側では顧客が公開する機能を選べ、既存の権限ルールが適用される。",
+   "why": "AIモデルの競争の軸が、性能から企業の業務システムへの組み込みに移っていることを示すから。",
+   "url": "https://openai.com/index/openai-servicenow-partnership-expansion/",
+   "source": "OpenAI",
+   "keywords": [
+    "OpenAI",
+    "ServiceNow",
+    "Oracle",
+    "企業向けAI",
+    "エージェント"
+   ],
+   "credibility": {
+    "level": "高",
+    "summary": "OpenAI自身の発表で確認（Oracleの件は報道ベース）。",
+    "checks": [
+     "一次情報：OpenAIの公式発表",
+     "報道：Oracle発表を複数媒体が報道"
+    ]
+   },
+   "quiz": [
+    {
+     "q": "ServiceNowとの提携拡大で、顧客のデータ保護についてどう説明されているか。",
+     "choices": [
+      "全機能が自動で公開される",
+      "顧客が公開する機能を選び、既存の権限ルールが適用される",
+      "データはすべてOpenAIに移管される",
+      "管理者の承認は不要になる"
+     ],
+     "answer": 1,
+     "explain": "顧客は自社のServiceNow環境にChatGPTをつなぎ、公開する機能を選べる。既存の業務ルールと権限が適用される。"
+    }
+   ]
+  },
+  {
+   "id": "20261104-ai-03",
+   "category": "研究",
+   "title": "AI設計のファージを患者に投与したと米新興企業が発表（未確認）",
+   "summary": "サンフランシスコのRadical Numericsは10月20日、AIで設計したバクテリオファージ（細菌に感染するウイルス）を、薬剤耐性菌に感染した患者に投与したと発表した。モデル「Omnii-1」でT7ファージの改変体を作り、試験管内では耐性菌を除去できたという。患者の転帰や臨床データは公開されておらず、査読も受けていない。",
+   "why": "AIによる生物設計が実際の治療に使われ始めた初の例とされるが、効果と安全性の検証はこれからだから。",
+   "url": "https://www.techradar.com/pro/a-human-subject-has-been-injected-with-an-ai-designed-virus-aiming-to-kill-antibiotic-resistant-bacteria-so-lets-see-how-that-turns-out",
+   "source": "TechRadar",
+   "keywords": [
+    "バイオAI",
+    "ファージ療法",
+    "薬剤耐性菌",
+    "Radical Numerics"
+   ],
+   "credibility": {
+    "level": "低",
+    "summary": "企業の主張と報道が中心で、臨床結果・査読論文がなく未確認。",
+    "checks": [
+     "報道：NYTなど複数媒体が企業発表を報道",
+     "一次情報：転帰・論文は未公開"
+    ]
+   },
+   "quiz": [
+    {
+     "q": "この発表で、まだ明らかになっていない点はどれか。",
+     "choices": [
+      "投与した企業の名前",
+      "治療が効いたかどうかの結果",
+      "設計にAIを使ったこと",
+      "対象が薬剤耐性菌であること"
+     ],
+     "answer": 1,
+     "explain": "企業は転帰や臨床データを公表しておらず、効果は不明。「初」という主張も企業の発表に基づく。"
+    }
+   ]
+  },
+  {
+   "id": "20261104-ai-04",
+   "category": "ビジネス・投資",
+   "title": "続報：中国版Apple Intelligence、11月4日に開発者テスト開始",
+   "summary": "Appleは中国向けのApple Intelligenceについて、iOS 27.3の開発者ベータで11月4日にテストを始め、12月に一般公開すると発表した。最初の機能は限定的で、新しいSiriのAIやImage Playgroundは含まれない。9月29日にMIIT（工業情報化部）の許可が出たと報じられている。",
+   "why": "世界最大級のスマホ市場で、中国の規制に沿ったAI機能の提供が日程どおり進むことを示すから。",
+   "url": "https://macrumors.com/2026/10/30/ios-27-3-apple-intelligence-china",
+   "source": "MacRumors",
+   "keywords": [
+    "Apple Intelligence",
+    "中国市場",
+    "iOS 27.3",
+    "AI規制"
+   ],
+   "credibility": {
+    "level": "高",
+    "summary": "Appleの中国向け発表を複数媒体が伝えている。",
+    "checks": [
+     "一次情報：Apple中国サイトのプレスリリース",
+     "報道：MacRumorsほか複数社"
+    ]
+   },
+   "quiz": [
+    {
+     "q": "中国向けApple Intelligenceの最初の提供について正しいものはどれか。",
+     "choices": [
+      "12月に開発者テストが始まる",
+      "11月4日に開発者テスト開始、12月に一般公開予定",
+      "新しいSiriのAIも最初から使える",
+      "すでに一般公開された"
+     ],
+     "answer": 1,
+     "explain": "11月4日にiOS 27.3開発者ベータでテストが始まり、一般公開は12月予定。新Siriは含まれない。"
+    }
+   ]
+  }
+ ]
+}

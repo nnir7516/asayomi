@@ -1,7 +1,69 @@
 {
  "version": 1,
- "updated": "2026-11-03T07:17:04+09:00",
+ "updated": "2026-11-04T07:18:23+09:00",
  "issues": [
+  {
+   "id": "2026-11-04-ai",
+   "date": "2026-11-04",
+   "series": "ai",
+   "title": "OpenAI、OracleとServiceNowで企業向け提携を相次ぎ拡大",
+   "lead": [
+    "Anthropicが個人投資家向けに15〜20%の割当を検討と報道。",
+    "OpenAIがOracle・ServiceNowと企業向け提携を相次ぎ拡大。",
+    "中国版Apple Intelligenceは11月4日にテスト開始、12月公開予定。"
+   ],
+   "items": [
+    {
+     "id": "20261104-ai-01",
+     "category": "ビジネス・投資",
+     "title": "続報：Anthropic、IPOの個人投資家向け割当を15〜20%で検討と報道",
+     "url": "https://theedgemalaysia.com/node/823552",
+     "keywords": [
+      "Anthropic",
+      "IPO",
+      "個人投資家",
+      "AI投資"
+     ]
+    },
+    {
+     "id": "20261104-ai-02",
+     "category": "ビジネス・投資",
+     "title": "OpenAI、OracleとServiceNowで企業向け提携を相次ぎ拡大",
+     "url": "https://openai.com/index/openai-servicenow-partnership-expansion/",
+     "keywords": [
+      "OpenAI",
+      "ServiceNow",
+      "Oracle",
+      "企業向けAI",
+      "エージェント"
+     ]
+    },
+    {
+     "id": "20261104-ai-03",
+     "category": "研究",
+     "title": "AI設計のファージを患者に投与したと米新興企業が発表（未確認）",
+     "url": "https://www.techradar.com/pro/a-human-subject-has-been-injected-with-an-ai-designed-virus-aiming-to-kill-antibiotic-resistant-bacteria-so-lets-see-how-that-turns-out",
+     "keywords": [
+      "バイオAI",
+      "ファージ療法",
+      "薬剤耐性菌",
+      "Radical Numerics"
+     ]
+    },
+    {
+     "id": "20261104-ai-04",
+     "category": "ビジネス・投資",
+     "title": "続報：中国版Apple Intelligence、11月4日に開発者テスト開始",
+     "url": "https://macrumors.com/2026/10/30/ios-27-3-apple-intelligence-china",
+     "keywords": [
+      "Apple Intelligence",
+      "中国市場",
+      "iOS 27.3",
+      "AI規制"
+     ]
+    }
+   ]
+  },
   {
    "id": "2026-11-03-ai",
    "date": "2026-11-03",
