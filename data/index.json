@@ -1,7 +1,59 @@
 {
  "version": 1,
- "updated": "2026-11-04T07:18:23+09:00",
+ "updated": "2026-11-05T07:17:12+09:00",
  "issues": [
+  {
+   "id": "2026-11-05-ai",
+   "date": "2026-11-05",
+   "series": "ai",
+   "title": "米中間選挙でAIデータセンターが争点に",
+   "lead": [
+    "米中間選挙で、データセンター建設の是非が各地で問われました（確かさ：中）。",
+    "Anthropicの修正S-1がAI研究の加速に警告したと報じられました（未確認）。",
+    "Googleがマレーシアに150億ドルを投じるとの報道もありますが、未確認です。"
+   ],
+   "items": [
+    {
+     "id": "20261105-ai-01",
+     "category": "規制・政策",
+     "title": "米中間選挙でAIデータセンターが争点に",
+     "url": "https://www.axios.com/2026/10/31/ai-booms-political-reckoning",
+     "keywords": [
+      "データセンター",
+      "中間選挙",
+      "電力",
+      "住民投票",
+      "AI規制"
+     ]
+    },
+    {
+     "id": "20261105-ai-02",
+     "category": "ビジネス・投資",
+     "title": "続報：Anthropic、修正S-1でAI研究の加速に警告と報道（未確認）",
+     "url": "https://aiweekly.co/ai-news-today/anthropic-news",
+     "keywords": [
+      "Anthropic",
+      "IPO",
+      "S-1",
+      "計算資源",
+      "AI投資"
+     ]
+    },
+    {
+     "id": "20261105-ai-03",
+     "category": "半導体・データセンター",
+     "title": "Googleがマレーシアに150億ドルのAI投資と報道（未確認）",
+     "url": "https://techstartups.com/2026/11/04/top-tech-news-roundup-for-today-november-4-2026-googles-15b-ai-bet-metas-e53b-bond-demand-canvas-restructuring-and-spacexs-5g-push",
+     "keywords": [
+      "Google",
+      "マレーシア",
+      "データセンター",
+      "AI投資",
+      "東南アジア"
+     ]
+    }
+   ]
+  },
   {
    "id": "2026-11-04-ai",
    "date": "2026-11-04",
