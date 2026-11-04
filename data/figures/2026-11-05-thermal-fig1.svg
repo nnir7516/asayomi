@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 330" font-family="sans-serif">
+<rect width="400" height="330" fill="#fff" />
+<text x="200" y="26" font-size="18" font-weight="bold" text-anchor="middle" fill="#111">解析モデルの断面</text>
+<path d="M60 230 L72 200 L85 182 L100 150 L112 128 L128 112 L142 84 L160 78 L176 62 L196 66 L214 56 L232 70 L250 62 L266 84 L284 92 L298 118 L310 134 L322 162 L334 180 L342 206 L340 230 Z" fill="#cfe6f7" stroke="#1565c0" stroke-width="3" stroke-linejoin="round" />
+<line x1="40" y1="230" x2="360" y2="230" stroke="#c62828" stroke-width="6" />
+<text x="200" y="150" font-size="18" text-anchor="middle" fill="#0d47a1">冷却水</text>
+<text x="200" y="172" font-size="16" text-anchor="middle" fill="#0d47a1">（層流）</text>
+<text x="200" y="262" font-size="16" text-anchor="middle" fill="#c62828" font-weight="bold">平らな底面：滑らか・加熱</text>
+<text x="200" y="284" font-size="16" text-anchor="middle" fill="#c62828">（金属板との接触面）</text>
+<text x="40" y="48" font-size="16" fill="#1565c0">曲面：粗い・断熱</text>
+<text x="200" y="316" font-size="16" text-anchor="middle" fill="#333">粗さ：半径 r0 の ±γ·r0 でランダムに凹凸</text>
+</svg>
