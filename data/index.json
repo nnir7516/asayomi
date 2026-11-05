@@ -1,7 +1,59 @@
 {
  "version": 1,
- "updated": "2026-11-05T07:18:48+09:00",
+ "updated": "2026-11-06T07:17:15+09:00",
  "issues": [
+  {
+   "id": "2026-11-06-ai",
+   "date": "2026-11-06",
+   "series": "ai",
+   "title": "Dropbox、AI向けストレージのTigris Dataを3.5億ドルで買収",
+   "lead": [
+    "Dropboxが分散オブジェクトストレージのTigris Dataを約3.5億ドル（現金）で買収へ。SEC提出書類で確認できた。",
+    "OpenAIがデータセンターの電力・インフラ費を自社負担する新方針を出したと報道（続報・詳細は未確認）。",
+    "動画AIのSand.aiが2億ドルを調達しユニコーン入りと報道（未確認）。"
+   ],
+   "items": [
+    {
+     "id": "20261106-ai-01",
+     "category": "ビジネス・投資",
+     "title": "Dropbox、AI向けストレージのTigris Dataを3.5億ドルで買収",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001467623/000146762326000056/dbx-20261103.htm",
+     "keywords": [
+      "Dropbox",
+      "Tigris Data",
+      "オブジェクトストレージ",
+      "AIインフラ",
+      "M&A"
+     ]
+    },
+    {
+     "id": "20261106-ai-02",
+     "category": "規制・政策",
+     "title": "続報：OpenAI、データセンターの電力費を自社負担する新方針と報道（未確認）",
+     "url": "https://abcnews.com/Business/openai-issues-new-data-center-policies-after-midterm/story?id=137874775",
+     "keywords": [
+      "OpenAI",
+      "データセンター",
+      "電力",
+      "中間選挙",
+      "Stargate"
+     ]
+    },
+    {
+     "id": "20261106-ai-03",
+     "category": "ビジネス・投資",
+     "title": "Sand.ai、2億ドル調達でユニコーンに（未確認）",
+     "url": "https://www.kucoin.com/news/flash/sand-ai-completes-200m-a-round-becomes-unicorn",
+     "keywords": [
+      "Sand.ai",
+      "動画生成AI",
+      "資金調達",
+      "MAGI-2",
+      "オープンソース"
+     ]
+    }
+   ]
+  },
   {
    "id": "2026-11-05-thermal",
    "date": "2026-11-05",
