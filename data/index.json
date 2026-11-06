@@ -1,7 +1,46 @@
 {
  "version": 1,
- "updated": "2026-11-06T07:17:15+09:00",
+ "updated": "2026-11-07T07:17:59+09:00",
  "issues": [
+  {
+   "id": "2026-11-07-ai",
+   "date": "2026-11-07",
+   "series": "ai",
+   "title": "OpenAIが「GPT-6.1 Terra」公開、価格は半額に",
+   "lead": [
+    "OpenAIが中型モデル「GPT-6.1 Terra」を10月26日に公開。コンピューター操作とコーディングが強化され、API価格は前世代の半額。",
+    "Anthropicの上場は、最短で11月10日ごろにロードショー開始との見方。価格レンジを載せた修正S-1が次の合図。",
+    "今日は新規の大型発表が少なく、AI各社の動きは「新モデルの低価格化」と「巨大IPOの手続き」に集中している。"
+   ],
+   "items": [
+    {
+     "id": "20261107-ai-01",
+     "category": "モデル・製品",
+     "title": "OpenAI、中型モデル「GPT-6.1 Terra」を公開　価格は半額",
+     "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+     "keywords": [
+      "OpenAI",
+      "GPT-6.1 Terra",
+      "コンピューター操作",
+      "API価格",
+      "コーディング"
+     ]
+    },
+    {
+     "id": "20261107-ai-02",
+     "category": "ビジネス・投資",
+     "title": "続報：Anthropicの上場、ロードショーは最短11月10日ごろとの見方",
+     "url": "https://leverageshares.com/us/insights/when-is-the-anthropic-ipo/",
+     "keywords": [
+      "Anthropic",
+      "IPO",
+      "S-1",
+      "ロードショー",
+      "AI投資"
+     ]
+    }
+   ]
+  },
   {
    "id": "2026-11-06-ai",
    "date": "2026-11-06",
