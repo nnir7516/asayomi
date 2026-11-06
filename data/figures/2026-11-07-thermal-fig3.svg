@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><rect width="400" height="300" fill="#fff" />
+<text x="200" y="24" font-size="18" font-weight="bold" text-anchor="middle" fill="#111">必要な計算コスト（LF換算回数）</text>
+<line x1="60" y1="230" x2="380" y2="230" stroke="#333" />
+<rect x="100" y="60" width="80" height="170" fill="#e76f51" /><text x="140" y="52" font-size="16" text-anchor="middle" fill="#111">1661</text>
+<rect x="240" y="92" width="80" height="138" fill="#2a9d8f" /><text x="280" y="84" font-size="16" text-anchor="middle" fill="#111">1346</text>
+<text x="140" y="252" font-size="16" text-anchor="middle" fill="#111">HFのみ</text><text x="140" y="270" font-size="14" text-anchor="middle" fill="#555">HF80点</text>
+<text x="280" y="252" font-size="16" text-anchor="middle" fill="#111">多忠実度</text><text x="280" y="270" font-size="14" text-anchor="middle" fill="#555">HF60＋LF100点</text>
+<text x="200" y="292" font-size="14" text-anchor="middle" fill="#555">約19%減（論文の記述をもとに作図）</text></svg>

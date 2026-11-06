@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><rect width="400" height="300" fill="#fff" />
+<text x="200" y="24" font-size="18" font-weight="bold" text-anchor="middle" fill="#111">ESCの断面イメージ</text>
+<rect x="40" y="48" width="320" height="14" fill="#f4a261" stroke="#333" /><text x="200" y="59" font-size="14" text-anchor="middle" fill="#111">ウェハ（プラズマ熱を受ける）</text>
+<g fill="#264653"><rect x="60" y="68" width="22" height="6" /><rect x="120" y="68" width="22" height="6" /><rect x="180" y="68" width="22" height="6" /><rect x="240" y="68" width="22" height="6" /><rect x="300" y="68" width="22" height="6" /></g>
+<text x="200" y="92" font-size="16" text-anchor="middle" fill="#264653">エンボス＋裏面He（接触率CR）</text>
+<rect x="40" y="98" width="320" height="30" fill="#e9ecef" stroke="#333" /><text x="200" y="118" font-size="16" text-anchor="middle" fill="#111">セラミック（静電吸着）</text>
+<rect x="40" y="128" width="320" height="100" fill="#cfd8dc" stroke="#333" /><text x="200" y="146" font-size="16" text-anchor="middle" fill="#111">アルミ本体</text>
+<rect x="70" y="160" width="100" height="48" fill="#8ecae6" stroke="#023047" /><rect x="230" y="160" width="100" height="48" fill="#8ecae6" stroke="#023047" />
+<text x="120" y="182" font-size="16" text-anchor="middle" fill="#023047">冷媒流路</text><text x="120" y="201" font-size="14" text-anchor="middle" fill="#023047">内側 W1×H1</text>
+<text x="280" y="182" font-size="16" text-anchor="middle" fill="#023047">冷媒流路</text><text x="280" y="201" font-size="14" text-anchor="middle" fill="#023047">外側 W2×H2＋フィン</text>
+<text x="200" y="256" font-size="16" text-anchor="middle" fill="#111">調整する7変数：CR1, CR2, W1, H1, W2, H2, フィン高さ</text>
+<text x="200" y="282" font-size="14" text-anchor="middle" fill="#555">（論文の記述をもとに作図／寸法は非公開）</text></svg>
