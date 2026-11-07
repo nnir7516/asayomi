@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" font-family="sans-serif">
+<rect width="400" height="300" fill="#fff" />
+<text x="200" y="24" font-size="18" font-weight="bold" text-anchor="middle" fill="#222">測定の構成（断面の模式図）</text>
+<rect x="110" y="60" width="180" height="40" fill="#cfe3f5" stroke="#345" stroke-width="2" />
+<text x="200" y="86" font-size="16" text-anchor="middle" fill="#123">ガラス基板</text>
+<rect x="110" y="100" width="180" height="8" fill="#888" stroke="#345" />
+<text x="300" y="108" font-size="16" fill="#222">Al 約100nm</text>
+<rect x="110" y="108" width="180" height="90" fill="#f4d9a8" stroke="#345" stroke-width="2" />
+<text x="200" y="158" font-size="16" text-anchor="middle" fill="#432">TIM（ゲル・パッド</text>
+<text x="200" y="180" font-size="16" text-anchor="middle" fill="#432">・グリース）</text>
+<rect x="110" y="198" width="180" height="14" fill="#999" stroke="#345" />
+<text x="200" y="210" font-size="12" text-anchor="middle" fill="#fff">容器底</text>
+<path d="M60 40 L60 100 M50 90 L60 100 L70 90" stroke="#c0392b" stroke-width="3" fill="none" />
+<text x="10" y="130" font-size="16" fill="#c0392b">ポンプ光</text>
+<text x="10" y="150" font-size="16" fill="#2471a3">プローブ光</text>
+<path d="M70 40 L70 100" stroke="#2471a3" stroke-width="3" stroke-dasharray="5 3" />
+<path d="M200 262 L200 222 M190 232 L200 222 L210 232" stroke="#222" stroke-width="3" fill="none" />
+<text x="200" y="284" font-size="16" text-anchor="middle" fill="#222">ばねで加圧 0.05〜0.18MPa（公称）</text>
+</svg>

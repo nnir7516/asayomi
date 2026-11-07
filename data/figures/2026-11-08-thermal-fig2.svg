@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" font-family="sans-serif">
+<rect width="400" height="300" fill="#fff" />
+<text x="200" y="22" font-size="18" font-weight="bold" text-anchor="middle" fill="#222">同じ圧力でも履歴で変わるk</text>
+<rect x="20" y="34" width="14" height="14" fill="#5b8fc7" /><text x="42" y="47" font-size="16" fill="#222">初回の加圧時</text>
+<rect x="180" y="34" width="14" height="14" fill="#e08a3c" /><text x="202" y="47" font-size="16" fill="#222">除荷時</text>
+<line x1="20" y1="240" x2="380" y2="240" stroke="#222" stroke-width="2" />
+<rect x="40" y="130" width="60" height="110" fill="#5b8fc7" /><text x="70" y="124" font-size="16" text-anchor="middle" fill="#222">3.0</text>
+<rect x="110" y="94" width="60" height="146" fill="#e08a3c" /><text x="140" y="88" font-size="16" text-anchor="middle" fill="#222">4.2</text>
+<rect x="230" y="198" width="60" height="42" fill="#5b8fc7" /><text x="260" y="192" font-size="16" text-anchor="middle" fill="#222">1.1</text>
+<rect x="300" y="184" width="60" height="56" fill="#e08a3c" /><text x="330" y="178" font-size="16" text-anchor="middle" fill="#222">1.5</text>
+<text x="105" y="264" font-size="16" text-anchor="middle" fill="#222">ゲル（0.48MPa）</text>
+<text x="295" y="264" font-size="16" text-anchor="middle" fill="#222">パッド（0.11MPa）</text>
+<text x="200" y="288" font-size="14" text-anchor="middle" fill="#555">縦軸：熱伝導率 k [W/(m·K)]</text>
+</svg>

@@ -1,7 +1,35 @@
 {
  "version": 1,
- "updated": "2026-11-08T07:17:00+09:00",
+ "updated": "2026-11-08T07:17:42+09:00",
  "issues": [
+  {
+   "id": "2026-11-08-thermal",
+   "date": "2026-11-08",
+   "series": "thermal",
+   "title": "加圧下のTIMは、圧力と履歴で性能が変わる",
+   "lead": [
+    "TIMの熱伝導率・熱容量・界面熱抵抗を、加圧下で同時に測る方法が示された。",
+    "ゲルは0.16MPaで2.24、1.85MPaで4.4 W/(m·K)と、圧力で熱伝導率がほぼ倍になった。",
+    "除荷しても元に戻らないため、締め付け圧と履歴を前提にTIMを評価する必要がある。"
+   ],
+   "items": [
+    {
+     "id": "20261108-thermal-01",
+     "category": "熱材料",
+     "title": "圧縮荷重下のTIMにおける、バルクと界面の熱物性の同時測定（方形パルス熱源サーモリフレクタンス法）",
+     "url": "https://arxiv.org/abs/2603.22733",
+     "keywords": [
+      "熱界面材料",
+      "界面熱抵抗",
+      "サーモリフレクタンス",
+      "圧力依存",
+      "ヒステリシス"
+     ],
+     "paperId": "arXiv:2603.22733",
+     "titleOriginal": "Simultaneous measurement of pressure-dependent bulk and interfacial thermal properties in thermal interface materials using square-pulsed source thermoreflectance"
+    }
+   ]
+  },
   {
    "id": "2026-11-08-ai",
    "date": "2026-11-08",
