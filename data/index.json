@@ -1,7 +1,46 @@
 {
  "version": 1,
- "updated": "2026-11-07T07:18:40+09:00",
+ "updated": "2026-11-08T07:17:00+09:00",
  "issues": [
+  {
+   "id": "2026-11-08-ai",
+   "date": "2026-11-08",
+   "series": "ai",
+   "title": "米ハイテク株が急落、AIと政治リスクに警戒",
+   "lead": [
+    "11月5日、米ナスデック100が一時6.3%下落し、中間選挙後のAI・データセンター規制への警戒が広がった。",
+    "Anthropicの上場は価格帯が未定のまま、評価額に慎重論も出ている（未確認）。",
+    "AIの成長は技術より政治と資金調達に左右されつつある。"
+   ],
+   "items": [
+    {
+     "id": "20261108-ai-01",
+     "category": "ビジネス・投資",
+     "title": "米ハイテク株が急落、中間選挙後のAI規制・データセンター抑制を警戒",
+     "url": "https://www.nbcnews.com/business/markets/tech-stocks-plunge-ai-midterms-rcna607650",
+     "keywords": [
+      "ナスデック",
+      "中間選挙",
+      "データセンター",
+      "AI規制",
+      "AI投資"
+     ]
+    },
+    {
+     "id": "20261108-ai-02",
+     "category": "ビジネス・投資",
+     "title": "続報：Anthropic上場、価格帯は未定で評価額に慎重論",
+     "url": "https://financefeeds.com/anthropic-ipo-roadshow-looms-with-no-price-range/",
+     "keywords": [
+      "Anthropic",
+      "IPO",
+      "S-1",
+      "評価額",
+      "AI投資"
+     ]
+    }
+   ]
+  },
   {
    "id": "2026-11-07-thermal",
    "date": "2026-11-07",
