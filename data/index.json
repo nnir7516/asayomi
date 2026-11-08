@@ -1,7 +1,59 @@
 {
  "version": 1,
- "updated": "2026-11-08T07:17:42+09:00",
+ "updated": "2026-11-09T07:17:20+09:00",
  "issues": [
+  {
+   "id": "2026-11-09-ai",
+   "date": "2026-11-09",
+   "series": "ai",
+   "title": "Anthropic上場、機関投資家は評価額1.5兆ドル前後を要求と報道",
+   "lead": [
+    "Anthropicの上場をめぐり、機関投資家が評価額を従来の約2兆ドルから1.5〜1.6兆ドルへ下げるよう求めていると報じられた（未確認）。",
+    "Googleは、AI機能を止めた学校では生徒の検索も使えなくする方針を発表し、教育現場から反発が出ている。",
+    "サンフランシスコ市のデータセンター45日間凍結は、調査結果しだいで恒久規制に進む可能性がある。"
+   ],
+   "items": [
+    {
+     "id": "20261109-ai-01",
+     "category": "ビジネス・投資",
+     "title": "続報：Anthropic上場、機関投資家は評価額1.5〜1.6兆ドルを要求と報道（未確認）",
+     "url": "https://aiweekly.co/alerts/anthropic-ipo-buyers-push-valuation-to-15t-after-tech-selloff",
+     "keywords": [
+      "Anthropic",
+      "IPO",
+      "評価額",
+      "ロードショー",
+      "AI投資"
+     ]
+    },
+    {
+     "id": "20261109-ai-02",
+     "category": "規制・政策",
+     "title": "Google、AIを止めた学校は生徒の検索も使えなくなる方針",
+     "url": "https://www.kttc.com/2026/11/05/google-says-it-will-cut-off-search-engine-access-students-schools-that-reject-ai/",
+     "keywords": [
+      "Google",
+      "教育AI",
+      "Gemini",
+      "検索",
+      "K-12"
+     ]
+    },
+    {
+     "id": "20261109-ai-03",
+     "category": "半導体・データセンター",
+     "title": "サンフランシスコ、データセンターの新設・増設を45日間凍結",
+     "url": "https://sfstandard.com/2026/10/16/mayor-lurie-data-center-moratorium/",
+     "keywords": [
+      "データセンター",
+      "サンフランシスコ",
+      "モラトリアム",
+      "電力",
+      "規制"
+     ]
+    }
+   ]
+  },
   {
    "id": "2026-11-08-thermal",
    "date": "2026-11-08",
