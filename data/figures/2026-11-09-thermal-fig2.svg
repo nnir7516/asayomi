@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" font-family="sans-serif">
+<rect width="400" height="300" fill="#fff" />
+<text x="200" y="24" font-size="18" font-weight="bold" text-anchor="middle" fill="#222">ジャンクション最高温度（℃）</text>
+<text x="200" y="46" font-size="16" text-anchor="middle" fill="#222">圧損150mbar時</text>
+<line x1="50" y1="250" x2="360" y2="250" stroke="#333" />
+<rect x="90" y="108" width="90" height="142" fill="#e8a45c" />
+<rect x="240" y="124" width="90" height="126" fill="#2a8f5c" />
+<text x="135" y="100" font-size="18" font-weight="bold" text-anchor="middle" fill="#222">約89.4</text>
+<text x="285" y="116" font-size="18" font-weight="bold" text-anchor="middle" fill="#222">81.19</text>
+<text x="135" y="272" font-size="16" text-anchor="middle" fill="#222">直線流路</text>
+<text x="285" y="272" font-size="16" text-anchor="middle" fill="#222">最適化流路</text>
+<text x="135" y="290" font-size="16" text-anchor="middle" fill="#222">（幅125μm）</text>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" font-family="sans-serif">
+<rect width="400" height="300" fill="#fff" />
+<text x="200" y="24" font-size="18" font-weight="bold" text-anchor="middle" fill="#222">目標85℃を満たす条件</text>
+<text x="200" y="46" font-size="16" text-anchor="middle" fill="#222">圧損（mbar）</text>
+<line x1="50" y1="250" x2="360" y2="250" stroke="#333" />
+<rect x="90" y="150" width="90" height="100" fill="#2a8f5c" />
+<rect x="240" y="50" width="90" height="200" fill="#e8a45c" />
+<text x="135" y="142" font-size="18" font-weight="bold" text-anchor="middle" fill="#222">100</text>
+<text x="285" y="42" font-size="18" font-weight="bold" text-anchor="middle" fill="#222"> </text>
+<text x="285" y="150" font-size="18" font-weight="bold" text-anchor="middle" fill="#222">200超</text>
+<text x="135" y="272" font-size="16" text-anchor="middle" fill="#222">最適化流路</text>
+<text x="285" y="272" font-size="16" text-anchor="middle" fill="#222">直線流路</text>
+<text x="200" y="292" font-size="16" text-anchor="middle" fill="#222">流量 0.79 vs 1.11 L/min超</text>
+</svg>

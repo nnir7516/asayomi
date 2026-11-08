@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 330" font-family="sans-serif">
+<rect width="400" height="330" fill="#fff" />
+<text x="200" y="24" font-size="18" font-weight="bold" text-anchor="middle" fill="#222">解析モデルの積層（断面）</text>
+<rect x="60" y="45" width="160" height="30" fill="#7fb7e6" stroke="#245" />
+<text x="70" y="66" font-size="16" fill="#012">流路層 800μm</text>
+<rect x="60" y="75" width="160" height="22" fill="#e8a45c" stroke="#542" />
+<text x="70" y="92" font-size="16" fill="#210">銅ベース 300μm</text>
+<rect x="60" y="97" width="160" height="16" fill="#f2d95c" stroke="#552" />
+<rect x="60" y="113" width="160" height="40" fill="#b9bdc4" stroke="#333" />
+<text x="70" y="139" font-size="16" fill="#111">Si ダイ 550μm</text>
+<rect x="60" y="153" width="160" height="10" fill="#d33" />
+<text x="232" y="106" font-size="16" fill="#222">← TIM 50μm</text>
+<text x="232" y="62" font-size="16" fill="#222">← 冷却液</text>
+<text x="232" y="160" font-size="16" fill="#222">← 発熱面</text>
+<text x="200" y="196" font-size="16" text-anchor="middle" fill="#222">チップ 20×32.5mm、計738.66W</text>
+<text x="200" y="220" font-size="16" text-anchor="middle" fill="#222">局所ホットスポット 400W/cm²×4か所</text>
+<text x="200" y="250" font-size="16" text-anchor="middle" fill="#222">冷却液：水＋25%プロピレングリコール</text>
+<text x="200" y="274" font-size="16" text-anchor="middle" fill="#222">入口25℃、流量1.11 L/min以内</text>
+<text x="200" y="298" font-size="16" text-anchor="middle" fill="#222">圧損150mbar以内</text>
+</svg>
