@@ -1,7 +1,46 @@
 {
  "version": 1,
- "updated": "2026-11-09T07:18:08+09:00",
+ "updated": "2026-11-10T07:20:59+09:00",
  "issues": [
+  {
+   "id": "2026-11-10-ai",
+   "date": "2026-11-10",
+   "series": "ai",
+   "title": "Nvidia取締役会がフアンCEOを巡る調査を開始と報道、AMDはAI需要で強気見通し",
+   "lead": [
+    "Nvidiaの取締役会が、ジェンセン・フアンCEOと中国の工作員とされる人物との関係を調べる独立調査を始めたと報じられ、株価が約5％下落した（単独報道に近く未確認）。",
+    "AMDは10〜12月期の売上高見通しを170億ドル前後（±3％）とし、市場予想の163億ドルを上回った。AI向けチップの需要が背景。",
+    "今日は新製品の発表が乏しく、AI半導体メーカーの業績とガバナンスに話題が集まった日。"
+   ],
+   "items": [
+    {
+     "id": "20261110-ai-01",
+     "category": "ビジネス・投資",
+     "title": "Nvidia取締役会、フアンCEOを巡る独立調査を開始と報道（未確認）",
+     "url": "https://247wallst.com/investing/2026/11/09/nvidia-falls-5-as-board-probes-jensen-huangs-ties-to-alleged-chinese-spy-amd-rises-4-intel-holds-steady/",
+     "keywords": [
+      "Nvidia",
+      "ジェンセン・フアン",
+      "ガバナンス",
+      "AI半導体",
+      "AI投資"
+     ]
+    },
+    {
+     "id": "20261110-ai-02",
+     "category": "半導体・データセンター",
+     "title": "AMD、10〜12月期の売上見通しが市場予想を上回る",
+     "url": "https://www.taipeitimes.com/News/biz/archives/2026/11/05/2003867170",
+     "keywords": [
+      "AMD",
+      "AI半導体",
+      "決算",
+      "GPU",
+      "AI投資"
+     ]
+    }
+   ]
+  },
   {
    "id": "2026-11-09-thermal",
    "date": "2026-11-09",
