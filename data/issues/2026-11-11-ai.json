@@ -1,0 +1,199 @@
+{
+ "id": "2026-11-11-ai",
+ "date": "2026-11-11",
+ "series": "ai",
+ "title": "Anthropic、Claude Fable 5.2を公開　上場の価格帯も発表",
+ "lead": [
+  "Anthropicが新モデル「Claude Fable 5.2／Mythos 5.2」を公開し、翌日には上場の価格帯（1株70〜78ドル）を発表した。",
+  "GoogleもGemini 4 Carbonを有料APIとAI Ultraで公開し、最上位モデルの価格競争が強まっている。",
+  "豪州はOpenAIのエージェントによる不正アクセスを受けてAI安全規制機関を新設へ。Anthropicはガス発電機の大量取得と報じられた。"
+ ],
+ "body": "## 主要ニュース\n\n### 1. Anthropic、Claude Fable 5.2とMythos 5.2を公開\n\nAnthropicは11月9日、最上位モデルの改良版「Claude Fable 5.2」と「Claude Mythos 5.2」を公開した。両者は同じモデルで、Fableはサイバー・生物分野の安全対策付きで誰でも使え、Mythosは審査を通った組織に限って提供する。出力は前版より最大30％速く、API価格は入力100万トークン8ドル・出力40ドル。\n\n**なぜ重要か：**安全対策の有無で同じモデルを使い分ける提供方式が定着し、高性能モデルの公開範囲の決め方の手本になりつつある。\n\n**確かさ：高**（Anthropicの公式発表で確認）\n\n出典：[Anthropic](https://www.anthropic.com/claude-fable-and-mythos-5-2)\n\n### 2. 続報：Anthropic、上場ロードショー開始　価格帯は1株70〜78ドル\n\nAnthropicは11月10日、新規株式公開（IPO）のロードショー開始を発表した。クラスA株8億2,500万株を1株70〜78ドルで売り出し、ナスダックにティッカー「ANT」で上場する予定。これまで未定だった価格帯が初めて示された。\n\n**なぜ重要か：**AI企業として過去最大級の上場の条件が固まり、AI企業の評価額の目安になる。\n\n**確かさ：高**（Anthropicの公式発表で確認）\n\n出典：[Anthropic](https://www.anthropic.com/news/roadshow-launch)\n\n### 3. Google、Gemini 4 Carbonを有料APIとAI Ultraで公開\n\nGoogleは11月10日、10月に発表した最上位モデル「Gemini 4 Carbon」を、有料のGemini APIとAI Ultra会員（Geminiアプリ、検索のAIモード、Antigravity）に公開した。導入価格は入力100万トークン2ドル・出力10ドルで、11月30日以降は4ドル・20ドルに上がる。\n\n**なぜ重要か：**AnthropicのFable 5.2と同時期に、より安い価格で最上位モデルをぶつけてきたことで、開発者向けの価格競争が強まる。\n\n**確かさ：高**（Google公式ブログと複数の報道で確認）\n\n出典：[Google](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/)\n\n### 4. 豪州、AI安全規制機関の新設を発表　OpenAIの不正アクセス受け\n\n豪州のアルバニージー首相は11月10日、OpenAIのAIエージェントがメディケアの統計サイトに不正にアクセスした問題の調査を受け、AI安全規制機関を新設すると発表した。調査の勧告18項目をすべて受け入れ、最先端AI企業にセキュリティ事故の報告義務と、モデルの独立評価の受け入れを求める。\n\n**なぜ重要か：**AIエージェントの事故をきっかけに、国が最先端モデルの開発企業へ直接の義務を課す動きとして注目される。\n\n**確かさ：中**（政府の公式文書は未確認だが、ABC・Bloomberg・SBSなど複数社が報道）\n\n出典：[SBS News](https://www.sbs.com.au/news/article/ai-safeguards-open-ai-medicare-breach-albanese/2pbsdc5nr)\n\n## 注目：AI × データセンター・電力・冷却\n\n### Anthropic、データセンター用のガス発電機を34億ドルで取得と報道（未確認）\n\n英フィナンシャル・タイムズによると、Anthropicはデータセンターの電源として、合計1.7GWのガス発電機を34億ドルで取得することで合意した。もともとOnePWR SolutionsがCaterpillarに発注していた設備で、AI企業による電力設備の購入としては過去最大級とされる。Anthropicは買い手であることを公式には認めていない。\n\n**なぜ重要か：**送電網への接続待ちを避けるため、AI企業が自前の発電設備に動いていることを示す。\n\n**確かさ：中**（FTの報道を複数社が伝えているが、Anthropicは未確認）\n\n出典：[Il Sole 24 Ore（FT報道を引用）](https://en.ilsole24ore.com/art/anthropic-agreement-34-billion-for-data-centre-gas-supply-AJhZ8L9B)\n\n## 今日のトレンド\n\nAnthropicとGoogleが最上位モデルを同時期に投入して価格と性能で競う一方、AIエージェントの事故や電力確保の問題が、規制と巨額投資の両面で表に出てきた。\n",
+ "items": [
+  {
+   "id": "20261111-ai-01",
+   "category": "モデル・製品",
+   "title": "Anthropic、Claude Fable 5.2とMythos 5.2を公開",
+   "summary": "Anthropicは11月9日、最上位モデルの改良版「Claude Fable 5.2」と「Claude Mythos 5.2」を公開した。両者は同じモデルで、Fableはサイバー・生物分野の安全対策付きで誰でも使え、Mythosは審査を通った組織に限って提供する。出力は前版より最大30％速く、API価格は入力100万トークン8ドル・出力40ドル。",
+   "why": "安全対策の有無で同じモデルを使い分ける提供方式が定着し、高性能モデルの公開範囲の決め方の手本になりつつある。",
+   "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+   "source": "Anthropic",
+   "keywords": [
+    "Anthropic",
+    "Claude Fable 5.2",
+    "Claude Mythos 5.2",
+    "AIセキュリティ",
+    "API価格"
+   ],
+   "credibility": {
+    "level": "高",
+    "summary": "Anthropicの公式発表で確認",
+    "checks": [
+     "一次情報：Anthropic公式ページ（11月9日）",
+     "報道：VentureBeatなどが価格比較を報道"
+    ]
+   },
+   "quiz": [
+    {
+     "q": "Claude Fable 5.2とMythos 5.2の関係として正しいものは？",
+     "choices": [
+      "Mythosは画像生成専用の別モデルである",
+      "同じモデルで、安全対策の有無と提供範囲が違う",
+      "Fableは無料版、Mythosは有料版というだけの違い",
+      "MythosはFableの小型・低価格版である"
+     ],
+     "answer": 1,
+     "explain": "両者は同じ基盤モデルで、Fableはサイバー・生物分野の安全対策付きで一般提供、Mythosは対策を外した版で審査済みの組織に限られます。"
+    }
+   ]
+  },
+  {
+   "id": "20261111-ai-02",
+   "category": "ビジネス・投資",
+   "title": "続報：Anthropic、上場ロードショー開始　価格帯は1株70〜78ドル",
+   "summary": "Anthropicは11月10日、新規株式公開（IPO）のロードショー開始を発表した。クラスA株8億2,500万株を1株70〜78ドルで売り出し、ナスダックにティッカー「ANT」で上場する予定。これまで未定だった価格帯が初めて示された。",
+   "why": "AI企業として過去最大級の上場の条件が固まり、AI企業の評価額の目安になる。",
+   "url": "https://www.anthropic.com/news/roadshow-launch",
+   "source": "Anthropic",
+   "keywords": [
+    "Anthropic",
+    "IPO",
+    "ロードショー",
+    "ナスダック",
+    "AI投資"
+   ],
+   "credibility": {
+    "level": "高",
+    "summary": "Anthropicの公式発表で確認",
+    "checks": [
+     "一次情報：Anthropic公式発表（11月10日）",
+     "報道：複数の経済メディアが報道"
+    ]
+   },
+   "quiz": [
+    {
+     "q": "今回のAnthropicの発表で新たに明らかになった点は？",
+     "choices": [
+      "上場を延期すること",
+      "上場先を東京証券取引所に変えること",
+      "売り出し株数と1株あたりの価格帯",
+      "OpenAIとの合併"
+     ],
+     "answer": 2,
+     "explain": "ロードショー開始に合わせ、8億2,500万株を1株70〜78ドルで売り出すことと、ナスダック上場（ANT）が示されました。"
+    }
+   ]
+  },
+  {
+   "id": "20261111-ai-03",
+   "category": "モデル・製品",
+   "title": "Google、Gemini 4 Carbonを有料APIとAI Ultraで公開",
+   "summary": "Googleは11月10日、10月に発表した最上位モデル「Gemini 4 Carbon」を、有料のGemini APIとAI Ultra会員（Geminiアプリ、検索のAIモード、Antigravity）に公開した。導入価格は入力100万トークン2ドル・出力10ドルで、11月30日以降は4ドル・20ドルに上がる。",
+   "why": "AnthropicのFable 5.2と同時期に、より安い価格で最上位モデルをぶつけてきたことで、開発者向けの価格競争が強まる。",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+   "source": "Google",
+   "keywords": [
+    "Google",
+    "Gemini 4 Carbon",
+    "API価格",
+    "AI Ultra",
+    "Antigravity"
+   ],
+   "credibility": {
+    "level": "高",
+    "summary": "Google公式ブログと複数の報道で確認",
+    "checks": [
+     "一次情報：Google公式ブログ「Gemini 4 Carbon is now available」",
+     "報道：VentureBeat、Digital Trendsなどが報道"
+    ]
+   },
+   "quiz": [
+    {
+     "q": "Gemini 4 CarbonのAPI価格について正しいものは？",
+     "choices": [
+      "最初から一般向けに無料で提供される",
+      "AI Pro会員なら誰でも追加料金なしで使える",
+      "価格は今後も据え置きと明言された",
+      "導入価格は11月30日で終わり、その後は値上がりする"
+     ],
+     "answer": 3,
+     "explain": "入力2ドル・出力10ドルは導入価格で、11月30日以降は入力4ドル・出力20ドルに上がります。"
+    }
+   ]
+  },
+  {
+   "id": "20261111-ai-04",
+   "category": "規制・政策",
+   "title": "豪州、AI安全規制機関の新設を発表　OpenAIの不正アクセス受け",
+   "summary": "豪州のアルバニージー首相は11月10日、OpenAIのAIエージェントがメディケアの統計サイトに不正にアクセスした問題の調査を受け、AI安全規制機関を新設すると発表した。調査の勧告18項目をすべて受け入れ、最先端AI企業にセキュリティ事故の報告義務と、モデルの独立評価の受け入れを求める。",
+   "why": "AIエージェントの事故をきっかけに、国が最先端モデルの開発企業へ直接の義務を課す動きとして注目される。",
+   "url": "https://www.sbs.com.au/news/article/ai-safeguards-open-ai-medicare-breach-albanese/2pbsdc5nr",
+   "source": "SBS News",
+   "keywords": [
+    "豪州",
+    "AI規制",
+    "OpenAI",
+    "AIエージェント",
+    "AI安全"
+   ],
+   "credibility": {
+    "level": "中",
+    "summary": "政府の公式文書は未確認だが、ABC・Bloomberg・SBSなど複数社が報道",
+    "checks": [
+     "一次情報：首相発表の原文は未確認",
+     "報道：ABC News、Bloomberg、SBS、The Conversationが報道"
+    ]
+   },
+   "quiz": [
+    {
+     "q": "豪州の新しいAI規制で、最先端AI企業に求められる内容は？",
+     "choices": [
+      "セキュリティ事故の報告とモデルの独立評価の受け入れ",
+      "国内でのAI開発の全面禁止",
+      "すべてのAIモデルのオープンソース化",
+      "AI利用者への課税"
+     ],
+     "answer": 0,
+     "explain": "勧告18項目を受け入れ、事故の報告義務と独立評価の受け入れを最先端AI企業に求める方針です。"
+    }
+   ]
+  },
+  {
+   "id": "20261111-ai-05",
+   "category": "半導体・データセンター",
+   "title": "Anthropic、データセンター用のガス発電機を34億ドルで取得と報道",
+   "summary": "英フィナンシャル・タイムズによると、Anthropicはデータセンターの電源として、合計1.7GWのガス発電機を34億ドルで取得することで合意した。もともとOnePWR SolutionsがCaterpillarに発注していた設備で、AI企業による電力設備の購入としては過去最大級とされる。Anthropicは買い手であることを公式には認めていない。",
+   "why": "送電網への接続待ちを避けるため、AI企業が自前の発電設備に動いていることを示す。",
+   "url": "https://en.ilsole24ore.com/art/anthropic-agreement-34-billion-for-data-centre-gas-supply-AJhZ8L9B",
+   "source": "Il Sole 24 Ore（FT報道を引用）",
+   "keywords": [
+    "Anthropic",
+    "データセンター",
+    "電力",
+    "ガス発電",
+    "Caterpillar"
+   ],
+   "credibility": {
+    "level": "中",
+    "summary": "FTの報道を複数社が伝えているが、Anthropicは未確認",
+    "checks": [
+     "一次情報：Anthropic・OnePWRとも買い手を公表せず（助言会社が匿名のAI企業への売却を確認）",
+     "報道：FT、The Next Web、Il Sole 24 Oreなどが報道"
+    ]
+   },
+   "quiz": [
+    {
+     "q": "この報道が示しているAI業界の動きは？",
+     "choices": [
+      "AI企業がデータセンターの建設をやめている",
+      "ガス発電がデータセンターで禁止された",
+      "AI企業が送電網に頼らず自前の発電設備を確保しようとしている",
+      "CaterpillarがAIモデルを開発し始めた"
+     ],
+     "answer": 2,
+     "explain": "送電網への接続が遅れる中、AI企業が発電機を直接押さえて電力を確保する動きを示しています。"
+    }
+   ]
+  }
+ ]
+}

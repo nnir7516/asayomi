@@ -1,7 +1,85 @@
 {
  "version": 1,
- "updated": "2026-11-10T07:20:59+09:00",
+ "updated": "2026-11-11T07:23:10+09:00",
  "issues": [
+  {
+   "id": "2026-11-11-ai",
+   "date": "2026-11-11",
+   "series": "ai",
+   "title": "Anthropic、Claude Fable 5.2を公開　上場の価格帯も発表",
+   "lead": [
+    "Anthropicが新モデル「Claude Fable 5.2／Mythos 5.2」を公開し、翌日には上場の価格帯（1株70〜78ドル）を発表した。",
+    "GoogleもGemini 4 Carbonを有料APIとAI Ultraで公開し、最上位モデルの価格競争が強まっている。",
+    "豪州はOpenAIのエージェントによる不正アクセスを受けてAI安全規制機関を新設へ。Anthropicはガス発電機の大量取得と報じられた。"
+   ],
+   "items": [
+    {
+     "id": "20261111-ai-01",
+     "category": "モデル・製品",
+     "title": "Anthropic、Claude Fable 5.2とMythos 5.2を公開",
+     "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+     "keywords": [
+      "Anthropic",
+      "Claude Fable 5.2",
+      "Claude Mythos 5.2",
+      "AIセキュリティ",
+      "API価格"
+     ]
+    },
+    {
+     "id": "20261111-ai-02",
+     "category": "ビジネス・投資",
+     "title": "続報：Anthropic、上場ロードショー開始　価格帯は1株70〜78ドル",
+     "url": "https://www.anthropic.com/news/roadshow-launch",
+     "keywords": [
+      "Anthropic",
+      "IPO",
+      "ロードショー",
+      "ナスダック",
+      "AI投資"
+     ]
+    },
+    {
+     "id": "20261111-ai-03",
+     "category": "モデル・製品",
+     "title": "Google、Gemini 4 Carbonを有料APIとAI Ultraで公開",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+     "keywords": [
+      "Google",
+      "Gemini 4 Carbon",
+      "API価格",
+      "AI Ultra",
+      "Antigravity"
+     ]
+    },
+    {
+     "id": "20261111-ai-04",
+     "category": "規制・政策",
+     "title": "豪州、AI安全規制機関の新設を発表　OpenAIの不正アクセス受け",
+     "url": "https://www.sbs.com.au/news/article/ai-safeguards-open-ai-medicare-breach-albanese/2pbsdc5nr",
+     "keywords": [
+      "豪州",
+      "AI規制",
+      "OpenAI",
+      "AIエージェント",
+      "AI安全"
+     ]
+    },
+    {
+     "id": "20261111-ai-05",
+     "category": "半導体・データセンター",
+     "title": "Anthropic、データセンター用のガス発電機を34億ドルで取得と報道",
+     "url": "https://en.ilsole24ore.com/art/anthropic-agreement-34-billion-for-data-centre-gas-supply-AJhZ8L9B",
+     "keywords": [
+      "Anthropic",
+      "データセンター",
+      "電力",
+      "ガス発電",
+      "Caterpillar"
+     ]
+    }
+   ]
+  },
   {
    "id": "2026-11-10-ai",
    "date": "2026-11-10",
