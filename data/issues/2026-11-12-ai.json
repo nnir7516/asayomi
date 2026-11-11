@@ -1,0 +1,199 @@
+{
+ "id": "2026-11-12-ai",
+ "date": "2026-11-12",
+ "series": "ai",
+ "title": "Google、新TPU「8tx」「8i Max」を発表",
+ "lead": [
+  "Googleが秘密計算向け「TPU 8tx」と長文脈推論向け「TPU 8i Max」を発表し、TPUの用途別の専用化を進めた。",
+  "ニューヨーク州は州立大学に拠点を置き、公開AIモデルの独立評価を州として始めた。",
+  "DeepSeekのエージェントアプリは1日154万人が利用。日本政府はAIで政府システムの脆弱性を点検する。"
+ ],
+ "body": "## 主要ニュース\n\n### 1. Google、新TPU「8tx」「8i Max」を発表\n\nGoogleは11月9日、第8世代TPUの新システム「TPU 8tx」と「TPU 8i Max」を発表した。8txは機密データを扱う推論や微調整のためにハードウェアレベルの秘密計算を備え、8i MaxはTPU 8iを2個まとめて長いコンテキストの推論に向ける。4月に発表したTPU 8t・8iの構成を変えたもので、価格と提供時期は示していない。\n\n**なぜ重要か：**用途ごとにTPUを細かく分けることで、Nvidia製GPUとの差別化を進めている。\n\n**確かさ：高**（Googleの公式ブログで確認）\n\n出典：[Google](https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/)\n\n### 2. ニューヨーク州、州が運営するAIモデルの独立評価を開始\n\nホークル知事は11月10日、州立大学ビンガムトン校に研究拠点を設け、州としてAIシステムの独立した試験・評価を始めると発表した。80人超の研究者が州の計算基盤Empire AIを使って先端AIのリスクを調べる。ただし対象は企業が公開しているモデルに限られる。\n\n**なぜ重要か：**2027年1月施行のRAISE法と合わせ、州が先端AIの安全性を自ら検証する体制を作る。\n\n**確かさ：高**（SUNYの公式発表と複数の報道で確認）\n\n出典：[SUNY](https://www.suny.edu/suny-news/press-releases/11-26/11-10-26-2/ai-science-safety.html)\n\n### 3. DeepSeekのエージェントアプリ「Harness」、1日の利用者が154万人に\n\nDeepSeekは、8月に公開したAIエージェントアプリ「Harness」の1日あたりの利用者が11月4日時点で約154万人に達したと明らかにした。9月末の約27万人から急増し、プラグインは約3万5,000個に増えた。\n\n**なぜ重要か：**中国勢がモデルだけでなく、エージェント製品でも存在感を高めている。\n\n**確かさ：中**（DeepSeekの公表値をBloombergなど複数社が報道。第三者の検証はない）\n\n出典：[Deccan Chronicle（Bloomberg配信）](https://www.deccanchronicle.com/technology/deepseeks-ai-agent-platform-hits-154-million-daily-users-2002883)\n\n### 4. 政府、AIで政府システムの脆弱性を点検　予備費から約20億円\n\n政府は11月6日の閣議で、サイバー対策として予備費から約100億円の支出を決め、そのうち約20億円を高性能AIによる政府機関の重要システムの脆弱性点検に充てる。情報漏えいが相次いでいることを受け、点検を前倒しで進める。\n\n**なぜ重要か：**AIの脆弱性発見の力を、攻撃側より先に政府の守りに使う方針を予算で裏付けた。\n\n**確かさ：中**（閣議決定を複数社が報道。政府の公式文書は未確認）\n\n出典：[マイナビニュース](https://news.mynavi.jp/techplus/article/20261110-5292935)\n\n## 注目：AI × データセンター・電力・冷却\n\n### Riotの四半期報告書、テキサスの910MW施設の借り手をAnthropicと明記と報道\n\nビットコイン採掘大手Riot Platformsの四半期報告書で、テキサス州コルシカナの施設全体（IT容量910MW）を15年間借りる相手がAnthropicと明記されたと報じられた。契約収入は約280億ドルで、Rockdaleの191MWと合わせてRiotの契約容量の大半をAnthropicが占める。\n\n**なぜ重要か：**電力を確保済みの採掘拠点が、AIデータセンターの受け皿になる流れを裏付ける。\n\n**確かさ：中**（提出書類に基づく複数の報道。書類そのものは未確認）\n\n出典：[FourWeekMBA](https://fourweekmba.com/ai-riots-10-q-names-anthropic-as-tenant-of-28b-texas-lease/)\n\n## 今日のトレンド\n\n計算基盤は「用途別の専用化」へ、規制は「州による独自の検証」へと、AIの足回りと監視の両方が細かく分かれ始めている。",
+ "items": [
+  {
+   "id": "20261112-ai-01",
+   "category": "半導体・データセンター",
+   "title": "Google、新TPU「8tx」「8i Max」を発表　今年4つ目・5つ目の新システム",
+   "summary": "Googleは11月9日、第8世代TPUの新システム「TPU 8tx」と「TPU 8i Max」を発表した。8txは機密データを扱う推論・微調整向けにハードウェアレベルの秘密計算を備え、8i MaxはTPU 8iを2個まとめて長いコンテキストの推論に向ける。新しいチップではなく、4月発表のTPU 8t・8iの構成を変えたもので、価格と提供時期は示していない。",
+   "why": "学習用・推論用に続き、秘密計算や長文脈といった用途別にTPUを細かく分けることで、Nvidia製GPUとの差別化を進めている。",
+   "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/",
+   "source": "Google",
+   "keywords": [
+    "Google",
+    "TPU",
+    "AI半導体",
+    "LLM推論",
+    "秘密計算"
+   ],
+   "credibility": {
+    "level": "高",
+    "summary": "Googleの公式ブログで確認",
+    "checks": [
+     "一次情報：Google公式ブログ（11月9日）",
+     "報道：The Next Platform、Constellation Researchなど複数社が報道"
+    ]
+   },
+   "quiz": [
+    {
+     "q": "GoogleのTPU 8i Maxが主に狙う用途はどれか。",
+     "choices": [
+      "大規模モデルの事前学習",
+      "長いコンテキストの推論",
+      "スマートフォン上での推論",
+      "画像生成専用の処理"
+     ],
+     "answer": 1,
+     "explain": "TPU 8i MaxはTPU 8iを2個まとめて計算量とメモリ帯域を倍にし、長いコンテキストの推論に向けた構成。"
+    }
+   ]
+  },
+  {
+   "id": "20261112-ai-02",
+   "category": "規制・政策",
+   "title": "ニューヨーク州、州が運営するAIモデルの独立評価を開始",
+   "summary": "ホークル知事は11月10日、州立大学ビンガムトン校に「New York Center for AI Responsibility and Research」を設け、州としてAIシステムの独立した試験・評価を始めると発表した。州内の80人超の研究者が、州の計算基盤Empire AIを使って先端AIのリスクを調べる。ただし対象は企業が公開しているモデルに限られる。",
+   "why": "2027年1月施行のRAISE法と合わせ、連邦政府に先んじて州が先端AIの安全性を自ら検証する体制を作る動きとなる。",
+   "url": "https://www.suny.edu/suny-news/press-releases/11-26/11-10-26-2/ai-science-safety.html",
+   "source": "SUNY（ニューヨーク州立大学）",
+   "keywords": [
+    "ニューヨーク州",
+    "AI規制",
+    "AI安全",
+    "RAISE法",
+    "AI評価"
+   ],
+   "credibility": {
+    "level": "高",
+    "summary": "州立大学（SUNY）の公式発表とEngadgetなどの報道で確認",
+    "checks": [
+     "一次情報：SUNYのプレスリリース（11月10日）",
+     "報道：Engadget、Yahoo Newsなどが報道"
+    ]
+   },
+   "quiz": [
+    {
+     "q": "ニューヨーク州の新しいAI評価の取り組みについて、正しい説明はどれか。",
+     "choices": [
+      "未公開の社内モデルも強制的に提出させて試験する",
+      "連邦政府の機関が運営する",
+      "企業が公開しているモデルが評価の対象になる",
+      "評価に合格しないモデルは州内で販売禁止になる"
+     ],
+     "answer": 2,
+     "explain": "評価は州立大学の研究拠点が行い、対象は企業が公開しているモデルに限られる点が弱点とも指摘されている。"
+    }
+   ]
+  },
+  {
+   "id": "20261112-ai-03",
+   "category": "モデル・製品",
+   "title": "DeepSeekのエージェントアプリ「Harness」、1日の利用者が154万人に",
+   "summary": "DeepSeekは、8月に公開したAIエージェントアプリ「Harness」の1日あたりの利用者が11月4日時点で約154万人に達したとXで明らかにした。9月末の約27万人から急増し、プラグインは約3万5,000個に増えた。Bloombergは、オープンソース技術を軸にOpenAIやAnthropicに対抗する動きと伝えている。",
+   "why": "中国勢がモデルだけでなく、利用者が直接使うエージェント製品でも存在感を高めていることを示す。",
+   "url": "https://www.deccanchronicle.com/technology/deepseeks-ai-agent-platform-hits-154-million-daily-users-2002883",
+   "source": "Deccan Chronicle（Bloomberg配信）",
+   "keywords": [
+    "DeepSeek",
+    "AIエージェント",
+    "中国AI",
+    "オープンソース",
+    "利用者数"
+   ],
+   "credibility": {
+    "level": "中",
+    "summary": "DeepSeek自身の公表値をBloombergなど複数社が報道（第三者の検証はない）",
+    "checks": [
+     "一次情報：DeepSeekのX投稿（本文は未確認）",
+     "報道：Bloomberg、SCMP、Asia Economyなどが報道"
+    ]
+   },
+   "quiz": [
+    {
+     "q": "DeepSeek Harnessの利用者数「約154万人」について、注意すべき点はどれか。",
+     "choices": [
+      "月間の利用者数である",
+      "第三者の調査会社が測った数字である",
+      "DeepSeek自身が公表した数字である",
+      "中国国外の利用者だけを数えている"
+     ],
+     "answer": 2,
+     "explain": "数字はDeepSeekが自ら公表したもので、報道でも独立した検証はされていない。"
+    }
+   ]
+  },
+  {
+   "id": "20261112-ai-04",
+   "category": "日本の動き",
+   "title": "政府、AIで政府システムの脆弱性を点検　予備費から約20億円",
+   "summary": "政府は11月6日の閣議で、サイバー対策として2026年度予算の予備費から約100億円の支出を決め、そのうち約20億円を高性能AIによる政府機関の重要システムの脆弱性点検に充てる。情報漏えいが相次いでいることを受け、点検を前倒しで進める。",
+   "why": "高性能AIが脆弱性を見つける力を、攻撃側より先に政府の守りに使う方針を予算で裏付けた。",
+   "url": "https://news.mynavi.jp/techplus/article/20261110-5292935",
+   "source": "マイナビニュース",
+   "keywords": [
+    "日本政府",
+    "サイバーセキュリティ",
+    "AIセキュリティ",
+    "脆弱性",
+    "予備費"
+   ],
+   "credibility": {
+    "level": "中",
+    "summary": "閣議決定として共同通信・マイナビなど複数社が報道（政府の公式文書は未確認）",
+    "checks": [
+     "一次情報：閣議決定（政府の公式文書は未確認）",
+     "報道：共同通信（熊本日日新聞掲載）、マイナビニュースなど"
+    ]
+   },
+   "quiz": [
+    {
+     "q": "政府が予備費の一部をAIに充てる目的はどれか。",
+     "choices": [
+      "行政窓口のチャットボット導入",
+      "政府システムの脆弱性の点検",
+      "国産大規模言語モデルの開発",
+      "AI人材の育成講座"
+     ],
+     "answer": 1,
+     "explain": "サイバー攻撃による情報漏えいが続くことを受け、高性能AIで政府機関の重要システムの弱点を前倒しで点検する。"
+    }
+   ]
+  },
+  {
+   "id": "20261112-ai-05",
+   "category": "半導体・データセンター",
+   "title": "Riotの四半期報告書、テキサスの910MW施設の借り手をAnthropicと明記と報道",
+   "summary": "ビットコイン採掘大手Riot Platformsの四半期報告書（10-Q）で、テキサス州コルシカナの施設全体（IT容量910MW）を15年間借りる相手がAnthropicと明記されたと報じられた。契約収入は約280億ドルで、Rockdaleの191MWと合わせAnthropicはRiotの契約容量の大半を占める。",
+   "why": "電力をすでに確保している暗号資産の採掘拠点が、AIデータセンターの受け皿になる流れを裏付ける。",
+   "url": "https://fourweekmba.com/ai-riots-10-q-names-anthropic-as-tenant-of-28b-texas-lease/",
+   "source": "FourWeekMBA",
+   "keywords": [
+    "Anthropic",
+    "データセンター",
+    "Riot Platforms",
+    "電力",
+    "テキサス"
+   ],
+   "credibility": {
+    "level": "中",
+    "summary": "規制当局への提出書類に基づく複数の報道（書類そのものは未確認）",
+    "checks": [
+     "一次情報：Riotの10-Q（本文は未確認）、リース自体はRiotが発表済み",
+     "報道：FourWeekMBA、Yellow.comなどが報道"
+    ]
+   },
+   "quiz": [
+    {
+     "q": "Riot Platformsのコルシカナ施設がAIの借り手を得られた背景として、記事の要点に合うものはどれか。",
+     "choices": [
+      "もともと大きな電力を確保した採掘拠点だった",
+      "政府が無償で土地を提供した",
+      "施設に最新GPUがすでに設置されていた",
+      "海底ケーブルの陸揚げ拠点に近い"
+     ],
+     "answer": 0,
+     "explain": "ビットコイン採掘で大きな電力枠を持つ拠点は、送電網の接続待ちを避けたいAI企業の受け皿になっている。"
+    }
+   ]
+  }
+ ]
+}

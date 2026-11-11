@@ -1,7 +1,85 @@
 {
  "version": 1,
- "updated": "2026-11-11T07:23:10+09:00",
+ "updated": "2026-11-12T07:19:05+09:00",
  "issues": [
+  {
+   "id": "2026-11-12-ai",
+   "date": "2026-11-12",
+   "series": "ai",
+   "title": "Google、新TPU「8tx」「8i Max」を発表",
+   "lead": [
+    "Googleが秘密計算向け「TPU 8tx」と長文脈推論向け「TPU 8i Max」を発表し、TPUの用途別の専用化を進めた。",
+    "ニューヨーク州は州立大学に拠点を置き、公開AIモデルの独立評価を州として始めた。",
+    "DeepSeekのエージェントアプリは1日154万人が利用。日本政府はAIで政府システムの脆弱性を点検する。"
+   ],
+   "items": [
+    {
+     "id": "20261112-ai-01",
+     "category": "半導体・データセンター",
+     "title": "Google、新TPU「8tx」「8i Max」を発表　今年4つ目・5つ目の新システム",
+     "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/",
+     "keywords": [
+      "Google",
+      "TPU",
+      "AI半導体",
+      "LLM推論",
+      "秘密計算"
+     ]
+    },
+    {
+     "id": "20261112-ai-02",
+     "category": "規制・政策",
+     "title": "ニューヨーク州、州が運営するAIモデルの独立評価を開始",
+     "url": "https://www.suny.edu/suny-news/press-releases/11-26/11-10-26-2/ai-science-safety.html",
+     "keywords": [
+      "ニューヨーク州",
+      "AI規制",
+      "AI安全",
+      "RAISE法",
+      "AI評価"
+     ]
+    },
+    {
+     "id": "20261112-ai-03",
+     "category": "モデル・製品",
+     "title": "DeepSeekのエージェントアプリ「Harness」、1日の利用者が154万人に",
+     "url": "https://www.deccanchronicle.com/technology/deepseeks-ai-agent-platform-hits-154-million-daily-users-2002883",
+     "keywords": [
+      "DeepSeek",
+      "AIエージェント",
+      "中国AI",
+      "オープンソース",
+      "利用者数"
+     ]
+    },
+    {
+     "id": "20261112-ai-04",
+     "category": "日本の動き",
+     "title": "政府、AIで政府システムの脆弱性を点検　予備費から約20億円",
+     "url": "https://news.mynavi.jp/techplus/article/20261110-5292935",
+     "keywords": [
+      "日本政府",
+      "サイバーセキュリティ",
+      "AIセキュリティ",
+      "脆弱性",
+      "予備費"
+     ]
+    },
+    {
+     "id": "20261112-ai-05",
+     "category": "半導体・データセンター",
+     "title": "Riotの四半期報告書、テキサスの910MW施設の借り手をAnthropicと明記と報道",
+     "url": "https://fourweekmba.com/ai-riots-10-q-names-anthropic-as-tenant-of-28b-texas-lease/",
+     "keywords": [
+      "Anthropic",
+      "データセンター",
+      "Riot Platforms",
+      "電力",
+      "テキサス"
+     ]
+    }
+   ]
+  },
   {
    "id": "2026-11-11-ai",
    "date": "2026-11-11",
