@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" font-family="sans-serif">
+<rect width="400" height="320" fill="#fff" />
+<text x="10" y="30" font-size="16" fill="#333">累積計算時間（h）</text>
+<g stroke="#e3e5e8" stroke-width="1">
+<line x1="60" y1="207.5" x2="370" y2="207.5" /><line x1="60" y1="155" x2="370" y2="155" />
+<line x1="60" y1="102.5" x2="370" y2="102.5" /><line x1="60" y1="50" x2="370" y2="50" />
+</g>
+<line x1="60" y1="260" x2="370" y2="260" stroke="#333" stroke-width="1.5" />
+<line x1="60" y1="50" x2="60" y2="260" stroke="#333" stroke-width="1.5" />
+<g font-size="16" text-anchor="end" fill="#333">
+<text x="52" y="266">0</text><text x="52" y="213">2</text><text x="52" y="161">4</text>
+<text x="52" y="108">6</text><text x="52" y="56">8</text>
+</g>
+<g font-size="16" text-anchor="middle" fill="#333">
+<text x="60" y="282">0</text><text x="137.5" y="282">50</text>
+<text x="227" y="282" fill="#b23a2a">108</text>
+<text x="292.5" y="282">150</text><text x="370" y="282">200</text>
+<text x="215" y="310">評価する設計の数（件）</text>
+</g>
+<line x1="60" y1="260" x2="370" y2="81.2" stroke="#2a6fbf" stroke-width="3" />
+<line x1="60" y1="163.7" x2="370" y2="163.7" stroke="#2e8b57" stroke-width="3" />
+<line x1="227" y1="163.7" x2="227" y2="260" stroke="#b23a2a" stroke-width="1.5" stroke-dasharray="5 4" />
+<circle cx="227" cy="163.7" r="5" fill="#b23a2a" />
+<text x="100" y="140" font-size="16" fill="#b23a2a">約108件で逆転</text>
+<text x="365" y="70" font-size="16" text-anchor="end" fill="#2a6fbf">FEM：1件122.5秒</text>
+<text x="365" y="190" font-size="16" text-anchor="end" fill="#1d5a38">PINN：学習3.67 h</text>
+<text x="365" y="210" font-size="16" text-anchor="end" fill="#1d5a38">＋1件9.3 ms</text>
+</svg>

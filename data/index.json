@@ -1,7 +1,35 @@
 {
  "version": 1,
- "updated": "2026-11-12T07:19:05+09:00",
+ "updated": "2026-11-12T07:20:24+09:00",
  "issues": [
+  {
+   "id": "2026-11-12-thermal",
+   "date": "2026-11-12",
+   "series": "thermal",
+   "title": "PINNで埋め込み型マイクロチャネル冷却の3D伝熱を1万倍速く予測",
+   "lead": [
+    "北京大学が、流路寸法4つを入力にとるPINNで、チップ埋め込み型マニホールド・マイクロチャネルの3D共役伝熱を予測した（2026年11月のプレプリント）。",
+    "FEM 625ケースとの比較で、相対L2誤差は速度8.1%・温度5.6%。1件9.3 msで、FEMより約1.3万倍速い。",
+    "学習3.67時間を含めても約108件で元が取れる。ただし範囲は狭く、実験での検証もないので、候補を絞る用途向き。"
+   ],
+   "items": [
+    {
+     "id": "20261112-thermal-01",
+     "category": "シミュレーション",
+     "title": "パラメータ化した物理インフォームド・ニューラルネットワークによる、チップ埋め込み型マイクロ流体冷却の高速シミュレーション",
+     "url": "https://arxiv.org/abs/2611.10666",
+     "keywords": [
+      "PINN",
+      "マニホールドマイクロチャネル",
+      "埋め込み冷却",
+      "サロゲートモデル",
+      "共役伝熱"
+     ],
+     "paperId": "arXiv:2611.10666",
+     "titleOriginal": "Parameterized Physics-Informed Neural Networks for Efficient Simulation of Embedded Microfluidic Chip Cooling"
+    }
+   ]
+  },
   {
    "id": "2026-11-12-ai",
    "date": "2026-11-12",

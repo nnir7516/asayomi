@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 380" font-family="sans-serif">
+<rect width="400" height="380" fill="#fff" />
+<g font-size="16" text-anchor="middle">
+<rect x="20" y="10" width="360" height="48" rx="8" fill="#eef4fb" stroke="#2a6fbf" />
+<text x="200" y="40" fill="#1b3d5c">入力：座標 x,y,z と寸法4つ</text>
+<rect x="20" y="80" width="360" height="48" rx="8" fill="#fff6e5" stroke="#d48a00" />
+<text x="200" y="110" fill="#6b4500">幾何アンザッツ g1〜g8 を追加</text>
+<rect x="20" y="150" width="360" height="48" rx="8" fill="#eef4fb" stroke="#2a6fbf" />
+<text x="200" y="180" fill="#1b3d5c">フーリエ特徴 → PirateNet</text>
+<rect x="20" y="220" width="360" height="48" rx="8" fill="#e9f6ec" stroke="#2e8b57" />
+<text x="200" y="250" fill="#1d5a38">出力：u, v, w, p, Tf, Ts</text>
+</g>
+<g stroke="#555" stroke-width="2" fill="none">
+<path d="M200 58 L200 78 M194 70 L200 78 L206 70" />
+<path d="M200 128 L200 148 M194 140 L200 148 L206 140" />
+<path d="M200 198 L200 218 M194 210 L200 218 L206 210" />
+</g>
+<text x="20" y="302" font-size="18" fill="#333" font-weight="bold">学習の段階付け（前半2.5万回）</text>
+<text x="20" y="330" font-size="16" fill="#333">プラントル数 Pr：10⁻⁶ → 6.977</text>
+<text x="20" y="356" font-size="16" fill="#333">熱伝導率比 k*：1 → 250</text>
+</svg>

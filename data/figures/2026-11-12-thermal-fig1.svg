@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 345" font-family="sans-serif">
+<rect width="400" height="345" fill="#fff" />
+<text x="95" y="40" font-size="16" text-anchor="middle" fill="#1f5fa8">入口 Win</text>
+<text x="295" y="40" font-size="16" text-anchor="middle" fill="#b23a2a">出口 Wout</text>
+<rect x="40" y="60" width="320" height="40" fill="#c9ccd1" />
+<rect x="70" y="60" width="50" height="40" fill="#d6ecfb" />
+<rect x="250" y="60" width="90" height="40" fill="#d6ecfb" />
+<text x="185" y="86" font-size="16" text-anchor="middle" fill="#333">噴流板</text>
+<rect x="40" y="100" width="320" height="100" fill="#d6ecfb" stroke="#7aaed6" />
+<text x="200" y="195" font-size="16" text-anchor="middle" fill="#1b3d5c">マイクロチャネル（水）</text>
+<path d="M95 52 L95 150 Q95 170 130 170 L260 170 Q295 170 295 150 L295 52" fill="none" stroke="#2a6fbf" stroke-width="3" />
+<path d="M88 66 L95 52 L102 66" fill="none" stroke="#2a6fbf" stroke-width="3" transform="rotate(180 95 59)" />
+<path d="M288 66 L295 52 L302 66" fill="none" stroke="#c0392b" stroke-width="3" />
+<line x1="372" y1="100" x2="372" y2="200" stroke="#333" stroke-width="1.5" />
+<line x1="366" y1="100" x2="378" y2="100" stroke="#333" />
+<line x1="366" y1="200" x2="378" y2="200" stroke="#333" />
+<text x="398" y="156" font-size="16" text-anchor="end" fill="#333" transform="rotate(-90 386 150)">Hmc</text>
+<rect x="40" y="200" width="320" height="50" fill="#9aa0a8" />
+<text x="200" y="231" font-size="16" text-anchor="middle" fill="#fff">シリコン基板</text>
+<g stroke="#c0392b" stroke-width="3" fill="none">
+<path d="M90 285 L90 258 M83 268 L90 258 L97 268" />
+<path d="M200 285 L200 258 M193 268 L200 258 L207 268" />
+<path d="M310 285 L310 258 M303 268 L310 258 L317 268" />
+</g>
+<text x="200" y="305" font-size="16" text-anchor="middle" fill="#b23a2a">底面：温度一定で加熱</text>
+<text x="200" y="335" font-size="16" text-anchor="middle" fill="#555">流路幅 Wmc は紙面の奥行き方向</text>
+</svg>
