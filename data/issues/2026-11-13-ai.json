@@ -1,0 +1,162 @@
+{
+ "id": "2026-11-13-ai",
+ "date": "2026-11-13",
+ "series": "ai",
+ "title": "Google、高速・低価格の「Gemini 4 Hydrogen」を公開",
+ "lead": [
+  "Googleがエージェント向けの高速モデル「Gemini 4 Hydrogen」を公開し、検索のAIモードの標準モデルにした。",
+  "DeepMindはロボット向けの「Gemini Robotics 2.5」を提携先に提供。Googleの初のAI眼鏡は予約受付が始まった。",
+  "ソフトバンクグループは、米AIデータセンター向け発電設備の調達見直しで約5,972億円の損失を計上した。"
+ ],
+ "body": "## 主要ニュース\n\n### 1. Google、高速・低価格の「Gemini 4 Hydrogen」を公開\n\nGoogleは11月12日、エージェント的なコーディングや作業の自動化に向けた高速モデル「Gemini 4 Hydrogen」を公開した。API価格は入力100万トークンあたり1.50ドル、出力7.50ドルで、100万トークンの文脈に対応する。検索の「AIモード」の標準モデルになり、Geminiアプリや開発環境Antigravityでも使える。Antigravityでは上位モデルCarbonが指揮役、Hydrogenが作業役を担う使い方も示した。\n\n**なぜ重要か：**多数のエージェントを動かすときの費用を下げる「作業役」のモデルとして、価格競争が進む。\n\n**確かさ：高**（Googleの公式ブログと複数の報道で確認）\n\n出典：[Google](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/)\n\n### 2. DeepMind、ロボット向け「Gemini Robotics 2.5」を発表\n\nGoogle DeepMindは11月10日、視覚・言語・動作を一体で扱うロボット向けモデル「Gemini Robotics 2.5」を発表した。200以上の器用さが必要な作業で、前の版より成功率が30〜100%高いとしている。当面はApptronikやMercedes-Benzなど提携先に限って提供し、ロボットへの「脱獄」耐性を測る評価基準ASIMOV-Jailbreakも公開した。\n\n**なぜ重要か：**AIが画面の中から工場など現実の作業へ広がる流れが具体的になってきた。\n\n**確かさ：高**（DeepMindの公式ブログで確認。性能の数字は同社の自己評価）\n\n出典：[Google DeepMind](https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/)\n\n### 3. GoogleのAI眼鏡、Warby Parker版などの予約受付が開始\n\nWarby Parkerは11月5日の決算発表で、Googleと共同開発した「Intelligent Eyewear」の予約を11月12日に始めると表明した。カメラとスピーカーを備え、レンズに表示はない。AndroidとiPhoneの両方で使え、年末の配送を見込む。価格や販売国の詳細は、事前の報道段階では示されていなかった。\n\n**なぜ重要か：**Geminiを日常的に身に着けて使う端末が、いよいよ一般向けに出回り始める。\n\n**確かさ：中**（Warby Parkerの決算発表に基づく複数の報道。価格は未確認）\n\n出典：[9to5Google](https://9to5google.com/2026/11/05/android-xr-glasses-pre-order/)\n\n## 注目：AI × データセンター・電力・冷却\n\n### ソフトバンクG、米AIデータセンター向け発電設備で約5,972億円の損失\n\nソフトバンクグループは11月10日、2026年9月中間期の最終損益が7,680億円の赤字になったと発表した。米国のAIデータセンター向けに進めていた発電関連設備の調達を見直し、返金されない前渡金など約5,972億円の損失を計上した。こうした設備の確保には累計約1兆5,008億円を支出していたという。\n\n**なぜ重要か：**電源の先取り競争には、計画変更で大きな損失が出るリスクもあることを示した。\n\n**確かさ：高**（同社の決算発表を複数の報道機関が報道）\n\n出典：[nippon.com（時事通信）](https://www.nippon.com/ja/articles/-/57194)\n\n## 今日のトレンド\n\nAIは安くて速い「作業役」モデルやロボット・眼鏡で現実の場面へ広がる一方、それを支える電源への先行投資には損失のリスクも見え始めた。",
+ "items": [
+  {
+   "id": "20261113-ai-01",
+   "category": "モデル・製品",
+   "title": "Google、高速・低価格の「Gemini 4 Hydrogen」を公開",
+   "summary": "Googleは11月12日、エージェント的なコーディングや作業の自動化に向けた高速モデル「Gemini 4 Hydrogen」を公開した。API価格は入力100万トークンあたり1.50ドル、出力7.50ドルで、検索の「AIモード」の標準モデルになった。開発環境Antigravityでは、上位モデルCarbonが指揮役、Hydrogenが作業役を担う使い方も示した。",
+   "why": "多数のエージェントを動かすときの費用を下げる「作業役」のモデルとして、価格競争が進む。",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+   "source": "Google",
+   "keywords": [
+    "Google",
+    "Gemini 4 Hydrogen",
+    "API価格",
+    "AIエージェント",
+    "Antigravity"
+   ],
+   "credibility": {
+    "level": "高",
+    "summary": "Googleの公式ブログで確認",
+    "checks": [
+     "一次情報：Googleの公式ブログ（モデル発表・検索・開発者向けの各記事）",
+     "報道：9to5Google、Search Engine Journalなどが報道"
+    ]
+   },
+   "quiz": [
+    {
+     "q": "Gemini 4 HydrogenについてGoogleが示した使い方として正しいものはどれか。",
+     "choices": [
+      "最上位モデルとして、ほかのGeminiモデルをすべて置き換える",
+      "スマートフォン上だけで動く端末内専用モデルとして使う",
+      "上位モデルが指揮役になり、Hydrogenが作業役・検証役のエージェントを担う",
+      "画像生成専用のモデルとして検索に組み込む"
+     ],
+     "answer": 2,
+     "explain": "Hydrogenは低価格・高速な作業向けモデルで、AntigravityではCarbonが指揮役、Hydrogenが作業役や検証役を担う構成が示された。"
+    }
+   ]
+  },
+  {
+   "id": "20261113-ai-02",
+   "category": "研究",
+   "title": "DeepMind、ロボット向け「Gemini Robotics 2.5」を発表",
+   "summary": "Google DeepMindは11月10日、視覚・言語・動作を一体で扱うロボット向けモデル「Gemini Robotics 2.5」を発表した。200以上の器用さが必要な作業で、前の版より成功率が30〜100%高いとしている。当面は提携先に限って提供し、ロボットへの脱獄耐性を測る評価基準ASIMOV-Jailbreakも公開した。",
+   "why": "AIが画面の中から工場など現実の作業へ広がる流れが具体的になってきた。",
+   "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+   "source": "Google DeepMind",
+   "keywords": [
+    "Google DeepMind",
+    "Gemini Robotics",
+    "ロボット",
+    "VLAモデル",
+    "AI安全"
+   ],
+   "credibility": {
+    "level": "高",
+    "summary": "DeepMindの公式ブログで確認（性能値は同社の自己評価）",
+    "checks": [
+     "一次情報：Google DeepMindの公式ブログ",
+     "報道：Automate.orgなど複数の業界メディアが報道"
+    ]
+   },
+   "quiz": [
+    {
+     "q": "Gemini Robotics 2.5の提供方法として記事で説明されているものはどれか。",
+     "choices": [
+      "当面はApptronikなど提携先に限って提供する",
+      "誰でも使える公開APIとして提供する",
+      "オープンソースとして重みを公開する",
+      "Geminiアプリの無料版に組み込む"
+     ],
+     "answer": 0,
+     "explain": "Gemini Robotics 2.5は当面、ApptronikやMercedes-Benzなど提携先に限って提供される。公開されたのは安全性の評価基準ASIMOV-Jailbreakのほうだ。"
+    }
+   ]
+  },
+  {
+   "id": "20261113-ai-03",
+   "category": "モデル・製品",
+   "title": "GoogleのAI眼鏡、Warby Parker版などの予約受付が開始",
+   "summary": "Warby Parkerは11月5日の決算発表で、Googleと共同開発した「Intelligent Eyewear」の予約を11月12日に始めると表明した。カメラとスピーカーを備え、レンズに表示はなく、AndroidとiPhoneの両方で使える。年末の配送を見込むが、価格や販売国の詳細は事前の報道段階では示されていなかった。",
+   "why": "Geminiを日常的に身に着けて使う端末が、いよいよ一般向けに出回り始める。",
+   "url": "https://9to5google.com/2026/11/05/android-xr-glasses-pre-order/",
+   "source": "9to5Google",
+   "keywords": [
+    "Google",
+    "AI眼鏡",
+    "Android XR",
+    "Warby Parker",
+    "Gemini"
+   ],
+   "credibility": {
+    "level": "中",
+    "summary": "Warby Parkerの決算発表を複数社が報道（価格は未確認）",
+    "checks": [
+     "一次情報：Warby Parkerの第3四半期決算発表（原文は未確認）",
+     "報道：9to5Google、Droid Lifeなど複数社が報道"
+    ]
+   },
+   "quiz": [
+    {
+     "q": "予約が始まったGoogleのAI眼鏡（最初のモデル）の特徴として正しいものはどれか。",
+     "choices": [
+      "レンズに大きな画面を表示する",
+      "Android端末とだけ連携する",
+      "カメラを持たず音声だけで操作する",
+      "カメラとスピーカーを備え、レンズに表示はない"
+     ],
+     "answer": 3,
+     "explain": "最初のモデルはカメラとスピーカーを備えた表示なしの眼鏡で、AndroidとiPhoneの両方に対応する。"
+    }
+   ]
+  },
+  {
+   "id": "20261113-ai-04",
+   "category": "半導体・データセンター",
+   "title": "ソフトバンクG、米AIデータセンター向け発電設備で約5,972億円の損失",
+   "summary": "ソフトバンクグループは11月10日、2026年9月中間期の最終損益が7,680億円の赤字になったと発表した。米国のAIデータセンター向けに進めていた発電関連設備の調達を見直し、返金されない前渡金など約5,972億円の損失を計上した。こうした設備の確保には累計約1兆5,008億円を支出していたという。",
+   "why": "電源の先取り競争には、計画変更で大きな損失が出るリスクもあることを示した。",
+   "url": "https://www.nippon.com/ja/articles/-/57194",
+   "source": "nippon.com（時事通信）",
+   "keywords": [
+    "ソフトバンクグループ",
+    "データセンター",
+    "電力",
+    "決算",
+    "AI投資"
+   ],
+   "credibility": {
+    "level": "高",
+    "summary": "同社の決算発表を複数の報道機関が報道",
+    "checks": [
+     "一次情報：ソフトバンクグループの2026年9月中間期決算",
+     "報道：時事通信、ロイター、ニューズウィーク日本版などが報道"
+    ]
+   },
+   "quiz": [
+    {
+     "q": "ソフトバンクグループが中間決算で大きな損失を計上した主な理由はどれか。",
+     "choices": [
+      "OpenAI株の評価額が大きく下がった",
+      "米国のAIデータセンター向け発電関連設備の調達を見直した",
+      "国内の携帯電話事業が赤字に転じた",
+      "半導体工場の建設を中止した"
+     ],
+     "answer": 1,
+     "explain": "米AIデータセンター向けに進めていた発電関連設備の調達計画を見直し、返金されない前渡金などで約5,972億円の損失が出た。"
+    }
+   ]
+  }
+ ]
+}

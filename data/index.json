@@ -1,7 +1,72 @@
 {
  "version": 1,
- "updated": "2026-11-12T07:20:24+09:00",
+ "updated": "2026-11-13T07:18:51+09:00",
  "issues": [
+  {
+   "id": "2026-11-13-ai",
+   "date": "2026-11-13",
+   "series": "ai",
+   "title": "Google、高速・低価格の「Gemini 4 Hydrogen」を公開",
+   "lead": [
+    "Googleがエージェント向けの高速モデル「Gemini 4 Hydrogen」を公開し、検索のAIモードの標準モデルにした。",
+    "DeepMindはロボット向けの「Gemini Robotics 2.5」を提携先に提供。Googleの初のAI眼鏡は予約受付が始まった。",
+    "ソフトバンクグループは、米AIデータセンター向け発電設備の調達見直しで約5,972億円の損失を計上した。"
+   ],
+   "items": [
+    {
+     "id": "20261113-ai-01",
+     "category": "モデル・製品",
+     "title": "Google、高速・低価格の「Gemini 4 Hydrogen」を公開",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+     "keywords": [
+      "Google",
+      "Gemini 4 Hydrogen",
+      "API価格",
+      "AIエージェント",
+      "Antigravity"
+     ]
+    },
+    {
+     "id": "20261113-ai-02",
+     "category": "研究",
+     "title": "DeepMind、ロボット向け「Gemini Robotics 2.5」を発表",
+     "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+     "keywords": [
+      "Google DeepMind",
+      "Gemini Robotics",
+      "ロボット",
+      "VLAモデル",
+      "AI安全"
+     ]
+    },
+    {
+     "id": "20261113-ai-03",
+     "category": "モデル・製品",
+     "title": "GoogleのAI眼鏡、Warby Parker版などの予約受付が開始",
+     "url": "https://9to5google.com/2026/11/05/android-xr-glasses-pre-order/",
+     "keywords": [
+      "Google",
+      "AI眼鏡",
+      "Android XR",
+      "Warby Parker",
+      "Gemini"
+     ]
+    },
+    {
+     "id": "20261113-ai-04",
+     "category": "半導体・データセンター",
+     "title": "ソフトバンクG、米AIデータセンター向け発電設備で約5,972億円の損失",
+     "url": "https://www.nippon.com/ja/articles/-/57194",
+     "keywords": [
+      "ソフトバンクグループ",
+      "データセンター",
+      "電力",
+      "決算",
+      "AI投資"
+     ]
+    }
+   ]
+  },
   {
    "id": "2026-11-12-thermal",
    "date": "2026-11-12",
