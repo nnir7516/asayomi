@@ -1,0 +1,194 @@
+{
+ "id": "2026-11-14-ai",
+ "date": "2026-11-14",
+ "series": "ai",
+ "title": "Nvidiaのフアン氏がCEOを辞任",
+ "lead": [
+  "Nvidiaのフアン氏がCEOを辞任し、クレスCFOが暫定CEOに就任。",
+  "OpenAIがAIエージェントで買い物ができる「ChatGPT Wallet」を米国で開始。",
+  "非営利団体がフロンティアAIの開発凍結を求め、主要5社を提訴。"
+ ],
+ "body": "## 主要ニュース\n\n### 1. 続報：Nvidia、フアンCEOが辞任　暫定CEOにクレスCFO\nNvidia取締役会は11月12日、ジェンセン・フアン氏がCEO・社長・取締役を即日退任したと発表しました。暫定CEOにはコレット・クレスCFOが就き、取締役会は社内外から後任を探します。辞任の理由について会社は説明していませんが、複数の報道は私生活をめぐる問題と結び付けています。\n**なぜ重要か：** AI半導体の最大手が創業者を失い、GPU供給やAI投資の行方に不透明感が広がるためです。\n**確かさ：高**（Nvidiaの公式発表と、Washington Post・CNNなど複数の報道で確認。辞任理由は報道ベース）\n出典：[NVIDIA Newsroom](https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition)\n\n### 2. OpenAI、AIエージェントが買い物できる「ChatGPT Wallet」を開始\nOpenAIは11月13日、エージェント機能「dots」が利用者に代わって商品を購入できる「ChatGPT Wallet」を、米国のProの成人利用者向けに提供し始めました。Visa・Mastercard・American Expressと組み、実際のカード番号ではなく決済トークンで支払います。購入ごとに顔認証や指紋で承認が必要です。\n**なぜ重要か：** AIエージェントが「調べる」から「お金を払う」段階に進み、決済の安全設計が本格的に問われ始めます。\n**確かさ：中**（CNBCなど複数の報道で一致。OpenAIの公式ページは直接確認できず）\n出典：[CNBC](https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html)\n\n### 3. 非営利団体、フロンティアAIの開発凍結を求め5社を提訴\nPublic Citizenなど4つの非営利団体が11月12日、Anthropic・Google・Meta・OpenAI・SpaceXのAI部門を相手に、現行の最先端モデルより強力なAIの開発・公開の差し止めを求めて提訴しました。カリフォルニア州の不正競争防止法に基づき、生物兵器やサイバー攻撃のリスクを「公共の迷惑」だと主張しています。\n**なぜ重要か：** 規制ではなく裁判でAI開発を止めようとする試みで、判断次第では業界全体に影響します。\n**確かさ：高**（原告Public Citizenの発表と複数の報道で確認。裁判所の判断はこれから）\n出典：[Public Citizen](https://www.citizen.org/news/coalition-of-nonprofits-files-landmark-lawsuit-to-stop-development-of-advanced-ai-systems-at-anthropic-google-meta-openai-and-spacexsi-that-proliferate-bioweapons-and-cyberattacks/)\n\n### 4. 生成AIの偽情報「見抜ける」と考える人が減少　ドコモの調査\nNTTドコモ モバイル社会研究所は11月12日、生成AIで作られた偽情報を見抜く自信がある人の割合が1年で約3割減ったとする調査結果を公表しました。全国の15〜69歳が対象です。\n**なぜ重要か：** 生成AIの精度向上で、利用者が真偽を自力で判断しにくくなっている実態を示すためです。\n**確かさ：中**（報道で確認。調査レポート本体は未確認）\n出典：[Yahoo!ニュース（こどもとIT）](https://news.yahoo.co.jp/articles/298e15d4edbd4025f20acc8414a8ed9f7545b26f)\n\n## 注目：AI × データセンター・電力・冷却\n\n### GridAI、ワイオミングのガス会社を買収しAI向け電力へ\n米GridAI Technologiesは11月13日、ワイオミング州の天然ガス会社Pronghorn Resourcesを株式交換で買収する最終契約を結んだと発表しました。自社のガスでAIデータセンター向けに発電し、2027年に300MWの供給開始を目指します。\n**なぜ重要か：** 電力網を待たず、燃料から発電まで自前でそろえる動きが中小企業にも広がっています。\n**確かさ：高**（同社のプレスリリースで確認。計画の実現性は未知数）\n出典：[GlobeNewswire](https://www.globenewswire.com/news-release/2026/11/13/3402604/0/en/gridai-technologies-signs-definitive-agreement-to-acquire-pronghorn-resources-establishing-major-wyoming-owned-natural-gas-and-multi-gigawatt-ai-power-infrastructure-platform-targe.html)\n\n## 今日のトレンド\nAI業界の主役交代と、エージェントの「支払い」解禁、そして裁判による開発停止の試みが同時に起き、AIの力と責任のバランスが一段と問われた一日でした。\n",
+ "items": [
+  {
+   "id": "20261114-ai-01",
+   "category": "ビジネス・投資",
+   "title": "続報：Nvidia、フアンCEOが辞任　暫定CEOにクレスCFO",
+   "summary": "Nvidia取締役会は11月12日、ジェンセン・フアン氏がCEO・社長・取締役を即日退任したと発表した。暫定CEOにはコレット・クレスCFOが就き、社内外から後任を探す。会社は辞任理由を説明していないが、複数の報道は私生活をめぐる問題と結び付けている。",
+   "why": "AI半導体の最大手が創業者を失い、GPU供給やAI投資の行方に不透明感が広がるため。",
+   "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+   "source": "NVIDIA Newsroom",
+   "keywords": [
+    "Nvidia",
+    "ジェンセン・フアン",
+    "ガバナンス",
+    "AI半導体"
+   ],
+   "credibility": {
+    "level": "高",
+    "summary": "Nvidiaの公式発表と複数の大手報道で確認（辞任理由は報道ベース）",
+    "checks": [
+     "一次情報：Nvidiaのプレスリリース「NVIDIA Announces CEO Transition」",
+     "報道：Washington Post、CNN、Fox Newsなどが報道"
+    ]
+   },
+   "quiz": [
+    {
+     "q": "フアン氏の辞任を受けて、Nvidiaの暫定CEOに就いたのは誰？",
+     "choices": [
+      "社外から招いた新CEO",
+      "コレット・クレスCFO",
+      "フアン氏が取締役として兼任",
+      "取締役会長が兼任"
+     ],
+     "answer": 1,
+     "explain": "取締役会はクレスCFOを暫定CEOとし、社内外から正式な後任を探すとしています。"
+    }
+   ]
+  },
+  {
+   "id": "20261114-ai-02",
+   "category": "モデル・製品",
+   "title": "OpenAI、AIエージェントが買い物できる「ChatGPT Wallet」を開始",
+   "summary": "OpenAIは11月13日、エージェント「dots」が利用者に代わって購入できる「ChatGPT Wallet」を米国のPro成人利用者向けに提供し始めた。Visa・Mastercard・American Expressと組み、カード番号ではなく決済トークンで支払う。購入ごとに顔認証や指紋による承認が必要。",
+   "why": "AIエージェントが「調べる」から「お金を払う」段階に進み、決済の安全設計が本格的に問われ始めるため。",
+   "url": "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html",
+   "source": "CNBC",
+   "keywords": [
+    "OpenAI",
+    "ChatGPT Wallet",
+    "AIエージェント",
+    "決済"
+   ],
+   "credibility": {
+    "level": "中",
+    "summary": "CNBCなど複数の報道で内容が一致（OpenAI公式ページは直接未確認）",
+    "checks": [
+     "一次情報：OpenAIの公式発表ページは直接確認できず",
+     "報道：CNBC、Android Authority、Neowin、Quartzが報道"
+    ]
+   },
+   "quiz": [
+    {
+     "q": "ChatGPT Walletで、AIエージェントが実際のカード番号を見ずに支払える仕組みは？",
+     "choices": [
+      "暗号資産に両替して支払う",
+      "OpenAIが代金を立て替える",
+      "決済トークンで支払う",
+      "購入後に利用者が手動で入力する"
+     ],
+     "answer": 2,
+     "explain": "カード番号の代わりにカード会社の決済トークンを使い、購入ごとに生体認証で承認します。"
+    }
+   ]
+  },
+  {
+   "id": "20261114-ai-03",
+   "category": "規制・政策",
+   "title": "非営利団体、フロンティアAIの開発凍結を求め5社を提訴",
+   "summary": "Public Citizenなど4つの非営利団体が11月12日、Anthropic・Google・Meta・OpenAI・SpaceXのAI部門に対し、現行の最先端モデルより強力なAIの開発・公開の差し止めを求めて提訴した。カリフォルニア州の不正競争防止法に基づき、生物兵器やサイバー攻撃のリスクを「公共の迷惑」と主張している。",
+   "why": "規制ではなく裁判でAI開発を止めようとする試みで、判断次第では業界全体に影響するため。",
+   "url": "https://www.citizen.org/news/coalition-of-nonprofits-files-landmark-lawsuit-to-stop-development-of-advanced-ai-systems-at-anthropic-google-meta-openai-and-spacexsi-that-proliferate-bioweapons-and-cyberattacks/",
+   "source": "Public Citizen",
+   "keywords": [
+    "AI規制",
+    "AI安全",
+    "訴訟",
+    "フロンティアAI"
+   ],
+   "credibility": {
+    "level": "高",
+    "summary": "原告Public Citizenの発表と複数の報道で提訴を確認",
+    "checks": [
+     "一次情報：原告Public Citizenのプレスリリース",
+     "報道：Just Security、Quartzなどが報道（裁判所の判断は未定）"
+    ]
+   },
+   "quiz": [
+    {
+     "q": "非営利団体の訴訟が求めているものは？",
+     "choices": [
+      "AI企業への罰金",
+      "現行より強力なAIの開発・公開の差し止め",
+      "AIモデルのオープンソース化",
+      "データセンター建設の中止"
+     ],
+     "answer": 1,
+     "explain": "現在の最先端モデルを超えるAIの開発・公開を止める差し止め命令を求めています。"
+    }
+   ]
+  },
+  {
+   "id": "20261114-ai-04",
+   "category": "日本の動き",
+   "title": "生成AIの偽情報「見抜ける」と考える人が減少　ドコモの調査",
+   "summary": "NTTドコモ モバイル社会研究所は11月12日、生成AIで作られた偽情報を見抜く自信がある人の割合が1年で約3割減ったとする調査結果を公表した。全国の15〜69歳が対象。",
+   "why": "生成AIの精度向上で、利用者が真偽を自力で判断しにくくなっている実態を示すため。",
+   "url": "https://news.yahoo.co.jp/articles/298e15d4edbd4025f20acc8414a8ed9f7545b26f",
+   "source": "Yahoo!ニュース（こどもとIT）",
+   "keywords": [
+    "NTTドコモ",
+    "偽情報",
+    "ディープフェイク",
+    "生成AI"
+   ],
+   "credibility": {
+    "level": "中",
+    "summary": "報道で確認（調査レポート本体は未確認）",
+    "checks": [
+     "一次情報：ドコモ モバイル社会研究所のレポートは直接未確認",
+     "報道：こどもとIT（Yahoo!ニュース転載）"
+    ]
+   },
+   "quiz": [
+    {
+     "q": "ドコモの調査で、1年前と比べて減ったのは何？",
+     "choices": [
+      "生成AIの利用者数",
+      "生成AIの偽情報を見抜く自信がある人",
+      "スマホの保有率",
+      "SNSの利用時間"
+     ],
+     "answer": 1,
+     "explain": "生成AIによる偽情報を見抜く自信がある人が1年で約3割減ったとしています。"
+    }
+   ]
+  },
+  {
+   "id": "20261114-ai-05",
+   "category": "半導体・データセンター",
+   "title": "GridAI、ワイオミングのガス会社を買収しAI向け電力へ",
+   "summary": "米GridAI Technologiesは11月13日、ワイオミング州の天然ガス会社Pronghorn Resourcesを株式交換で買収する最終契約を結んだと発表した。自社のガスで発電し、2027年にAIデータセンター向けに300MWの供給開始を目指す。",
+   "why": "電力網を待たず、燃料から発電まで自前でそろえる動きが中小企業にも広がっているため。",
+   "url": "https://www.globenewswire.com/news-release/2026/11/13/3402604/0/en/gridai-technologies-signs-definitive-agreement-to-acquire-pronghorn-resources-establishing-major-wyoming-owned-natural-gas-and-multi-gigawatt-ai-power-infrastructure-platform-targe.html",
+   "source": "GlobeNewswire（GridAIの発表）",
+   "keywords": [
+    "データセンター",
+    "電力",
+    "ガス発電",
+    "ワイオミング"
+   ],
+   "credibility": {
+    "level": "高",
+    "summary": "GridAIのプレスリリースで確認（計画の実現性は未知数）",
+    "checks": [
+     "一次情報：GridAIのプレスリリース（GlobeNewswire）",
+     "報道：The Next Web、citybizが報道"
+    ]
+   },
+   "quiz": [
+    {
+     "q": "GridAIがPronghorn Resourcesを買収する狙いは？",
+     "choices": [
+      "GPUを自社生産するため",
+      "自社のガスでAIデータセンター向けに発電するため",
+      "冷却水を確保するため",
+      "太陽光発電所を建てるため"
+     ],
+     "answer": 1,
+     "explain": "Pronghornの天然ガスで発電し、AIデータセンターに電力を供給する計画です。"
+    }
+   ]
+  }
+ ]
+}

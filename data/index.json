@@ -1,7 +1,80 @@
 {
  "version": 1,
- "updated": "2026-11-13T07:18:51+09:00",
+ "updated": "2026-11-14T07:19:17+09:00",
  "issues": [
+  {
+   "id": "2026-11-14-ai",
+   "date": "2026-11-14",
+   "series": "ai",
+   "title": "Nvidiaのフアン氏がCEOを辞任",
+   "lead": [
+    "Nvidiaのフアン氏がCEOを辞任し、クレスCFOが暫定CEOに就任。",
+    "OpenAIがAIエージェントで買い物ができる「ChatGPT Wallet」を米国で開始。",
+    "非営利団体がフロンティアAIの開発凍結を求め、主要5社を提訴。"
+   ],
+   "items": [
+    {
+     "id": "20261114-ai-01",
+     "category": "ビジネス・投資",
+     "title": "続報：Nvidia、フアンCEOが辞任　暫定CEOにクレスCFO",
+     "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+     "keywords": [
+      "Nvidia",
+      "ジェンセン・フアン",
+      "ガバナンス",
+      "AI半導体"
+     ]
+    },
+    {
+     "id": "20261114-ai-02",
+     "category": "モデル・製品",
+     "title": "OpenAI、AIエージェントが買い物できる「ChatGPT Wallet」を開始",
+     "url": "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html",
+     "keywords": [
+      "OpenAI",
+      "ChatGPT Wallet",
+      "AIエージェント",
+      "決済"
+     ]
+    },
+    {
+     "id": "20261114-ai-03",
+     "category": "規制・政策",
+     "title": "非営利団体、フロンティアAIの開発凍結を求め5社を提訴",
+     "url": "https://www.citizen.org/news/coalition-of-nonprofits-files-landmark-lawsuit-to-stop-development-of-advanced-ai-systems-at-anthropic-google-meta-openai-and-spacexsi-that-proliferate-bioweapons-and-cyberattacks/",
+     "keywords": [
+      "AI規制",
+      "AI安全",
+      "訴訟",
+      "フロンティアAI"
+     ]
+    },
+    {
+     "id": "20261114-ai-04",
+     "category": "日本の動き",
+     "title": "生成AIの偽情報「見抜ける」と考える人が減少　ドコモの調査",
+     "url": "https://news.yahoo.co.jp/articles/298e15d4edbd4025f20acc8414a8ed9f7545b26f",
+     "keywords": [
+      "NTTドコモ",
+      "偽情報",
+      "ディープフェイク",
+      "生成AI"
+     ]
+    },
+    {
+     "id": "20261114-ai-05",
+     "category": "半導体・データセンター",
+     "title": "GridAI、ワイオミングのガス会社を買収しAI向け電力へ",
+     "url": "https://www.globenewswire.com/news-release/2026/11/13/3402604/0/en/gridai-technologies-signs-definitive-agreement-to-acquire-pronghorn-resources-establishing-major-wyoming-owned-natural-gas-and-multi-gigawatt-ai-power-infrastructure-platform-targe.html",
+     "keywords": [
+      "データセンター",
+      "電力",
+      "ガス発電",
+      "ワイオミング"
+     ]
+    }
+   ]
+  },
   {
    "id": "2026-11-13-ai",
    "date": "2026-11-13",
