@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<rect x="0" y="0" width="400" height="300" fill="#ffffff" />
+<text x="200" y="26" font-size="18" text-anchor="middle" fill="#222">向流の平行平板熱交換器（模式図）</text>
+<rect x="40" y="60" width="320" height="10" fill="#7f8c8d" />
+<rect x="40" y="70" width="320" height="50" fill="#fdecea" />
+<rect x="40" y="120" width="320" height="10" fill="#7f8c8d" />
+<rect x="40" y="130" width="320" height="50" fill="#e8f1fa" />
+<rect x="40" y="180" width="320" height="10" fill="#7f8c8d" />
+<text x="56" y="101" font-size="16" fill="#c0392b">高温側の流れ →</text>
+<text x="344" y="161" font-size="16" text-anchor="end" fill="#1f618d">← 低温側の流れ</text>
+<line x1="370" y1="60" x2="370" y2="70" stroke="#222" stroke-width="1.5" />
+<text x="378" y="72" font-size="16" fill="#222">t</text>
+<line x1="370" y1="130" x2="370" y2="180" stroke="#222" stroke-width="1.5" />
+<text x="378" y="161" font-size="16" fill="#222">D</text>
+<line x1="60" y1="212" x2="330" y2="212" stroke="#d35400" stroke-width="3" />
+<polygon points="340,212 326,205 326,219" fill="#d35400" />
+<text x="200" y="240" font-size="16" text-anchor="middle" fill="#d35400">壁の中を流れ方向へ熱が逃げる</text>
+<text x="200" y="260" font-size="16" text-anchor="middle" fill="#d35400">（軸方向熱伝導）</text>
+<line x1="40" y1="274" x2="360" y2="274" stroke="#222" stroke-width="1.5" />
+<line x1="40" y1="268" x2="40" y2="280" stroke="#222" stroke-width="1.5" />
+<line x1="360" y1="268" x2="360" y2="280" stroke="#222" stroke-width="1.5" />
+<text x="200" y="296" font-size="16" text-anchor="middle" fill="#222">L（流路長さ）</text>
+</svg>

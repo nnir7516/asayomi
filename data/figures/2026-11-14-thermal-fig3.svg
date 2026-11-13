@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<rect x="0" y="0" width="400" height="300" fill="#ffffff" />
+<text x="200" y="24" font-size="18" text-anchor="middle" fill="#222">流路を長くしても届く有効度の上限</text>
+<text x="8" y="50" font-size="16" fill="#222">ε上限</text>
+<line x1="60" y1="60" x2="60" y2="240" stroke="#222" stroke-width="1.5" />
+<line x1="60" y1="240" x2="370" y2="240" stroke="#222" stroke-width="1.5" />
+<text x="54" y="66" font-size="16" text-anchor="end" fill="#222">1.0</text>
+<text x="54" y="156" font-size="16" text-anchor="end" fill="#222">0.8</text>
+<text x="54" y="246" font-size="16" text-anchor="end" fill="#222">0.6</text>
+<line x1="60" y1="154.5" x2="370" y2="154.5" stroke="#27ae60" stroke-width="2" stroke-dasharray="6,4" />
+<text x="370" y="146" font-size="16" text-anchor="end" fill="#27ae60">目標 ε=0.79</text>
+<path d="M60.0,60.0 L75.5,80.5 L91.0,97.5 L106.5,111.9 L122.0,124.3 L137.5,135.0 L153.0,144.4 L168.5,152.6 L184.0,160.0 L199.5,166.6 L215.0,172.5 L230.5,177.9 L246.0,182.7 L261.5,187.2 L277.0,191.2 L292.5,195.0 L308.0,198.5 L323.5,201.7 L339.0,204.6 L354.5,207.4 L370.0,210.0" fill="none" stroke="#2e86c1" stroke-width="3" />
+<circle cx="224.3" cy="175.6" r="6" fill="#d35400" />
+<line x1="224.3" y1="182" x2="224.3" y2="212" stroke="#d35400" stroke-width="1.5" />
+<text x="120" y="230" font-size="16" fill="#d35400">銅 t=0.5mm：上限≈0.74</text>
+<text x="60" y="262" font-size="16" text-anchor="middle" fill="#222">0</text>
+<text x="215" y="262" font-size="16" text-anchor="middle" fill="#222">0.5</text>
+<text x="360" y="262" font-size="16" text-anchor="middle" fill="#222">1.0</text>
+<text x="200" y="290" font-size="16" text-anchor="middle" fill="#222">軸方向熱伝導パラメータ M</text>
+</svg>

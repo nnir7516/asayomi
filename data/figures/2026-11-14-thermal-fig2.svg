@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320">
+<rect x="0" y="0" width="400" height="320" fill="#ffffff" />
+<text x="200" y="24" font-size="18" text-anchor="middle" fill="#222">最適化後の出力密度（ε=0.79）</text>
+<text x="200" y="48" font-size="16" text-anchor="middle" fill="#555">材料別の最小板厚、間隔0.8mm以上</text>
+<line x1="115" y1="60" x2="115" y2="290" stroke="#222" stroke-width="1" />
+<text x="108" y="84" font-size="16" text-anchor="end" fill="#222">樹脂</text>
+<rect x="115" y="66" width="200.0" height="24" fill="#2e86c1" />
+<text x="321.0" y="84" font-size="16" fill="#222">13.3</text>
+<text x="108" y="122" font-size="16" text-anchor="end" fill="#222">ステンレス</text>
+<rect x="115" y="104" width="161.5" height="24" fill="#2e86c1" />
+<text x="282.5" y="122" font-size="16" fill="#222">10.7</text>
+<text x="108" y="160" font-size="16" text-anchor="end" fill="#222">Al2O3</text>
+<rect x="115" y="142" width="156.4" height="24" fill="#2e86c1" />
+<text x="277.4" y="160" font-size="16" fill="#222">10.4</text>
+<text x="108" y="198" font-size="16" text-anchor="end" fill="#222">AlN</text>
+<rect x="115" y="180" width="75.0" height="24" fill="#2e86c1" />
+<text x="196.0" y="198" font-size="16" fill="#222">5.0</text>
+<text x="108" y="236" font-size="16" text-anchor="end" fill="#222">アルミ</text>
+<rect x="115" y="218" width="54.9" height="24" fill="#2e86c1" />
+<text x="175.9" y="236" font-size="16" fill="#222">3.6</text>
+<text x="108" y="274" font-size="16" text-anchor="end" fill="#222">銅</text>
+<rect x="115" y="256" width="26.5" height="24" fill="#d35400" />
+<text x="147.5" y="274" font-size="16" fill="#222">1.8</text>
+<text x="200" y="312" font-size="16" text-anchor="middle" fill="#555">単位：×10⁸ W/m³（付録表S3）</text>
+</svg>
