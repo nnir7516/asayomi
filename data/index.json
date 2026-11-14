@@ -1,7 +1,83 @@
 {
  "version": 1,
- "updated": "2026-11-14T07:21:27+09:00",
+ "updated": "2026-11-15T07:18:49+09:00",
  "issues": [
+  {
+   "id": "2026-11-15-ai",
+   "date": "2026-11-15",
+   "series": "ai",
+   "title": "米議会、対中AI半導体の輸出規制強化へ",
+   "lead": [
+    "米議会でAI半導体の対中輸出規制を強める法案を国防権限法に入れる動き。中国は反発。",
+    "経産省、AIによる声・肖像の無断利用を不正競争防止法で規制する具体案を提示。",
+    "Metaが格安のエージェント向けモデルを公開、FAAはAI管制支援を全国へ拡大。"
+   ],
+   "items": [
+    {
+     "id": "20261115-ai-01",
+     "category": "規制・政策",
+     "title": "米議会、対中AI半導体の輸出規制強化を国防権限法に盛り込む動き　中国は反発",
+     "url": "https://taipeitimes.com/News/biz/archives/2026/11/14/2003867699",
+     "keywords": [
+      "輸出規制",
+      "AI半導体",
+      "米議会",
+      "中国",
+      "Nvidia"
+     ]
+    },
+    {
+     "id": "20261115-ai-02",
+     "category": "日本の動き",
+     "title": "経産省、AIによる「声」「肖像」の無断利用を規制する具体案",
+     "url": "https://news.yahoo.co.jp/articles/5abe1c83a1bcc8fc4b1df78460628aa3f444f806",
+     "keywords": [
+      "経済産業省",
+      "不正競争防止法",
+      "生成AI",
+      "肖像権",
+      "声の権利"
+     ]
+    },
+    {
+     "id": "20261115-ai-03",
+     "category": "モデル・製品",
+     "title": "Meta、エージェント向けの軽量モデル「Muse Ember」を公開",
+     "url": "https://research.meta.ai/blog/muse-ember",
+     "keywords": [
+      "Meta",
+      "Muse Ember",
+      "AIエージェント",
+      "API価格",
+      "小型モデル"
+     ]
+    },
+    {
+     "id": "20261115-ai-04",
+     "category": "規制・政策",
+     "title": "米FAA、AIの航空交通計画ツール「SMART」を全22の管制センターに拡大",
+     "url": "https://www.flyingmag.com/faa-smart-ai-now-active-at-22-artccs-nationwide/",
+     "keywords": [
+      "FAA",
+      "航空管制",
+      "公共AI",
+      "AI安全"
+     ]
+    },
+    {
+     "id": "20261115-ai-05",
+     "category": "半導体・データセンター",
+     "title": "米電力会社のデータセンター需要、契約済みはごく一部",
+     "url": "https://www.latitudemedia.com/news/data-centers-face-a-carbon-free-power-gap-that-utilities-havent-filled/",
+     "keywords": [
+      "データセンター",
+      "電力",
+      "電力会社",
+      "需要予測"
+     ]
+    }
+   ]
+  },
   {
    "id": "2026-11-14-thermal",
    "date": "2026-11-14",
