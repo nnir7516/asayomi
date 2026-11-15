@@ -1,7 +1,71 @@
 {
  "version": 1,
- "updated": "2026-11-15T07:25:46+09:00",
+ "updated": "2026-11-16T07:18:50+09:00",
  "issues": [
+  {
+   "id": "2026-11-16-ai",
+   "date": "2026-11-16",
+   "series": "ai",
+   "title": "米FRB、金融安定の最大リスクに「AI」　関連債務は6,800億ドル",
+   "lead": [
+    "米FRBの金融安定報告で、市場関係者の87%がAIを最大のリスクに挙げ、AI計算基盤向けの債務発行は約6,800億ドルに膨らんだ。",
+    "OpenAIはロボット専門チームを解散し、研究者を本体の研究・応用部門へ移した。汎用モデルでロボットを動かす方針に寄せる。",
+    "華為はエージェント・コーディング向けの「openPangu-2.1-Pro」を公開。マレーシアはデータセンターの電力量でAI半導体の横流しを見張る法案を検討している。"
+   ],
+   "items": [
+    {
+     "id": "20261116-ai-01",
+     "category": "ビジネス・投資",
+     "title": "米FRB、金融安定の最大リスクに「AI」　関連債務は6,800億ドル",
+     "url": "https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf",
+     "keywords": [
+      "FRB",
+      "金融安定",
+      "AI投資",
+      "データセンター",
+      "債務"
+     ]
+    },
+    {
+     "id": "20261116-ai-02",
+     "category": "研究",
+     "title": "OpenAI、ロボット専門チームを解散　汎用モデルでロボットを動かす方針",
+     "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/",
+     "keywords": [
+      "OpenAI",
+      "ロボット",
+      "フィジカルAI",
+      "組織再編"
+     ]
+    },
+    {
+     "id": "20261116-ai-03",
+     "category": "モデル・製品",
+     "title": "華為、エージェント向けの「openPangu-2.1-Pro」を華為雲で公開",
+     "url": "https://www.ithome.com/1/027/450.htm",
+     "keywords": [
+      "華為",
+      "openPangu",
+      "中国AI",
+      "AIエージェント",
+      "オープンソース"
+     ]
+    },
+    {
+     "id": "20261116-ai-04",
+     "category": "半導体・データセンター",
+     "title": "マレーシア、データセンターの電力量でAI半導体の横流しを見張る法案を検討",
+     "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/malaysia-plans-new-law-using-data-center-power-consumption-to-catch-ai-gpu-smugglers-but-real-world-tdp-variance-and-lack-of-physical-audits-could-undermine-it-new-law-also-forces-operators-to-pay-for-unused-electricity-capacity",
+     "keywords": [
+      "マレーシア",
+      "データセンター",
+      "電力",
+      "輸出規制",
+      "GPU"
+     ]
+    }
+   ]
+  },
   {
    "id": "2026-11-15-thermal",
    "date": "2026-11-15",

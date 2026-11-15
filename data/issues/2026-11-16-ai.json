@@ -1,0 +1,161 @@
+{
+ "id": "2026-11-16-ai",
+ "date": "2026-11-16",
+ "series": "ai",
+ "title": "米FRB、金融安定の最大リスクに「AI」　関連債務は6,800億ドル",
+ "lead": [
+  "米FRBの金融安定報告で、市場関係者の87%がAIを最大のリスクに挙げ、AI計算基盤向けの債務発行は約6,800億ドルに膨らんだ。",
+  "OpenAIはロボット専門チームを解散し、研究者を本体の研究・応用部門へ移した。汎用モデルでロボットを動かす方針に寄せる。",
+  "華為はエージェント・コーディング向けの「openPangu-2.1-Pro」を公開。マレーシアはデータセンターの電力量でAI半導体の横流しを見張る法案を検討している。"
+ ],
+ "body": "## 主要ニュース\n\n### 1. 米FRB、金融安定の最大リスクに「AI」　関連債務は6,800億ドル\n米連邦準備制度理事会（FRB）が11月13日に公表した金融安定報告で、市場関係者への聞き取りの結果、87%がAIを最大のリスクに挙げました（春の調査は50%）。AI向け計算基盤の債務発行は2026年10月までに約6,800億ドルに達し、2023年の約5倍です。報告は、1990年代末の通信バブルと比べる記述も入れています。\n\n**なぜ重要か：** AI投資が借金頼みになってきたことを中央銀行が正式に警告したもので、今後の資金調達や株価に影響しうるためです。\n\n**確かさ：高**（FRBの報告書PDFが公開され、複数の報道も同じ数字を伝えている）\n\n出典：[Federal Reserve「Financial Stability Report November 2026」](https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf)\n\n### 2. OpenAI、ロボット専門チームを解散　汎用モデルでロボットを動かす方針\nFortuneの独自報道によると、OpenAIは独立したロボットチームを解散し、研究者はマーク・チェン氏の研究部門へ、応用・ハードウェアの担当はブロックマン社長の応用部門へ移りました。OpenAIは再編を認め、ロボット事業から撤退するわけではないと説明しています。\n\n**なぜ重要か：** ロボット専用のモデルを作るより、汎用の大きなモデルをそのままロボットに使う流れが強まっていることを示すためです。\n\n**確かさ：中**（OpenAIがFortuneに再編を認めた。報道は主にFortune 1社が起点）\n\n出典：[Fortune](https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/)\n\n### 3. 華為、エージェント向けの「openPangu-2.1-Pro」を華為雲で公開\n華為雲は11月15日、オープンソースの盤古モデル「openPangu-2.1-Pro」をモデル提供基盤MaaSで公開しました。エージェント開発、AIコーディング、推論の効率化を強化し、鴻蒙（HarmonyOS）アプリ開発や昇騰チップ用の演算コード生成に力を入れています。パラメータ数や性能比較の数値は公表されていません。\n\n**なぜ重要か：** 米国の半導体規制のもとで、中国が自国のチップとOSに合わせたAIを育てている動きの一つだからです。\n\n**確かさ：中**（華為雲の発表を中国の複数メディアが報道。仕様の詳細は未公表）\n\n出典：[IT之家](https://www.ithome.com/1/027/450.htm)\n\n## 注目：AI × データセンター・電力・冷却\n\n### マレーシア、データセンターの電力量でAI半導体の横流しを見張る法案を検討\nマレーシア政府は、データセンター事業者にGPUの輸入量、消費電力、所在地、大口顧客などの報告を義務づける法律を検討しています。電力の使用量から、米国が規制するAI半導体が中国などへ流れていないかを確かめるねらいです。使わない電力容量にも料金を払わせる案も含まれます。\n\n**なぜ重要か：** 東南アジアのデータセンター投資に、電力の監視という新しい規制がかかる可能性があるためです。\n\n**確かさ：中**（複数の報道が伝えているが、法案の条文は未公表。電力だけで台数は分からないとの指摘もある）\n\n出典：[Tom's Hardware](https://www.tomshardware.com/tech-industry/artificial-intelligence/malaysia-plans-new-law-using-data-center-power-consumption-to-catch-ai-gpu-smugglers-but-real-world-tdp-variance-and-lack-of-physical-audits-could-undermine-it-new-law-also-forces-operators-to-pay-for-unused-electricity-capacity)\n\n## 今日のトレンドを一文で\nAIの拡大は、借金と電力という「お金とインフラの重さ」をめぐる監視の段階に入ってきました。",
+ "items": [
+  {
+   "id": "20261116-ai-01",
+   "category": "ビジネス・投資",
+   "title": "米FRB、金融安定の最大リスクに「AI」　関連債務は6,800億ドル",
+   "summary": "FRBが11月13日に公表した金融安定報告で、市場関係者の87%がAIを最大のリスクに挙げた（春は50%）。AI向け計算基盤の債務発行は2026年10月までに約6,800億ドルと、2023年の約5倍に増えた。",
+   "why": "AI投資が借金頼みになってきたことを中央銀行が正式に警告し、資金調達や株価に影響しうるため。",
+   "url": "https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf",
+   "source": "Federal Reserve",
+   "keywords": [
+    "FRB",
+    "金融安定",
+    "AI投資",
+    "データセンター",
+    "債務"
+   ],
+   "credibility": {
+    "level": "高",
+    "summary": "FRBの報告書PDFで確認でき、複数の報道も同じ数字を伝えている",
+    "checks": [
+     "一次情報：FRB「Financial Stability Report November 2026」",
+     "報道：Nation Thailand、Coinpaperなど複数社が87%・6,800億ドルを報道"
+    ]
+   },
+   "quiz": [
+    {
+     "q": "FRBの金融安定報告で、AIについて示された内容として正しいものはどれ？",
+     "choices": [
+      "AIは金融のリスクではなく安定要因だとされた",
+      "市場関係者が挙げたリスクの中で、AIが最も多かった",
+      "AI向けの債務は2023年より減ったとされた",
+      "AIのリスクは地政学リスクに次ぐ2位だった"
+     ],
+     "answer": 1,
+     "explain": "今回の調査ではAIが最も多く挙げられたリスクで、87%が選んだ。AI向け計算基盤の債務は2023年の約5倍に増えている。"
+    }
+   ]
+  },
+  {
+   "id": "20261116-ai-02",
+   "category": "研究",
+   "title": "OpenAI、ロボット専門チームを解散　汎用モデルでロボットを動かす方針",
+   "summary": "Fortuneの独自報道によると、OpenAIは独立したロボットチームを解散し、研究者は研究部門、応用・ハードウェア担当は応用部門へ移した。OpenAIは再編を認め、ロボット事業からの撤退ではないと説明している。",
+   "why": "ロボット専用モデルより、汎用の大規模モデルをそのままロボットに使う流れが強まっていることを示すため。",
+   "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/",
+   "source": "Fortune",
+   "keywords": [
+    "OpenAI",
+    "ロボット",
+    "フィジカルAI",
+    "組織再編"
+   ],
+   "credibility": {
+    "level": "中",
+    "summary": "OpenAIがFortuneに再編を認めたが、報道の起点はFortune 1社",
+    "checks": [
+     "一次情報：OpenAIの公式発表はなし（Fortuneへの広報コメントのみ）",
+     "報道：Fortuneの独自報道をSeeking Alphaなどが追った"
+    ]
+   },
+   "quiz": [
+    {
+     "q": "OpenAIがロボットチームを解散した理由として、記事で説明されている考え方はどれ？",
+     "choices": [
+      "ロボット事業から完全に撤退するため",
+      "ロボット開発を外部企業に全面委託するため",
+      "汎用の大きなモデルをロボットに直接使えるようになってきたため",
+      "規制当局からロボット研究の中止を求められたため"
+     ],
+     "answer": 2,
+     "explain": "OpenAIは撤退ではないと説明しており、汎用モデルでロボットを動かす方向に寄せるための再編とされる。"
+    }
+   ]
+  },
+  {
+   "id": "20261116-ai-03",
+   "category": "モデル・製品",
+   "title": "華為、エージェント向けの「openPangu-2.1-Pro」を華為雲で公開",
+   "summary": "華為雲は11月15日、オープンソースの盤古モデル「openPangu-2.1-Pro」をMaaS基盤で公開した。エージェント開発、AIコーディング、推論の効率化を強化し、鴻蒙アプリ開発や昇騰チップ用の演算コード生成に力を入れる。パラメータ数や性能比較は公表していない。",
+   "why": "米国の半導体規制のもとで、中国が自国のチップとOSに合わせたAIを育てている動きの一つだから。",
+   "url": "https://www.ithome.com/1/027/450.htm",
+   "source": "IT之家",
+   "keywords": [
+    "華為",
+    "openPangu",
+    "中国AI",
+    "AIエージェント",
+    "オープンソース"
+   ],
+   "credibility": {
+    "level": "中",
+    "summary": "華為雲の発表を中国の複数メディアが伝えているが、仕様の詳細は未公表",
+    "checks": [
+     "一次情報：華為雲の発表（メディア経由で確認）",
+     "報道：IT之家、新浪財経など複数社"
+    ]
+   },
+   "quiz": [
+    {
+     "q": "openPangu-2.1-Proが特に力を入れている分野はどれ？",
+     "choices": [
+      "画像生成と動画編集",
+      "エージェント開発とAIコーディング",
+      "自動運転の制御",
+      "音声翻訳"
+     ],
+     "answer": 1,
+     "explain": "エージェント開発、AIコーディング、推論の効率化の3つを強化し、鴻蒙アプリや昇騰向けのコード生成を重視している。"
+    }
+   ]
+  },
+  {
+   "id": "20261116-ai-04",
+   "category": "半導体・データセンター",
+   "title": "マレーシア、データセンターの電力量でAI半導体の横流しを見張る法案を検討",
+   "summary": "マレーシア政府は、データセンター事業者にGPUの輸入量、消費電力、所在地、大口顧客などの報告を義務づける法律を検討している。電力の使用量から、米国が規制するAI半導体の横流しを見つけるねらいで、使わない電力容量にも料金を払わせる案も含む。",
+   "why": "東南アジアのデータセンター投資に、電力の監視という新しい規制がかかる可能性があるため。",
+   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/malaysia-plans-new-law-using-data-center-power-consumption-to-catch-ai-gpu-smugglers-but-real-world-tdp-variance-and-lack-of-physical-audits-could-undermine-it-new-law-also-forces-operators-to-pay-for-unused-electricity-capacity",
+   "source": "Tom's Hardware",
+   "keywords": [
+    "マレーシア",
+    "データセンター",
+    "電力",
+    "輸出規制",
+    "GPU"
+   ],
+   "credibility": {
+    "level": "中",
+    "summary": "複数の報道が伝えているが、法案の条文は未公表",
+    "checks": [
+     "一次情報：法案の公表はまだ（貿易相の発言として報道）",
+     "報道：Tom's Hardware、The Standard（香港）など"
+    ]
+   },
+   "quiz": [
+    {
+     "q": "マレーシアが検討している法案で、AI半導体の横流しを見つける手がかりにしようとしているものはどれ？",
+     "choices": [
+      "データセンターの消費電力",
+      "従業員の出入りの記録",
+      "冷却水の水質",
+      "建物の床面積だけ"
+     ],
+     "answer": 0,
+     "explain": "GPUの輸入量とあわせて消費電力を報告させ、使用状況を確かめようとしている。ただし電力だけでは台数は分からないとの指摘もある。"
+    }
+   ]
+  }
+ ]
+}
