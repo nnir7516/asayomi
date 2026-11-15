@@ -1,7 +1,35 @@
 {
  "version": 1,
- "updated": "2026-11-16T07:18:50+09:00",
+ "updated": "2026-11-16T07:22:24+09:00",
  "issues": [
+  {
+   "id": "2026-11-16-thermal",
+   "date": "2026-11-16",
+   "series": "thermal",
+   "title": "GPUの上にDRAMを縦置き：冷却キャビティで最高温度を約18℃下げる3D積層の熱設計範囲（imec）",
+   "lead": [
+    "imecは、DRAMを縦向きに並べて間に高熱伝導の「冷却キャビティ」を挟む3D積層を解析し、同じ容量のHBM-on-GPUより最高温度を121.7℃から103.4℃に下げられると示した。",
+    "温度を最も左右するのは積層高さで、次がキャビティ材料（Si→銅・ダイヤモンド）。DRAMを詰めるほど、またモールドで分割するほど熱くなる。",
+    "積層の向きで高温部の位置が入れ替わるため、コールドプレート側も非一様な熱流束とパッケージ内部の伝熱方向を前提に設計する必要が出てくる。"
+   ],
+   "items": [
+    {
+     "id": "20261116-thermal-01",
+     "category": "熱材料",
+     "title": "HBM-on-GPUの先へ：体積型（縦置き）DRAM-on-GPU 3D集積の熱設計範囲",
+     "url": "https://arxiv.org/abs/2609.24343",
+     "keywords": [
+      "3D積層",
+      "HBM",
+      "高熱伝導材料",
+      "パッケージ熱解析",
+      "ホットスポット"
+     ],
+     "paperId": "arXiv:2609.24343",
+     "titleOriginal": "Beyond HBM-on-GPU: Thermal Design Envelope for 3D Volumetric DRAM-on-GPU Integration"
+    }
+   ]
+  },
   {
    "id": "2026-11-16-ai",
    "date": "2026-11-16",

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 330">
+<rect x="0" y="0" width="400" height="330" fill="#ffffff" />
+<text x="200" y="24" font-size="18" font-weight="bold" text-anchor="middle" fill="#222">体積型DRAM-on-GPUの断面</text>
+<rect x="20" y="40" width="240" height="30" fill="#cfd8dc" stroke="#555" />
+<text x="140" y="61" font-size="16" text-anchor="middle" fill="#222">蓋（Lid）</text>
+<rect x="20" y="70" width="240" height="8" fill="#ffe082" stroke="#555" />
+<g stroke="#555">
+<rect x="20" y="78" width="30" height="140" fill="#64b5f6" /><rect x="50" y="78" width="14" height="140" fill="#ffcc80" />
+<rect x="64" y="78" width="30" height="140" fill="#64b5f6" /><rect x="94" y="78" width="14" height="140" fill="#ffcc80" />
+<rect x="108" y="78" width="30" height="140" fill="#64b5f6" /><rect x="138" y="78" width="14" height="140" fill="#ffcc80" />
+<rect x="152" y="78" width="30" height="140" fill="#64b5f6" /><rect x="182" y="78" width="14" height="140" fill="#ffcc80" />
+<rect x="196" y="78" width="30" height="140" fill="#64b5f6" /><rect x="226" y="78" width="14" height="140" fill="#ffcc80" />
+<rect x="240" y="78" width="20" height="140" fill="#64b5f6" />
+</g>
+<g stroke="#d32f2f" stroke-width="3" fill="#d32f2f">
+<line x1="57" y1="205" x2="57" y2="100" /><polygon points="51,102 63,102 57,90" />
+<line x1="145" y1="205" x2="145" y2="100" /><polygon points="139,102 151,102 145,90" />
+<line x1="233" y1="205" x2="233" y2="100" /><polygon points="227,102 239,102 233,90" />
+</g>
+<rect x="20" y="218" width="240" height="6" fill="#9e9e9e" />
+<rect x="20" y="224" width="240" height="32" fill="#e57373" stroke="#555" />
+<text x="140" y="246" font-size="16" text-anchor="middle" fill="#222">GPU 414 W</text>
+<rect x="20" y="256" width="240" height="18" fill="#a5d6a7" stroke="#555" />
+<text x="20" y="296" font-size="16" fill="#222">基板（下面 HTC 200 W/m²K）</text>
+<text x="20" y="320" font-size="16" fill="#222">蓋の上面 HTC 30,000 W/m²K</text>
+<rect x="272" y="84" width="16" height="16" fill="#64b5f6" stroke="#555" />
+<text x="294" y="98" font-size="16" fill="#222">縦置きDRAM</text>
+<rect x="272" y="112" width="16" height="16" fill="#ffcc80" stroke="#555" />
+<text x="294" y="126" font-size="16" fill="#222">キャビティ</text>
+<text x="272" y="150" font-size="16" fill="#222">幅180 µm</text>
+<text x="272" y="172" font-size="16" fill="#222">Si / Cu / ダイヤ</text>
+<line x1="274" y1="200" x2="290" y2="200" stroke="#d32f2f" stroke-width="3" />
+<text x="294" y="205" font-size="16" fill="#222">熱の流れ</text>
+<text x="272" y="232" font-size="16" fill="#222">高さ 3〜10 mm</text>
+<text x="272" y="258" font-size="16" fill="#222">μバンプ接合</text>
+</svg>
