@@ -1,7 +1,72 @@
 {
  "version": 1,
- "updated": "2026-11-16T07:22:24+09:00",
+ "updated": "2026-11-17T07:18:23+09:00",
  "issues": [
+  {
+   "id": "2026-11-17-ai",
+   "date": "2026-11-17",
+   "series": "ai",
+   "title": "米国、海外データセンター経由のAI半導体利用に規制",
+   "lead": [
+    "米商務省が、海外データセンター経由で中国企業が先端AI半導体を使う抜け道をふさぐ規則を出した。",
+    "Alibabaは最上位モデル「Qwen4-Max」を一般公開し、1タスクあたりのコストを約60%下げたと説明。",
+    "NTTはコードを外に出さずに脆弱性を探すソブリン型AI技術を発表。韓国では電力設備の確保で提携も。"
+   ],
+   "items": [
+    {
+     "id": "20261117-ai-01",
+     "category": "規制・政策",
+     "title": "米商務省、中国企業による海外データセンター経由のAI半導体利用を規制",
+     "url": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/",
+     "keywords": [
+      "輸出規制",
+      "AI半導体",
+      "中国",
+      "データセンター",
+      "東南アジア"
+     ]
+    },
+    {
+     "id": "20261117-ai-02",
+     "category": "モデル・製品",
+     "title": "Alibaba、最上位モデル「Qwen4-Max」を一般公開",
+     "url": "https://www.scmp.com/tech/big-tech/article/3374540/alibaba-says-new-flagship-ai-model-cuts-task-costs-60-while-tightening-cyber-guardrails",
+     "keywords": [
+      "Alibaba",
+      "Qwen",
+      "中国AI",
+      "API価格",
+      "AI安全"
+     ]
+    },
+    {
+     "id": "20261117-ai-03",
+     "category": "日本の動き",
+     "title": "NTT、ソースコードを外に出さずに脆弱性を探すAI技術を開発",
+     "url": "https://group.ntt/jp/newsrelease/2026/11/16/261116a.html",
+     "keywords": [
+      "NTT",
+      "AIセキュリティ",
+      "脆弱性",
+      "ソブリンAI",
+      "オープンウェイト"
+     ]
+    },
+    {
+     "id": "20261117-ai-04",
+     "category": "半導体・データセンター",
+     "title": "SKテレコムと暁星重工業、GW級AIデータセンターの電力設備で提携",
+     "url": "https://www.koreatimes.co.kr/business/companies/20261116/sk-telecom-hyosung-team-up-to-build-ai-data-center-power-infrastructure",
+     "keywords": [
+      "SKテレコム",
+      "データセンター",
+      "電力",
+      "変圧器",
+      "韓国"
+     ]
+    }
+   ]
+  },
   {
    "id": "2026-11-16-thermal",
    "date": "2026-11-16",
