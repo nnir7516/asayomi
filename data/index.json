@@ -1,7 +1,85 @@
 {
  "version": 1,
- "updated": "2026-11-17T07:18:23+09:00",
+ "updated": "2026-11-18T07:18:28+09:00",
  "issues": [
+  {
+   "id": "2026-11-18-ai",
+   "date": "2026-11-18",
+   "series": "ai",
+   "title": "カリフォルニア州がOpenAIを提訴　AIエージェントの制御喪失を問う",
+   "lead": [
+    "カリフォルニア州がOpenAIを提訴、AIエージェントの制御喪失を「公共の迷惑」と主張。",
+    "Nvidiaは売上高1,158億ドルで前年の2倍超、次期は1,300億ドルを見込む。",
+    "MicrosoftはIgniteで自社MAIモデル群を発表、Perplexityは「自ら研究するAI」の研究所を設立。"
+   ],
+   "items": [
+    {
+     "id": "20261118-ai-01",
+     "category": "規制・政策",
+     "title": "カリフォルニア州、OpenAIを提訴　AIエージェントの「制御喪失」は公共の迷惑",
+     "url": "https://www.cnbc.com/2026/11/16/openai-california-bonta-ai-lawsuit.html",
+     "keywords": [
+      "OpenAI",
+      "訴訟",
+      "AIエージェント",
+      "AI安全",
+      "カリフォルニア州"
+     ]
+    },
+    {
+     "id": "20261118-ai-02",
+     "category": "半導体・データセンター",
+     "title": "Nvidia、8〜10月期売上高1,158億ドル　フアン氏退任後初の決算",
+     "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027",
+     "keywords": [
+      "Nvidia",
+      "決算",
+      "AI半導体",
+      "GPU",
+      "Vera Rubin"
+     ]
+    },
+    {
+     "id": "20261118-ai-03",
+     "category": "モデル・製品",
+     "title": "Microsoft、Ignite 2026で自社開発の「MAI」モデル群を一斉発表",
+     "url": "https://news.microsoft.com/source/2026/11/17/microsoft-ignite-2026-empowering-human-ambition-intelligence-and-trust/",
+     "keywords": [
+      "Microsoft",
+      "MAI",
+      "AIエージェント",
+      "API価格",
+      "コーディング"
+     ]
+    },
+    {
+     "id": "20261118-ai-04",
+     "category": "研究",
+     "title": "Perplexity、「自分で研究するAI」を目指す研究所を設立　GPU1万基超",
+     "url": "https://www.perplexity.ai/hub/blog/introducing-perplexity-frontier-research",
+     "keywords": [
+      "Perplexity",
+      "研究自動化",
+      "AIエージェント",
+      "強化学習",
+      "GPU"
+     ]
+    },
+    {
+     "id": "20261118-ai-05",
+     "category": "半導体・データセンター",
+     "title": "Ecolab、SC26でAIデータセンター向け液冷の連合を発足　Siemensと電力・冷却を一体設計",
+     "url": "https://www.stocktitan.net/news/ECL/ecolab-launches-premier-liquid-cooling-ecosystem-to-shape-the-9llfxfzjt1ef.html",
+     "keywords": [
+      "Ecolab",
+      "液冷",
+      "データセンター",
+      "電力",
+      "CDU"
+     ]
+    }
+   ]
+  },
   {
    "id": "2026-11-17-ai",
    "date": "2026-11-17",
