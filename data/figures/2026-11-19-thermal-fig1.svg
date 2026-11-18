@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<rect width="400" height="300" fill="#ffffff" />
+<text x="200" y="26" text-anchor="middle" font-size="18" font-weight="bold" font-family="sans-serif" fill="#222">しきい値Cで壁を動かす</text>
+<g transform="translate(20,50)">
+<rect x="0" y="0" width="160" height="150" fill="#fde2dc" stroke="#555" />
+<path d="M0,0 L80,0 C60,40 100,110 80,150 L0,150 Z" fill="#fde2dc" />
+<path d="M80,0 C60,40 100,110 80,150 L160,150 L160,0 Z" fill="#dbe8f8" />
+<path d="M80,0 C60,40 100,110 80,150" stroke="#333" stroke-width="5" fill="none" />
+<text x="38" y="80" text-anchor="middle" font-size="16" font-family="sans-serif" fill="#b33a2a">高温</text>
+<text x="124" y="80" text-anchor="middle" font-size="16" font-family="sans-serif" fill="#1f5fa8">低温</text>
+<text x="80" y="176" text-anchor="middle" font-size="16" font-family="sans-serif" fill="#222">一様格子</text>
+</g>
+<g transform="translate(220,50)">
+<rect x="0" y="0" width="160" height="150" fill="#dbe8f8" stroke="#555" />
+<path d="M0,0 L118,0 C98,40 138,110 118,150 L0,150 Z" fill="#fde2dc" />
+<path d="M118,0 C98,40 138,110 118,150" stroke="#333" stroke-width="5" fill="none" />
+<text x="56" y="80" text-anchor="middle" font-size="16" font-family="sans-serif" fill="#b33a2a">高温が太い</text>
+<text x="80" y="176" text-anchor="middle" font-size="16" font-family="sans-serif" fill="#222">壁をずらす</text>
+</g>
+<text x="200" y="128" text-anchor="middle" font-size="22" font-family="sans-serif" fill="#444">→</text>
+<text x="200" y="256" text-anchor="middle" font-size="16" font-family="sans-serif" fill="#222">単位セル 5 mm／最小壁厚 約0.5 mm</text>
+<text x="200" y="282" text-anchor="middle" font-size="16" font-family="sans-serif" fill="#222">C は −0.65〜0.65 の範囲</text>
+</svg>

@@ -1,7 +1,36 @@
 {
  "version": 1,
- "updated": "2026-11-19T07:18:05+09:00",
+ "updated": "2026-11-19T07:21:48+09:00",
  "issues": [
+  {
+   "id": "2026-11-19-thermal",
+   "date": "2026-11-19",
+   "series": "thermal",
+   "title": "積層造形TPMS熱交換器、流路の太さ配分を最適化して熱交換量2割増",
+   "lead": [
+    "積層造形で作るTPMS格子の2流体熱交換器で、場所ごとに高温側と低温側の流路の太さを最適化した。",
+    "伝熱面積も材料の量もほぼ同じまま、流量をそろえた比較で熱交換量が実験で平均23.3%増えた（316LのLPBF試作）。",
+    "ただし0.5 mm級の細いのどは造形で断面積が半分以下に縮み、圧損が想定より増えた。最小流路幅を決めるのは造形能力だ。"
+   ],
+   "items": [
+    {
+     "id": "20261119-thermal-01",
+     "category": "流路・製造",
+     "title": "巨視的解析にもとづく、積層造形の可変TPMS格子熱交換器の「流れの優先度」最適化",
+     "url": "https://arxiv.org/abs/2512.10207",
+     "keywords": [
+      "TPMS",
+      "積層造形",
+      "熱交換器",
+      "格子構造最適化",
+      "圧力損失",
+      "LPBF"
+     ],
+     "paperId": "arXiv:2512.10207",
+     "titleOriginal": "Flow-priority optimization of additively manufactured variable-TPMS lattice heat exchanger based on macroscopic analysis"
+    }
+   ]
+  },
   {
    "id": "2026-11-19-ai",
    "date": "2026-11-19",

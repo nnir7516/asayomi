@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 310">
+<rect width="400" height="310" fill="#ffffff" />
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#b33a2a" /></marker></defs>
+<text x="200" y="26" text-anchor="middle" font-size="18" font-weight="bold" font-family="sans-serif" fill="#222">流れ方の変化（概念図）</text>
+<g transform="translate(20,48)">
+<rect x="0" y="0" width="160" height="150" fill="#f6f6f6" stroke="#555" />
+<path d="M30,140 L30,15 L60,15 L60,140" stroke="#b33a2a" stroke-width="4" fill="none" marker-end="url(#a)" />
+<path d="M100,140 L100,15 L130,15 L130,140" stroke="#e7a99f" stroke-width="3" fill="none" stroke-dasharray="6 4" />
+<text x="80" y="176" text-anchor="middle" font-size="16" font-family="sans-serif" fill="#222">一様格子</text>
+<text x="80" y="198" text-anchor="middle" font-size="16" font-family="sans-serif" fill="#222">ほぼ縦に流れる</text>
+</g>
+<g transform="translate(220,48)">
+<rect x="0" y="0" width="160" height="150" fill="#f6f6f6" stroke="#555" />
+<path d="M30,140 L130,20 M130,20 L30,20 L130,140" stroke="#b33a2a" stroke-width="4" fill="none" marker-end="url(#a)" />
+<text x="80" y="176" text-anchor="middle" font-size="16" font-family="sans-serif" fill="#222">最適格子</text>
+<text x="80" y="198" text-anchor="middle" font-size="16" font-family="sans-serif" fill="#222">斜めに横切る</text>
+</g>
+<text x="200" y="276" text-anchor="middle" font-size="16" font-family="sans-serif" fill="#222">有効流路長（高温側）</text>
+<text x="200" y="300" text-anchor="middle" font-size="16" font-weight="bold" font-family="sans-serif" fill="#b33a2a">0.134 m → 0.169 m</text>
+</svg>
