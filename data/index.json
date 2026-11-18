@@ -1,7 +1,72 @@
 {
  "version": 1,
- "updated": "2026-11-18T07:18:28+09:00",
+ "updated": "2026-11-19T07:18:05+09:00",
  "issues": [
+  {
+   "id": "2026-11-19-ai",
+   "date": "2026-11-19",
+   "series": "ai",
+   "title": "Anthropic、上場価格83ドルで決定　OpenAIとGoogleは新モデル",
+   "lead": [
+    "Anthropicの上場価格が仮条件を超える83ドルに決まったと報道、19日にナスダックで取引開始へ。",
+    "OpenAIは「GPT-6.2 Astra／Sol」、Googleは「Gemini 4 Neon」を公開し、性能と価格の競争が続く。",
+    "データセンター集積地の米ラウドン郡が新規申請の審議を12か月止め、電力の制約が表面化。"
+   ],
+   "items": [
+    {
+     "id": "20261119-ai-01",
+     "category": "ビジネス・投資",
+     "title": "続報：Anthropic、上場価格を1株83ドルに決定　仮条件の上限を超える",
+     "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html",
+     "keywords": [
+      "Anthropic",
+      "IPO",
+      "ナスダック",
+      "評価額",
+      "AI投資"
+     ]
+    },
+    {
+     "id": "20261119-ai-02",
+     "category": "モデル・製品",
+     "title": "OpenAI、「GPT-6.2 Astra」と「GPT-6.2 Sol」を公開",
+     "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+     "keywords": [
+      "OpenAI",
+      "GPT-6.2",
+      "API価格",
+      "AI安全",
+      "コーディング"
+     ]
+    },
+    {
+     "id": "20261119-ai-03",
+     "category": "モデル・製品",
+     "title": "Google、「Gemini 4 Neon」を公開　上位級の性能を高速・低価格で",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+     "keywords": [
+      "Google",
+      "Gemini 4 Neon",
+      "API価格",
+      "AIエージェント",
+      "Antigravity"
+     ]
+    },
+    {
+     "id": "20261119-ai-04",
+     "category": "半導体・データセンター",
+     "title": "米ラウドン郡、データセンターの新規申請を12か月停止",
+     "url": "https://www.datacenterdynamics.com/en/news/virginias-loudoun-county-officially-adopts-12-month-moratorium-on-data-center-development/",
+     "keywords": [
+      "データセンター",
+      "モラトリアム",
+      "電力",
+      "バージニア州",
+      "規制"
+     ]
+    }
+   ]
+  },
   {
    "id": "2026-11-18-ai",
    "date": "2026-11-18",
