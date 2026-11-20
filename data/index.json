@@ -1,7 +1,83 @@
 {
  "version": 1,
- "updated": "2026-11-20T07:18:09+09:00",
+ "updated": "2026-11-21T07:17:54+09:00",
  "issues": [
+  {
+   "id": "2026-11-21-ai",
+   "date": "2026-11-21",
+   "series": "ai",
+   "title": "Google、世界モデル「Genie 4」を開発者に公開",
+   "lead": [
+    "Googleの世界モデル「Genie 4」とOpenAIの音声モデル「GPT-Live-1.1」が、開発者向けAPIで使えるようになった。",
+    "欧州委員会は、職員向けシステムを止めたサイバー攻撃でAIツールが使われたと認めた。",
+    "ドイツテレコムがMistral AIに出資し、Alibabaはデータセンター目標の引き下げを示唆した。"
+   ],
+   "items": [
+    {
+     "id": "20261121-ai-01",
+     "category": "モデル・製品",
+     "title": "Google、世界モデル「Genie 4」をGemini APIで開発者に公開",
+     "url": "https://thenewstack.io/genie-4-world-model/",
+     "keywords": [
+      "Google",
+      "Genie 4",
+      "世界モデル",
+      "Gemini API",
+      "AIエージェント"
+     ]
+    },
+    {
+     "id": "20261121-ai-02",
+     "category": "モデル・製品",
+     "title": "OpenAI、音声モデル「GPT-Live-1.1」をAPIで公開　待機中を安くする機能も",
+     "url": "https://community.openai.com/t/gpt-live-1-1-has-arrived-in-the-api/1418537",
+     "keywords": [
+      "OpenAI",
+      "GPT-Live",
+      "音声AI",
+      "API価格",
+      "AIエージェント"
+     ]
+    },
+    {
+     "id": "20261121-ai-03",
+     "category": "規制・政策",
+     "title": "欧州委員会、AIを使ったサイバー攻撃を受けたと認める",
+     "url": "https://therecord.media/european-commission-confirms-cyberattack-using-ai",
+     "keywords": [
+      "欧州委員会",
+      "サイバー攻撃",
+      "AIセキュリティ",
+      "ARTEX"
+     ]
+    },
+    {
+     "id": "20261121-ai-04",
+     "category": "ビジネス・投資",
+     "title": "ドイツテレコム、仏Mistral AIに1億ユーロを出資",
+     "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46Z14O:0-deutsche-telekom-invests-100-million-in-france-s-mistral-ai/",
+     "keywords": [
+      "Mistral AI",
+      "ドイツテレコム",
+      "資金調達",
+      "ソブリンAI"
+     ]
+    },
+    {
+     "id": "20261121-ai-05",
+     "category": "半導体・データセンター",
+     "title": "Alibaba、データセンター20GWの長期目標を下げる可能性",
+     "url": "https://thelowdown.momentum.asia/full-transcript-of-alibabas-q2-2026-earnings-call-qa-section/",
+     "keywords": [
+      "Alibaba",
+      "データセンター",
+      "輸出規制",
+      "中国AI",
+      "AI投資"
+     ]
+    }
+   ]
+  },
   {
    "id": "2026-11-20-ai",
    "date": "2026-11-20",

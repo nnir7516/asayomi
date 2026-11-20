@@ -1,0 +1,197 @@
+{
+ "id": "2026-11-21-ai",
+ "date": "2026-11-21",
+ "series": "ai",
+ "title": "Google、世界モデル「Genie 4」を開発者に公開",
+ "lead": [
+  "Googleの世界モデル「Genie 4」とOpenAIの音声モデル「GPT-Live-1.1」が、開発者向けAPIで使えるようになった。",
+  "欧州委員会は、職員向けシステムを止めたサイバー攻撃でAIツールが使われたと認めた。",
+  "ドイツテレコムがMistral AIに出資し、Alibabaはデータセンター目標の引き下げを示唆した。"
+ ],
+ "body": "## 主要ニュース\n\n### 1. Google、世界モデル「Genie 4」を開発者に公開\nGoogle DeepMindの対話型の世界モデル「Genie 4」が、Gemini API と Google AI Studio から使えるようになりました。文章の指示から720p・24fpsの操作できる映像世界を作り、キーボード操作や音声にも対応します。有料プラン向けで、報道では料金は1分あたり約6ドルです。\n**なぜ重要か：** AIエージェントやロボットの「練習場」になる仮想世界を、だれでもアプリに組み込めるようになります。\n**確かさ：高**（Google公式の開発者向け発表で確認。料金は一部報道のみ）\n出典：[The New Stack](https://thenewstack.io/genie-4-world-model/)\n\n### 2. OpenAI、音声モデル「GPT-Live-1.1」をAPIで公開\nChatGPTの音声会話に使われている「GPT-Live-1.1」が、開発者向けAPIで使えるようになりました。黙っている間は推論を止めて安い料金にする「Standby」機能も加わり、待機中は1分0.02ドル（通常0.05ドル）です。\n**なぜ重要か：** 電話窓口などの音声エージェントで、無言の時間のコストが下がり、導入しやすくなります。\n**確かさ：高**（OpenAI開発者コミュニティの公式告知で確認）\n出典：[OpenAI Developer Community](https://community.openai.com/t/gpt-live-1-1-has-arrived-in-the-api/1418537)\n\n### 3. 欧州委員会、AIを使ったサイバー攻撃を受けたと認める\n欧州委員会は、職員の給与や医療費の払い戻し、翻訳などのシステムが10日以上止まったサイバー攻撃で、攻撃者がAIツールを使ったと認めました。報道では公開されているAI侵入テストツール「ARTEX」が使われたとされますが、委員会はツール名を明かしていません。\n**なぜ重要か：** 公的機関への攻撃でAIの使用が公式に確認された例で、防御側にもAI活用が急がれます。\n**確かさ：高**（欧州委員会の報道官が確認。ツール名は報道ベース）\n出典：[The Record](https://therecord.media/european-commission-confirms-cyberattack-using-ai)\n\n### 4. ドイツテレコム、仏Mistral AIに1億ユーロを出資\nドイツテレコムの投資部門T.Capitalが、Mistral AIの資金調達（シリーズD）に1億ユーロ（約1.1億ドル）を出しました。ドイツの企業や公的機関に「信頼できる欧州のAI」を届ける提携の第一歩と位置づけています。\n**なぜ重要か：** 米中に頼らない欧州のAIを、通信大手が本格的に支える動きです。\n**確かさ：中**（ロイターなど複数の報道で確認。会社の発表文は未確認）\n出典：[Reuters（TradingView）](https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46Z14O:0-deutsche-telekom-invests-100-million-in-france-s-mistral-ai/)\n\n## 注目：AI × データセンター・電力・冷却\n\n### Alibaba、データセンター20GWの目標を下げる可能性\nAlibabaの呉泳銘CEOは11月19日の決算説明会で、2032年までに20GW超とする長期のデータセンター目標が、米国の規制強化などで「下方修正になるかもしれない」と話しました。国産半導体による計算基盤づくりは急ぐ方針です。\n**なぜ重要か：** 先日の米国の対中規制が、中国最大級のクラウドの投資計画にまで影響し始めています。\n**確かさ：高**（決算説明会での経営者の発言で確認）\n出典：[Momentum Works（決算説明会の書き起こし）](https://thelowdown.momentum.asia/full-transcript-of-alibabas-q2-2026-earnings-call-qa-section/)\n\n## 今日のトレンド\nAIは「使える道具」として開発者に広がる一方、攻撃への悪用や規制による投資の見直しなど、副作用も目に見えてきました。\n",
+ "items": [
+  {
+   "id": "20261121-ai-01",
+   "category": "モデル・製品",
+   "title": "Google、世界モデル「Genie 4」をGemini APIで開発者に公開",
+   "summary": "Google DeepMindの対話型世界モデル「Genie 4」が、Gemini APIとGoogle AI Studioで有料の開発者向けに使えるようになった。文章の指示から720p・24fpsの操作できる映像世界を作り、キーボード操作や音声にも対応する。報道では料金は1分あたり約6ドル。",
+   "why": "AIエージェントやロボットの練習場となる仮想世界を、アプリに組み込めるようになる。",
+   "url": "https://thenewstack.io/genie-4-world-model/",
+   "source": "The New Stack",
+   "keywords": [
+    "Google",
+    "Genie 4",
+    "世界モデル",
+    "Gemini API",
+    "AIエージェント"
+   ],
+   "credibility": {
+    "level": "高",
+    "summary": "Google公式の開発者向け発表で確認（料金は一部報道のみ）",
+    "checks": [
+     "一次情報：Google for Developers の公式告知",
+     "報道：The New Stack、TestingCatalog など"
+    ]
+   },
+   "quiz": [
+    {
+     "q": "今回Genie 4について新しく起きたことは何か。",
+     "choices": [
+      "一般向けに無料公開された",
+      "オープンウェイトとして配布された",
+      "Gemini APIで開発者が使えるようになった",
+      "ロボット専用の機器に組み込まれた"
+     ],
+     "answer": 2,
+     "explain": "Genie 4はGemini APIとGoogle AI Studioで、有料の開発者向けに使えるようになった。"
+    }
+   ]
+  },
+  {
+   "id": "20261121-ai-02",
+   "category": "モデル・製品",
+   "title": "OpenAI、音声モデル「GPT-Live-1.1」をAPIで公開　待機中を安くする機能も",
+   "summary": "ChatGPTの音声会話に使われる「GPT-Live-1.1」が開発者向けAPIで使えるようになった。無言が続くと推論を止める「Standby」機能が加わり、待機中は1分0.02ドル（通常0.05ドル）になる。",
+   "why": "音声エージェントの無言時間のコストが下がり、電話窓口などへの導入が進みやすくなる。",
+   "url": "https://community.openai.com/t/gpt-live-1-1-has-arrived-in-the-api/1418537",
+   "source": "OpenAI Developer Community",
+   "keywords": [
+    "OpenAI",
+    "GPT-Live",
+    "音声AI",
+    "API価格",
+    "AIエージェント"
+   ],
+   "credibility": {
+    "level": "高",
+    "summary": "OpenAI開発者コミュニティの公式告知で確認",
+    "checks": [
+     "一次情報：OpenAI Developer Community の告知、OpenAI Developers のX投稿",
+     "報道：DEV Community、AlphaSignal など"
+    ]
+   },
+   "quiz": [
+    {
+     "q": "新しい「Standby」機能のねらいは何か。",
+     "choices": [
+      "話している間の音質を上げる",
+      "無言の間の料金を下げる",
+      "対応する言語を増やす",
+      "会話の内容を自動で要約する"
+     ],
+     "answer": 1,
+     "explain": "Standbyは無言が続くと推論を止め、待機中を安い料金にする機能。"
+    }
+   ]
+  },
+  {
+   "id": "20261121-ai-03",
+   "category": "規制・政策",
+   "title": "欧州委員会、AIを使ったサイバー攻撃を受けたと認める",
+   "summary": "欧州委員会は、職員の給与や医療費の払い戻し、翻訳などのシステムが10日以上止まったサイバー攻撃で、攻撃者がAIツールを使ったと認めた。報道では公開されているAI侵入テストツール「ARTEX」が使われたとされるが、委員会はツール名を明かしていない。",
+   "why": "公的機関への攻撃でAI使用が公式に確認された例で、防御側のAI活用も急がれる。",
+   "url": "https://therecord.media/european-commission-confirms-cyberattack-using-ai",
+   "source": "The Record",
+   "keywords": [
+    "欧州委員会",
+    "サイバー攻撃",
+    "AIセキュリティ",
+    "ARTEX"
+   ],
+   "credibility": {
+    "level": "高",
+    "summary": "欧州委員会の報道官が攻撃とAI使用を確認（ツール名は報道ベース）",
+    "checks": [
+     "一次情報：欧州委員会報道官の発言",
+     "報道：The Record、The Register、SecurityWeek など複数"
+    ]
+   },
+   "quiz": [
+    {
+     "q": "この攻撃について欧州委員会が公式に認めたことはどれか。",
+     "choices": [
+      "攻撃にAIツールが使われた",
+      "身代金を支払った",
+      "職員の個人情報が大量に流出した",
+      "攻撃した国を特定した"
+     ],
+     "answer": 0,
+     "explain": "委員会はAIツールの使用を認めたが、ツール名や攻撃者は明らかにしておらず、広い情報流出の証拠もないとしている。"
+    }
+   ]
+  },
+  {
+   "id": "20261121-ai-04",
+   "category": "ビジネス・投資",
+   "title": "ドイツテレコム、仏Mistral AIに1億ユーロを出資",
+   "summary": "ドイツテレコムの投資部門T.Capitalが、Mistral AIのシリーズDに1億ユーロ（約1.1億ドル）を出資した。ドイツの企業や公的機関に信頼できる欧州のAIを届ける提携の第一歩としている。",
+   "why": "米中に頼らない欧州のAIを、通信大手が本格的に支える動きとなる。",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46Z14O:0-deutsche-telekom-invests-100-million-in-france-s-mistral-ai/",
+   "source": "Reuters（TradingView）",
+   "keywords": [
+    "Mistral AI",
+    "ドイツテレコム",
+    "資金調達",
+    "ソブリンAI"
+   ],
+   "credibility": {
+    "level": "中",
+    "summary": "ロイターなど複数の報道で確認（会社の発表文は未確認）",
+    "checks": [
+     "一次情報：未確認",
+     "報道：Reuters、Quartz、MarketScreener など"
+    ]
+   },
+   "quiz": [
+    {
+     "q": "ドイツテレコムはこの出資をどう位置づけているか。",
+     "choices": [
+      "Mistralの買収に向けた準備",
+      "米国進出のための足場",
+      "欧州向けの信頼できるAIを届ける提携の第一歩",
+      "自社の通信網を売るための取引"
+     ],
+     "answer": 2,
+     "explain": "ドイツの企業や公的機関に欧州のAIを届ける戦略提携の第一歩としている。"
+    }
+   ]
+  },
+  {
+   "id": "20261121-ai-05",
+   "category": "半導体・データセンター",
+   "title": "Alibaba、データセンター20GWの長期目標を下げる可能性",
+   "summary": "AlibabaのCEOは11月19日の決算説明会で、2032年までに20GW超とするデータセンターの長期目標が、世界の計算資源をめぐる規制の変化で下方修正になるかもしれないと述べた。国産半導体による計算基盤づくりは急ぐとしている。",
+   "why": "米国の対中規制が、中国最大級のクラウドの投資計画に影響し始めている。",
+   "url": "https://thelowdown.momentum.asia/full-transcript-of-alibabas-q2-2026-earnings-call-qa-section/",
+   "source": "Momentum Works",
+   "keywords": [
+    "Alibaba",
+    "データセンター",
+    "輸出規制",
+    "中国AI",
+    "AI投資"
+   ],
+   "credibility": {
+    "level": "高",
+    "summary": "決算説明会での経営者の発言で確認",
+    "checks": [
+     "一次情報：決算説明会の発言（書き起こし）",
+     "報道：Crypto Briefing、TechFlow など複数"
+    ]
+   },
+   "quiz": [
+    {
+     "q": "Alibabaが目標を見直すかもしれない理由として挙げたのは何か。",
+     "choices": [
+      "電力料金の値下がり",
+      "計算資源をめぐる規制の変化",
+      "クラウド売上の減少",
+      "冷却装置の不足"
+     ],
+     "answer": 1,
+     "explain": "米国の規制など、世界の計算資源をめぐる政策の変化を理由に挙げた。"
+    }
+   ]
+  }
+ ]
+}
