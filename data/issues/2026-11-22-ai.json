@@ -1,0 +1,200 @@
+{
+ "id": "2026-11-22-ai",
+ "date": "2026-11-22",
+ "series": "ai",
+ "title": "Anthropicの数学者、Claudeと「リーマン予想」を証明したと発表",
+ "lead": [
+  "Anthropicの数学者がClaudeを使ってリーマン予想を証明したと発表したが、専門家の検証はこれから。",
+  "米SECがNvidiaの会計を調べているとの報道で株価が14%下落し、トランプ氏は海外データセンターへの課税を示唆した。",
+  "Claudeのコンピューター操作が企業向けに広がる一方、AIへの指示文が盗まれていた実態も明らかになった。"
+ ],
+ "body": "## 主要ニュース\n\n### 1. Anthropicの数学者、Claudeと「リーマン予想」を証明したと発表　検証はこれから\nAnthropicの数学者レベント・アルポゲ氏が、Claudeを使ってリーマン予想（一般化リーマン予想を含む）を証明したと発表した。証明は手順を機械で確かめる「Lean」のコードとして公開され、専門家による本格的な検証はまだ終わっていない。数時間後には、スタンフォード大学側も別の証明の草稿を公開した。\n**なぜ重要か：** 160年以上解かれていない数学の難問にAIが関わった主張で、AIによる研究の自動化がどこまで進んだかを測る試金石になる。\n**確かさ：中**（本人の発表は複数報道で確認。証明の正しさは未検証）\n出典：[Phys.org（AFP）](https://phys.org/news/2026-11-anthropic-claude-math-greatest-riddle.html)\n\n### 2. 米SECがNvidiaの会計を調査とロイター報道　株価は1日で14%安\nロイターは、米証券取引委員会（SEC）の担当者がNvidiaの会計処理に問題がないか調べていると、関係者2人の話として伝えた。報道を受けて20日の株価は終値で14%下がり、時価総額は1日で約4,900億ドル減った。SECはコメントせず、調査の対象や開始時期は明らかになっていない。\n**なぜ重要か：** CEO交代に続く逆風で、AI投資を支えてきた最大の半導体企業への信頼が揺らいでいる。\n**確かさ：中**（ロイターの関係者情報。SEC・Nvidiaは公式に確認していない）\n出典：[The Motley Fool（ロイター報道を引用）](https://www.fool.com/investing/2026/11/20/nvidia-stock-plunge-wipes-out-nearly-usd500-billion-in-one-day-as-sec-reportedly-probes-its-accounting/)\n\n### 3. Anthropic、Claudeのコンピューター操作をTeam・Enterpriseでベータ提供\nAnthropicは、Claudeが画面を見て、許可されたデスクトップアプリを操作する「コンピューター操作」をTeamとEnterpriseプラン向けにベータ公開した。初期設定では無効で、管理者がオンにし、使えるアプリを絞り込める。Claude Desktopを開いておけば、ウェブやスマホのClaudeからも指示できる。\n**なぜ重要か：** AIエージェントが企業のPC作業を直接こなす段階に入り、管理者による統制の仕組みが前提になってきた。\n**確かさ：高**（Anthropic公式のリリースノートで確認）\n出典：[Claude ヘルプセンター（Anthropic）](https://support.claude.com/en/articles/18483812-set-up-computer-use-for-team-and-enterprise-plans)\n\n### 4. AIへの指示文に「おとりの秘密」200万件　事業者3社の侵害が判明\nセキュリティ企業Dragosのエッチディー・ムーア氏が、固有の偽の認証情報などを仕込んだ指示文約200万件をAIサービスに送り、どこで使われるかを追跡した。少なくとも3つのホスティング事業者が攻撃者に侵入され、指示文が盗まれていたことがわかった。「データを保存しない」とされた通信も盗まれていたという。\n**なぜ重要か：** AIの利用は中継業者を含む長い供給網を通るため、指示文に機密を入れる危険が具体的に示された。\n**確かさ：中**（研究者本人の公表とArs Technicaなどの報道）\n出典：[CybrSec Media](https://www.cybrsecmedia.com/two-million-ai-prompts-expose-breaches-data-theft-and-supply-chain-failures/)\n\n## 注目：AI × データセンター・電力・冷却\n\n### トランプ氏、海外にAIデータセンターを建てる米企業に「とてつもない税」\nトランプ米大統領は20日、海外にAIデータセンターを建てる米企業に「とてつもない税」と罰則を科すと述べた。理由として中国を挙げ、国内での建設を求めた。税の規模や対象、開始時期は示しておらず、スタッフにもまだ伝えていないと話した。\n**なぜ重要か：** 中東やアジアで進む米企業の大型データセンター計画が、電力確保を含めて国内回帰を迫られる可能性がある。\n**確かさ：高**（大統領の公の発言を複数の大手報道が伝えている。政策の中身は未定）\n出典：[NBC News](https://www.nbcnews.com/business/corporations/trump-data-centers-overseas-penalties-rcna610445)\n\n## 今日のトレンド\nAIが数学の難問やPC操作にまで踏み込む一方で、Nvidiaの会計疑惑や指示文の漏えいなど、AIを支える土台の「信頼」が問われた一日でした。\n",
+ "items": [
+  {
+   "category": "研究",
+   "title": "Anthropicの数学者、Claudeと「リーマン予想」を証明したと発表　検証はこれから",
+   "summary": "Anthropicの数学者レベント・アルポゲ氏が、Claudeを使ってリーマン予想（一般化リーマン予想を含む）を証明したと発表した。証明は手順を機械で確かめる「Lean」のコードとして公開され、専門家による本格的な検証はまだ終わっていない。数時間後には、スタンフォード大学側も別の証明の草稿を公開した。",
+   "why": "160年以上解かれていない数学の難問にAIが関わった主張で、AIによる研究の自動化がどこまで進んだかを測る試金石になる。",
+   "url": "https://phys.org/news/2026-11-anthropic-claude-math-greatest-riddle.html",
+   "source": "Phys.org（AFP）",
+   "keywords": [
+    "Anthropic",
+    "Claude",
+    "リーマン予想",
+    "数学",
+    "Lean"
+   ],
+   "credibility": {
+    "level": "中",
+    "summary": "本人の発表は複数の報道で確認できるが、証明が正しいかは未検証",
+    "checks": [
+     "一次情報：アルポゲ氏が公開したLeanの証明コード",
+     "報道：AFP（Phys.org）、The Next Web、The Decoder など",
+     "注意：専門家の査読やClay研究所の判断はまだ"
+    ]
+   },
+   "quiz": [
+    {
+     "q": "今回の「リーマン予想の証明」について、記事の時点で正しい説明はどれか。",
+     "choices": [
+      "数学界で正式に認められた",
+      "Leanのコードで公開され、専門家の検証はまだ途中",
+      "Anthropicが公式に否定した",
+      "論文誌の査読を通過した"
+     ],
+     "answer": 1,
+     "explain": "証明はLeanのコードとして公開されたが、専門家による本格的な検証はこれから。"
+    }
+   ],
+   "id": "20261122-ai-01"
+  },
+  {
+   "category": "ビジネス・投資",
+   "title": "米SECがNvidiaの会計を調査とロイター報道　株価は1日で14%安",
+   "summary": "ロイターは、米証券取引委員会（SEC）の担当者がNvidiaの会計処理に問題がないか調べていると、関係者2人の話として伝えた。報道を受けて20日の株価は終値で14%下がり、時価総額は1日で約4,900億ドル減った。SECはコメントせず、調査の対象や開始時期は明らかになっていない。",
+   "why": "CEO交代に続く逆風で、AI投資を支えてきた最大の半導体企業への信頼が揺らいでいる。",
+   "url": "https://www.fool.com/investing/2026/11/20/nvidia-stock-plunge-wipes-out-nearly-usd500-billion-in-one-day-as-sec-reportedly-probes-its-accounting/",
+   "source": "The Motley Fool（ロイター報道を引用）",
+   "keywords": [
+    "Nvidia",
+    "SEC",
+    "会計",
+    "株価",
+    "AI半導体"
+   ],
+   "credibility": {
+    "level": "中",
+    "summary": "ロイターの関係者情報を多くの媒体が伝えているが、SEC・Nvidiaの公式確認はない",
+    "checks": [
+     "一次情報：なし（SECはコメントを拒否）",
+     "報道：ロイター、WSJ（開示の調査を先行報道）、Investing.com など"
+    ]
+   },
+   "quiz": [
+    {
+     "q": "今回の報道でSECが調べているとされるのは何か。",
+     "choices": [
+      "Nvidiaの会計処理",
+      "Nvidiaの対中輸出の許可",
+      "NvidiaのGPUの安全性",
+      "Nvidiaの新CEOの選び方"
+     ],
+     "answer": 0,
+     "explain": "ロイターは、SECがNvidiaの会計処理に問題がないか調べていると報じた。"
+    }
+   ],
+   "id": "20261122-ai-02"
+  },
+  {
+   "category": "モデル・製品",
+   "title": "Anthropic、Claudeのコンピューター操作をTeam・Enterpriseでベータ提供",
+   "summary": "Anthropicは、Claudeが画面を見て、許可されたデスクトップアプリを操作する「コンピューター操作」をTeamとEnterpriseプラン向けにベータ公開した。初期設定では無効で、管理者がオンにし、使えるアプリを絞り込める。Claude Desktopを開いておけば、ウェブやスマホのClaudeからも指示できる。",
+   "why": "AIエージェントが企業のPC作業を直接こなす段階に入り、管理者による統制の仕組みが前提になってきた。",
+   "url": "https://support.claude.com/en/articles/18483812-set-up-computer-use-for-team-and-enterprise-plans",
+   "source": "Claude ヘルプセンター（Anthropic）",
+   "keywords": [
+    "Anthropic",
+    "Claude",
+    "コンピューター操作",
+    "AIエージェント",
+    "企業向けAI"
+   ],
+   "credibility": {
+    "level": "高",
+    "summary": "Anthropic公式のリリースノートと設定ガイドで確認",
+    "checks": [
+     "一次情報：Claudeのリリースノート（11月20日）と設定ガイド",
+     "報道：AI Weekly、CellCog など"
+    ]
+   },
+   "quiz": [
+    {
+     "q": "企業向けのコンピューター操作機能で、管理者ができることはどれか。",
+     "choices": [
+      "Claudeの学習データを選ぶ",
+      "機能をオンにし、使えるアプリを限定する",
+      "利用料金を自由に決める",
+      "社員の画面を常に録画する"
+     ],
+     "answer": 1,
+     "explain": "初期設定では無効で、管理者がオンにして、Claudeが使えるアプリを制限できる。"
+    }
+   ],
+   "id": "20261122-ai-03"
+  },
+  {
+   "category": "研究",
+   "title": "AIへの指示文に「おとりの秘密」200万件　事業者3社の侵害が判明",
+   "summary": "セキュリティ企業Dragosのエッチディー・ムーア氏が、固有の偽の認証情報などを仕込んだ指示文約200万件をAIサービスに送り、どこで使われるかを追跡した。少なくとも3つのホスティング事業者が攻撃者に侵入され、指示文が盗まれていたことがわかった。「データを保存しない」とされた通信も盗まれていたという。",
+   "why": "AIの利用は中継業者を含む長い供給網を通るため、指示文に機密を入れる危険が具体的に示された。",
+   "url": "https://www.cybrsecmedia.com/two-million-ai-prompts-expose-breaches-data-theft-and-supply-chain-failures/",
+   "source": "CybrSec Media",
+   "keywords": [
+    "AIセキュリティ",
+    "サプライチェーン",
+    "Dragos",
+    "データ保護",
+    "カナリアトークン"
+   ],
+   "credibility": {
+    "level": "中",
+    "summary": "研究者本人の公表をArs Technicaなど複数が報道。事業者側の確認は限られる",
+    "checks": [
+     "一次情報：ムーア氏の公表（11月19日）",
+     "報道：Ars Technica、CybrSec Media、Crypto Briefing など"
+    ]
+   },
+   "quiz": [
+    {
+     "q": "ムーア氏の実験で使われた方法の考え方はどれか。",
+     "choices": [
+      "AIに難しい数学の問題を解かせる",
+      "1か所にしかない偽の秘密を仕込み、使われた場所から漏えいを突き止める",
+      "AIの回答の正しさを人が採点する",
+      "AIサービスの料金を比べる"
+     ],
+     "answer": 1,
+     "explain": "固有の「おとりの秘密」を仕込み、それが使われれば、その経路が漏れたと証明できる。"
+    }
+   ],
+   "id": "20261122-ai-04"
+  },
+  {
+   "category": "規制・政策",
+   "title": "トランプ氏、海外にAIデータセンターを建てる米企業に「とてつもない税」",
+   "summary": "トランプ米大統領は20日、海外にAIデータセンターを建てる米企業に「とてつもない税」と罰則を科すと述べた。理由として中国を挙げ、国内での建設を求めた。税の規模や対象、開始時期は示しておらず、スタッフにもまだ伝えていないと話した。",
+   "why": "中東やアジアで進む米企業の大型データセンター計画が、電力確保を含めて国内回帰を迫られる可能性がある。",
+   "url": "https://www.nbcnews.com/business/corporations/trump-data-centers-overseas-penalties-rcna610445",
+   "source": "NBC News",
+   "keywords": [
+    "データセンター",
+    "トランプ政権",
+    "課税",
+    "電力",
+    "AI投資"
+   ],
+   "credibility": {
+    "level": "高",
+    "summary": "大統領本人の公の発言を複数の大手報道が伝えている（政策の中身は未定）",
+    "checks": [
+     "一次情報：大統領の公の発言",
+     "報道：NBC News、ABC News（AP）、CBC など"
+    ]
+   },
+   "quiz": [
+    {
+     "q": "今回のトランプ氏の発言について正しいものはどれか。",
+     "choices": [
+      "税率と開始日が正式に決まった",
+      "議会で法律が成立した",
+      "税の規模や対象はまだ示されていない",
+      "中国企業だけが対象と明言した"
+     ],
+     "answer": 2,
+     "explain": "トランプ氏は税と罰則を示唆したが、規模・対象・時期は示していない。"
+    }
+   ],
+   "id": "20261122-ai-05"
+  }
+ ]
+}

@@ -1,7 +1,85 @@
 {
  "version": 1,
- "updated": "2026-11-21T07:22:36+09:00",
+ "updated": "2026-11-22T07:17:52+09:00",
  "issues": [
+  {
+   "id": "2026-11-22-ai",
+   "date": "2026-11-22",
+   "series": "ai",
+   "title": "Anthropicの数学者、Claudeと「リーマン予想」を証明したと発表",
+   "lead": [
+    "Anthropicの数学者がClaudeを使ってリーマン予想を証明したと発表したが、専門家の検証はこれから。",
+    "米SECがNvidiaの会計を調べているとの報道で株価が14%下落し、トランプ氏は海外データセンターへの課税を示唆した。",
+    "Claudeのコンピューター操作が企業向けに広がる一方、AIへの指示文が盗まれていた実態も明らかになった。"
+   ],
+   "items": [
+    {
+     "id": "20261122-ai-01",
+     "category": "研究",
+     "title": "Anthropicの数学者、Claudeと「リーマン予想」を証明したと発表　検証はこれから",
+     "url": "https://phys.org/news/2026-11-anthropic-claude-math-greatest-riddle.html",
+     "keywords": [
+      "Anthropic",
+      "Claude",
+      "リーマン予想",
+      "数学",
+      "Lean"
+     ]
+    },
+    {
+     "id": "20261122-ai-02",
+     "category": "ビジネス・投資",
+     "title": "米SECがNvidiaの会計を調査とロイター報道　株価は1日で14%安",
+     "url": "https://www.fool.com/investing/2026/11/20/nvidia-stock-plunge-wipes-out-nearly-usd500-billion-in-one-day-as-sec-reportedly-probes-its-accounting/",
+     "keywords": [
+      "Nvidia",
+      "SEC",
+      "会計",
+      "株価",
+      "AI半導体"
+     ]
+    },
+    {
+     "id": "20261122-ai-03",
+     "category": "モデル・製品",
+     "title": "Anthropic、Claudeのコンピューター操作をTeam・Enterpriseでベータ提供",
+     "url": "https://support.claude.com/en/articles/18483812-set-up-computer-use-for-team-and-enterprise-plans",
+     "keywords": [
+      "Anthropic",
+      "Claude",
+      "コンピューター操作",
+      "AIエージェント",
+      "企業向けAI"
+     ]
+    },
+    {
+     "id": "20261122-ai-04",
+     "category": "研究",
+     "title": "AIへの指示文に「おとりの秘密」200万件　事業者3社の侵害が判明",
+     "url": "https://www.cybrsecmedia.com/two-million-ai-prompts-expose-breaches-data-theft-and-supply-chain-failures/",
+     "keywords": [
+      "AIセキュリティ",
+      "サプライチェーン",
+      "Dragos",
+      "データ保護",
+      "カナリアトークン"
+     ]
+    },
+    {
+     "id": "20261122-ai-05",
+     "category": "規制・政策",
+     "title": "トランプ氏、海外にAIデータセンターを建てる米企業に「とてつもない税」",
+     "url": "https://www.nbcnews.com/business/corporations/trump-data-centers-overseas-penalties-rcna610445",
+     "keywords": [
+      "データセンター",
+      "トランプ政権",
+      "課税",
+      "電力",
+      "AI投資"
+     ]
+    }
+   ]
+  },
   {
    "id": "2026-11-21-thermal",
    "date": "2026-11-21",
