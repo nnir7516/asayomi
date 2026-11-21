@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 270">
+<rect x="0" y="0" width="400" height="270" fill="#ffffff" />
+<text x="200" y="26" font-size="18" text-anchor="middle" font-weight="bold" fill="#222">熱抵抗の内訳（500 W 時）</text>
+<text x="15" y="70" font-size="16" fill="#222">ヒーター → 油（槽内の自然対流）</text>
+<rect x="15" y="80" width="280" height="30" fill="#c0392b" />
+<text x="303" y="101" font-size="16" fill="#222">178 m°C/W</text>
+<text x="15" y="148" font-size="16" fill="#222">油 → 室温（ポンプ・ラジエータ）</text>
+<rect x="15" y="158" width="25" height="30" fill="#2471a3" />
+<text x="48" y="179" font-size="16" fill="#222">16 m°C/W</text>
+<line x1="15" y1="205" x2="385" y2="205" stroke="#bbb" stroke-width="1" />
+<text x="15" y="232" font-size="16" fill="#444">温度差：ヒーター→油 89.0 °C</text>
+<text x="15" y="256" font-size="16" fill="#444">　　　　油→室温 8.0 °C（約11：1）</text>
+</svg>
