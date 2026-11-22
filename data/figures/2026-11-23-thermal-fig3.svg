@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 370">
+<rect x="0" y="0" width="400" height="370" fill="#ffffff" />
+<text x="200" y="26" font-size="18" text-anchor="middle" font-weight="bold" fill="#222">提案手法の流れ</text>
+<rect x="20" y="42" width="290" height="54" rx="6" fill="#f3f3f3" stroke="#333" stroke-width="2" />
+<text x="165" y="65" font-size="16" text-anchor="middle" fill="#222">詳細FEMモデル</text>
+<text x="165" y="87" font-size="16" text-anchor="middle" fill="#444">一般に自由度100万超</text>
+<line x1="165" y1="96" x2="165" y2="112" stroke="#333" stroke-width="2" /><polygon points="158,110 172,110 165,120" fill="#333" />
+<rect x="20" y="122" width="290" height="54" rx="6" fill="#dcecf7" stroke="#333" stroke-width="2" />
+<text x="165" y="145" font-size="16" text-anchor="middle" fill="#222">クリロフ法で次数削減</text>
+<text x="165" y="167" font-size="16" text-anchor="middle" fill="#444">状態ごとの低次元モデル</text>
+<line x1="165" y1="176" x2="165" y2="192" stroke="#333" stroke-width="2" /><polygon points="158,190 172,190 165,200" fill="#333" />
+<rect x="20" y="202" width="290" height="54" rx="6" fill="#fdebd0" stroke="#333" stroke-width="2" />
+<text x="165" y="225" font-size="16" text-anchor="middle" fill="#222">状態を判定して切替</text>
+<text x="165" y="247" font-size="16" text-anchor="middle" fill="#444">通常／再クランプ後など</text>
+<line x1="165" y1="256" x2="165" y2="272" stroke="#333" stroke-width="2" /><polygon points="158,270 172,270 165,280" fill="#333" />
+<rect x="20" y="282" width="290" height="54" rx="6" fill="#e3f1e3" stroke="#333" stroke-width="2" />
+<text x="165" y="305" font-size="16" text-anchor="middle" fill="#222">変形を予測して補正</text>
+<text x="165" y="327" font-size="16" text-anchor="middle" fill="#444">計測は上下マークだけ</text>
+<polyline points="310,309 342,309 342,149 322,149" fill="none" stroke="#2e8b57" stroke-width="2" />
+<polygon points="324,142 312,149 324,156" fill="#2e8b57" />
+<text x="348" y="220" font-size="16" fill="#2e8b57">実測</text>
+<text x="348" y="242" font-size="16" fill="#2e8b57">で更新</text>
+</svg>
