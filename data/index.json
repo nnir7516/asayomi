@@ -1,7 +1,85 @@
 {
  "version": 1,
- "updated": "2026-11-22T07:22:14+09:00",
+ "updated": "2026-11-23T07:19:37+09:00",
  "issues": [
+  {
+   "id": "2026-11-23-ai",
+   "date": "2026-11-23",
+   "series": "ai",
+   "title": "国連の自律型兵器会議、拘束力ある規制を見送り",
+   "lead": [
+    "国連のCCW会議は自律型兵器の規則案を2028年までにまとめると合意したが、拘束力を持たせるかは先送りに。",
+    "AmazonがAI新興Decartを最大約75億ドルで買収へと報道。AI株の売りでナスダックは年初来の上昇分を失った。",
+    "Thinking Machinesが小型オープンモデルを公開。IEAはデータセンターの電力が2030年までに約2倍になると予測。"
+   ],
+   "items": [
+    {
+     "id": "20261123-ai-01",
+     "category": "規制・政策",
+     "title": "国連の「自律型兵器」会議、法的拘束力のある規制は見送り　2028年までに規則案づくり",
+     "url": "https://www.cnbc.com/2026/11/21/countries-agree-to-un-talks-aiming-to-regulate-killer-robots-by-2028.html",
+     "keywords": [
+      "自律型兵器",
+      "国連",
+      "軍事AI",
+      "AI規制",
+      "CCW"
+     ]
+    },
+    {
+     "id": "20261123-ai-02",
+     "category": "ビジネス・投資",
+     "title": "Amazon、AI新興Decartを約75億ドルで買収へ最終調整と報道",
+     "url": "https://www.tradingview.com/news/seekingalpha:71b3d28ff094b:0-amazon-nearing-7-5b-deal-to-buy-ai-start-up-decart-ft/",
+     "keywords": [
+      "Amazon",
+      "Decart",
+      "M&A",
+      "LLM推論",
+      "AI投資"
+     ]
+    },
+    {
+     "id": "20261123-ai-03",
+     "category": "モデル・製品",
+     "title": "Thinking Machines、小型のオープンウェイトモデル「Inkling 2 Mini」を公開",
+     "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+     "keywords": [
+      "Thinking Machines",
+      "Inkling",
+      "オープンウェイト",
+      "小型モデル",
+      "コーディング"
+     ]
+    },
+    {
+     "id": "20261123-ai-04",
+     "category": "ビジネス・投資",
+     "title": "続報：AI株の売りが広がり、ナスダックは年初来の上昇分を失う",
+     "url": "https://www.npr.org/2026/11/21/nx-s1-6048729/ai-stock-markets-anthropic-nvidia",
+     "keywords": [
+      "株価",
+      "ナスダック",
+      "Anthropic",
+      "Nvidia",
+      "AI投資"
+     ]
+    },
+    {
+     "id": "20261123-ai-05",
+     "category": "半導体・データセンター",
+     "title": "IEA、データセンターの電力消費は2030年までに約2倍と予測",
+     "url": "https://www.euronews.com/2026/11/19/data-centre-energy-consumption-could-double-by-2030-straining-grids-iea-warns",
+     "keywords": [
+      "IEA",
+      "データセンター",
+      "電力",
+      "送電網",
+      "CO2排出"
+     ]
+    }
+   ]
+  },
   {
    "id": "2026-11-22-thermal",
    "date": "2026-11-22",
