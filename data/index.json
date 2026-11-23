@@ -1,7 +1,72 @@
 {
  "version": 1,
- "updated": "2026-11-23T07:21:26+09:00",
+ "updated": "2026-11-24T07:19:06+09:00",
  "issues": [
+  {
+   "id": "2026-11-24-ai",
+   "date": "2026-11-24",
+   "series": "ai",
+   "title": "Nvidia、フアン氏をCEOに復帰　株価31%高",
+   "lead": [
+    "Nvidia取締役会がフアン氏のCEO復帰を全会一致で決定し、株価は1日で31%上がった。",
+    "米2州がGrokの性的ディープフェイク問題でSpaceXを提訴。中国Z.aiは層を2回通す新モデルGLM-5.4を公開。",
+    "米中首脳が軍事AIの判断に人間が関わることで一致したと米財務長官が説明（正式文書はなし）。"
+   ],
+   "items": [
+    {
+     "id": "20261124-ai-01",
+     "category": "ビジネス・投資",
+     "title": "続報：Nvidia取締役会、フアン氏をCEOに復帰させる　株価は31%高",
+     "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+     "keywords": [
+      "Nvidia",
+      "ジェンセン・フアン",
+      "ガバナンス",
+      "AI半導体",
+      "株価"
+     ]
+    },
+    {
+     "id": "20261124-ai-02",
+     "category": "規制・政策",
+     "title": "米2州、Grokの性的ディープフェイク問題でSpaceXを提訴",
+     "url": "https://www.cnbc.com/2026/11/23/oregon-virginia-spacex-grok-deepfake-lawsuits.html",
+     "keywords": [
+      "xAI",
+      "Grok",
+      "ディープフェイク",
+      "訴訟",
+      "消費者保護"
+     ]
+    },
+    {
+     "id": "20261124-ai-03",
+     "category": "モデル・製品",
+     "title": "中国Z.ai、層を2回通す「ループ型」の新モデルGLM-5.4を公開",
+     "url": "https://thenextweb.com/news/zai-glm-5-4-loop-transformer-coding-model",
+     "keywords": [
+      "Z.ai",
+      "GLM",
+      "中国AI",
+      "ループ型トランスフォーマー",
+      "コーディング"
+     ]
+    },
+    {
+     "id": "20261124-ai-04",
+     "category": "規制・政策",
+     "title": "米中首脳、軍事AIの判断に「人間が関与」で一致と米財務長官",
+     "url": "https://www.militarytimes.com/news/pentagon-congress/2026/11/20/trump-xi-agreed-that-military-ai-decisions-should-involve-humans-bessent-says/",
+     "keywords": [
+      "軍事AI",
+      "米中関係",
+      "トランプ政権",
+      "AI安全",
+      "習近平"
+     ]
+    }
+   ]
+  },
   {
    "id": "2026-11-23-thermal",
    "date": "2026-11-23",
