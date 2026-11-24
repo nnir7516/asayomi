@@ -1,7 +1,59 @@
 {
  "version": 1,
- "updated": "2026-11-24T07:19:06+09:00",
+ "updated": "2026-11-25T07:18:58+09:00",
  "issues": [
+  {
+   "id": "2026-11-25-ai",
+   "date": "2026-11-25",
+   "series": "ai",
+   "title": "Anthropic株、上場1週間足らずで公開価格割れ",
+   "lead": [
+    "Anthropic株が79ドル前後で引け、公開価格83ドルを割り込んだ。Nvidiaも前日の急騰から約7%反落した。",
+    "Anthropicが、コードの確認・修正・承認をAIエージェントに任せる「Claude Ship」をベータ公開した。",
+    "Vertivが、AIの急な電力変動を中電圧側で吸収する屋外型UPSを発表した（出荷は2027年半ば）。"
+   ],
+   "items": [
+    {
+     "id": "20261125-ai-01",
+     "category": "ビジネス・投資",
+     "title": "続報：Anthropic株、上場1週間足らずで公開価格83ドルを割り込む",
+     "url": "https://www.cnbc.com/2026/11/24/anthropic-stock-ipo-price.html",
+     "keywords": [
+      "Anthropic",
+      "IPO",
+      "株価",
+      "Nvidia",
+      "AI投資"
+     ]
+    },
+    {
+     "id": "20261125-ai-02",
+     "category": "モデル・製品",
+     "title": "Anthropic、コードの確認から承認までAIエージェントに任せる「Claude Ship」をベータ公開",
+     "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+     "keywords": [
+      "Anthropic",
+      "Claude",
+      "コードレビュー",
+      "AIエージェント",
+      "コーディング"
+     ]
+    },
+    {
+     "id": "20261125-ai-03",
+     "category": "半導体・データセンター",
+     "title": "Vertiv、AIの急な電力変動を送電網の手前で吸収する中電圧UPSを発表",
+     "url": "https://investors.vertiv.com/news/news-details/2026/Vertiv-Introduces-Medium-Voltage-Power-System-to-Help-AI-Data-Centers-Connect-to-the-Grid-Faster-and-Free-Indoor-Space-for-Compute/default.aspx",
+     "keywords": [
+      "Vertiv",
+      "UPS",
+      "データセンター",
+      "電力",
+      "送電網"
+     ]
+    }
+   ]
+  },
   {
    "id": "2026-11-24-ai",
    "date": "2026-11-24",

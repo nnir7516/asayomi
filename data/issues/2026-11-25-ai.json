@@ -1,0 +1,125 @@
+{
+ "id": "2026-11-25-ai",
+ "date": "2026-11-25",
+ "series": "ai",
+ "title": "Anthropic株、上場1週間足らずで公開価格割れ",
+ "lead": [
+  "Anthropic株が79ドル前後で引け、公開価格83ドルを割り込んだ。Nvidiaも前日の急騰から約7%反落した。",
+  "Anthropicが、コードの確認・修正・承認をAIエージェントに任せる「Claude Ship」をベータ公開した。",
+  "Vertivが、AIの急な電力変動を中電圧側で吸収する屋外型UPSを発表した（出荷は2027年半ば）。"
+ ],
+ "body": "## 主要ニュース\n\n### 1. 続報：Anthropic株、上場1週間足らずで公開価格83ドルを割り込む\n**何が起きたか：** 11月24日（米国時間）、Anthropic株は前日比約9.8%安の79.06ドル前後で取引を終え、公開価格83ドルを下回りました。11月19日の初値111.50ドルからは約29%下がっています。前日にフアン氏のCEO復帰で31.5%上げたNvidiaも約7%下げ、ナスダックは約1.5%安となりました。\n\n**なぜ重要か：** 史上最大級のIPOが早くも公開価格を割ったことで、AI関連株への期待が過熱していたかどうかを市場が見直していることがわかります。\n\n**確かさ：中**（CNBC、Benzinga、Techzineなど複数の報道で一致。下げ幅の数字は報道によって少し異なる）\n\n出典：[CNBC](https://www.cnbc.com/2026/11/24/anthropic-stock-ipo-price.html)\n\n### 2. Anthropic、コードの確認から承認までAIエージェントに任せる「Claude Ship」をベータ公開\n**何が起きたか：** Anthropicは、書かれたコードを確認し、直し、承認するまでをAIエージェントが受け持つ「Claude Ship」を公開しました。すでに提供中の「Code Review」に、プルリクエストの修正を進める「PR Steward」と、チームの方針に沿って承認する「Claude Approvals」（ともにベータ）を組み合わせたものです。GitHubを使うTeam・Enterprise向けで、まずは見守りだけのモードから始めることを勧めています。\n\n**なぜ重要か：** AIの役目が「コードを書く」から「そのコードを出してよいか判断する」へ広がり、開発の流れの中で人間が承認する範囲が変わり始めています。\n\n**確かさ：中**（TechCrunchなど複数の報道で確認。公式ページは今回の調査では見られなかった）\n\n出典：[TechCrunch](https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/)\n\n## 注目：AI × データセンター・電力・冷却\n\n### Vertiv、AIの急な電力変動を送電網の手前で吸収する中電圧UPSを発表\n**何が起きたか：** Vertivは、屋外に置く中電圧（34.5kV）のUPS「PowerNexus MV UPS」を発表しました。定格3.0MVA、最大効率98.5%、1〜4時間のバックアップに加え、AIの学習で起きる急な負荷の上下を送電網に伝える前にならす機能を持ちます。出荷は2027年半ばからの予定です。\n\n**なぜ重要か：** GPUの電力変動が送電網の負担になっているため、建屋の外の中電圧側でまとめて吸収できれば、系統への接続を早め、建屋内の場所を計算機に回せます。\n\n**確かさ：高**（Vertivの公式発表とデータシートで確認。性能はメーカー公表値）\n\n出典：[Vertiv](https://investors.vertiv.com/news/news-details/2026/Vertiv-Introduces-Medium-Voltage-Power-System-to-Help-AI-Data-Centers-Connect-to-the-Grid-Faster-and-Free-Indoor-Space-for-Compute/default.aspx)\n\n## 今日のトレンドを一文で\nAI株は熱狂から選別の段階に入りつつある一方、現場ではAIエージェントが開発の「承認」まで担い始め、それを支える電力設備も送電網との付き合い方を変えようとしています。\n",
+ "items": [
+  {
+   "id": "20261125-ai-01",
+   "category": "ビジネス・投資",
+   "title": "続報：Anthropic株、上場1週間足らずで公開価格83ドルを割り込む",
+   "summary": "11月24日、Anthropic株は約9.8%安の79.06ドル前後で取引を終え、公開価格83ドルを下回った。11月19日の初値111.50ドルからは約29%安い。前日に31.5%上げたNvidiaも約7%下げ、ナスダックは約1.5%安となった。",
+   "why": "史上最大級のIPOが早くも公開価格を割り、AI関連株の期待が過熱していたかを市場が見直していることを示す。",
+   "url": "https://www.cnbc.com/2026/11/24/anthropic-stock-ipo-price.html",
+   "source": "CNBC",
+   "keywords": [
+    "Anthropic",
+    "IPO",
+    "株価",
+    "Nvidia",
+    "AI投資"
+   ],
+   "credibility": {
+    "level": "中",
+    "summary": "CNBC、Benzinga、Techzineなど複数の報道で一致（下げ幅の数字は報道で少し異なる）",
+    "checks": [
+     "一次情報：取引所の株価データは直接確認していない",
+     "報道：CNBC、Benzinga、Techzine、Yahoo Financeが公開価格割れを報道"
+    ]
+   },
+   "quiz": [
+    {
+     "q": "11月24日のAnthropic株について、記事の内容に合うものはどれか。",
+     "choices": [
+      "初値を上回り、上場来高値を更新した",
+      "公開価格の83ドルを下回って取引を終えた",
+      "Nvidiaの急騰につられて大きく上げた",
+      "取引が一時停止され、終値がつかなかった"
+     ],
+     "answer": 1,
+     "explain": "Anthropic株は約79ドルで引け、公開価格83ドルを下回った。前日に急騰したNvidiaも同じ日に反落した。"
+    }
+   ]
+  },
+  {
+   "id": "20261125-ai-02",
+   "category": "モデル・製品",
+   "title": "Anthropic、コードの確認から承認までAIエージェントに任せる「Claude Ship」をベータ公開",
+   "summary": "Anthropicは、コードの確認・修正・承認をAIエージェントが受け持つ「Claude Ship」を公開した。提供中の「Code Review」に、修正を進める「PR Steward」と、チームの方針に沿って承認する「Claude Approvals」（ともにベータ）を組み合わせる。GitHubを使うTeam・Enterprise向けで、まず見守りだけのモードから始めることを勧めている。",
+   "why": "AIの役目が「コードを書く」から「出してよいか判断する」へ広がり、人間が承認する範囲が変わり始めている。",
+   "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+   "source": "TechCrunch",
+   "keywords": [
+    "Anthropic",
+    "Claude",
+    "コードレビュー",
+    "AIエージェント",
+    "コーディング"
+   ],
+   "credibility": {
+    "level": "中",
+    "summary": "TechCrunchなど複数の報道で確認したが、公式ページは今回の調査で見られなかった",
+    "checks": [
+     "一次情報：Anthropicの公式ページは未確認",
+     "報道：TechCrunch、Digit、Cyberpress、WOWTALEが報道"
+    ]
+   },
+   "quiz": [
+    {
+     "q": "「Claude Ship」の導入について、Anthropicが勧めている始め方はどれか。",
+     "choices": [
+      "最初から全てのプルリクエストを自動で合流させる",
+      "人間のレビューを完全になくしてから使う",
+      "まず見守りだけのモードで動かしてから、承認を任せる",
+      "社外の公開リポジトリだけで試す"
+     ],
+     "answer": 2,
+     "explain": "Anthropicは、まず見守りだけのモードで始め、その後にブランチ保護の設定などを通して承認を任せることを勧めている。"
+    }
+   ]
+  },
+  {
+   "id": "20261125-ai-03",
+   "category": "半導体・データセンター",
+   "title": "Vertiv、AIの急な電力変動を送電網の手前で吸収する中電圧UPSを発表",
+   "summary": "Vertivは、屋外に置く中電圧（34.5kV）のUPS「PowerNexus MV UPS」を発表した。定格3.0MVA、最大効率98.5%、1〜4時間のバックアップに加え、AIの急な負荷変動を送電網に伝える前にならす機能を持つ。出荷は2027年半ばからの予定。",
+   "why": "GPUの電力変動が送電網の負担になる中、建屋の外の中電圧側で吸収できれば系統への接続を早め、建屋内の場所を計算機に回せる。",
+   "url": "https://investors.vertiv.com/news/news-details/2026/Vertiv-Introduces-Medium-Voltage-Power-System-to-Help-AI-Data-Centers-Connect-to-the-Grid-Faster-and-Free-Indoor-Space-for-Compute/default.aspx",
+   "source": "Vertiv",
+   "keywords": [
+    "Vertiv",
+    "UPS",
+    "データセンター",
+    "電力",
+    "送電網"
+   ],
+   "credibility": {
+    "level": "高",
+    "summary": "Vertivの公式発表とデータシートで確認（性能はメーカー公表値）",
+    "checks": [
+     "一次情報：Vertivの投資家向け発表とデータシート",
+     "報道：DatacenterDynamics、Unite.aiが報道"
+    ]
+   },
+   "quiz": [
+    {
+     "q": "VertivのPowerNexus MV UPSの特徴として、記事に合うものはどれか。",
+     "choices": [
+      "サーバーラックの中に組み込む低電圧の小型UPSである",
+      "AIの急な負荷変動を中電圧側でならし、送電網への影響を抑える",
+      "GPUを液体で冷やす冷却装置である",
+      "すでに大手クラウドで大量に稼働している"
+     ],
+     "answer": 1,
+     "explain": "屋外に置く中電圧のUPSで、AIの急な電力変動を送電網に伝える前にならす機能を持つ。出荷は2027年半ばからの予定。"
+    }
+   ]
+  }
+ ]
+}
