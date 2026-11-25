@@ -1,7 +1,36 @@
 {
  "version": 1,
- "updated": "2026-11-26T07:19:20+09:00",
+ "updated": "2026-11-26T07:25:13+09:00",
  "issues": [
+  {
+   "id": "2026-11-26-thermal",
+   "date": "2026-11-26",
+   "series": "thermal",
+   "title": "3Dプリントの波形フィン・コールドプレート：直線フィンより熱抵抗20〜25%減、ただし支配的なのはベース板",
+   "lead": [
+    "金属3Dプリンターで作った波形フィンのコールドプレートは、直線フィンより熱抵抗が20〜25%低い（流量1〜4 L/min、1 kW）。",
+    "圧損をそろえると、中央だけ振幅を大きくした「可変振幅」が最も良く、最高温度が直線フィンより9 °C低い。",
+    "ただし熱抵抗の半分以上はベース板の熱伝導で、フィン先端のすき間が性能を大きく左右する。"
+   ],
+   "items": [
+    {
+     "id": "20261126-thermal-01",
+     "category": "流路・製造",
+     "title": "金属積層造形による波形フィン・コールドプレートの熱流体性能の向上",
+     "url": "https://www.osti.gov/biblio/3375059",
+     "keywords": [
+      "コールドプレート",
+      "波形フィン",
+      "積層造形",
+      "熱抵抗",
+      "圧力損失",
+      "流量分配"
+     ],
+     "paperId": "10.1016/j.ijheatmasstransfer.2025.128138",
+     "titleOriginal": "Metal additively manufactured wavy fin cold-plate architecture for improved thermal-hydraulic performance"
+    }
+   ]
+  },
   {
    "id": "2026-11-26-ai",
    "date": "2026-11-26",
