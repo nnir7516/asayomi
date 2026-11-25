@@ -1,7 +1,70 @@
 {
  "version": 1,
- "updated": "2026-11-25T07:18:58+09:00",
+ "updated": "2026-11-26T07:19:20+09:00",
  "issues": [
+  {
+   "id": "2026-11-26-ai",
+   "date": "2026-11-26",
+   "series": "ai",
+   "title": "Dell、AIサーバーの受注残が1,323億ドルに　売上は倍増",
+   "lead": [
+    "Dellの8〜10月期は売上高549億ドルと前年の約2倍。AIサーバーの受注残は1,323億ドルに積み上がった。",
+    "イランの国連大使が安保理で、米軍がPalantirのMavenとAnthropicのClaudeを攻撃目標の選定に使ったと非難した（内容は未確認）。",
+    "MetaがAIエージェント「Muse」をInstagramのDMで使えるようにした。日本も対象。"
+   ],
+   "items": [
+    {
+     "id": "20261126-ai-01",
+     "category": "ビジネス・投資",
+     "title": "Dell、AIサーバーの受注残が1,323億ドルに　売上は倍増",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001571996/000157199626000050/exhibit991earnings8kq3fy27.htm",
+     "keywords": [
+      "Dell",
+      "AIサーバー",
+      "決算",
+      "AI投資",
+      "Nvidia"
+     ]
+    },
+    {
+     "id": "20261126-ai-02",
+     "category": "規制・政策",
+     "title": "イラン国連大使、米軍の攻撃に「MavenとClaudeが使われた」と安保理で非難",
+     "url": "https://cbsnews.com/live-updates/iran-war-us-military-ai-weapons-oil",
+     "keywords": [
+      "軍事AI",
+      "国連",
+      "Palantir",
+      "Anthropic",
+      "イラン"
+     ]
+    },
+    {
+     "id": "20261126-ai-03",
+     "category": "モデル・製品",
+     "title": "Meta、AIエージェント「Muse」をInstagramのDMで提供開始　日本も対象",
+     "url": "https://www.storyboard18.com/amp/digital/meta-brings-muse-ai-assistant-to-instagram-dms-adds-new-tools-for-saved-posts-115417.htm",
+     "keywords": [
+      "Meta",
+      "Muse",
+      "Instagram",
+      "AIエージェント"
+     ]
+    },
+    {
+     "id": "20261126-ai-04",
+     "category": "半導体・データセンター",
+     "title": "データセンターが「自前のガス発電所」を持つ流れ　米国で計画100件超",
+     "url": "https://www.technologyreview.com/2026/11/24/1149622/data-centers-natural-gas/",
+     "keywords": [
+      "データセンター",
+      "電力",
+      "ガス発電",
+      "送電網"
+     ]
+    }
+   ]
+  },
   {
    "id": "2026-11-25-ai",
    "date": "2026-11-25",
