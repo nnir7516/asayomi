@@ -1,7 +1,85 @@
 {
  "version": 1,
- "updated": "2026-11-26T07:25:13+09:00",
+ "updated": "2026-11-27T07:18:52+09:00",
  "issues": [
+  {
+   "id": "2026-11-27-ai",
+   "date": "2026-11-27",
+   "series": "ai",
+   "title": "英中銀、AIの資金調達は「循環的で不透明」と警告",
+   "lead": [
+    "英中銀が金融安定報告で、AIの資金調達は「複雑で循環的、不透明」と警告。巨大IT企業の潜在的な負担は4兆ドル超と試算した。",
+    "Nvidiaが東南アジア4か国へのAIサーバー出荷を止めたとFTが報道。米国の新しい輸出規制が背景とみられる。",
+    "米FCCがSpaceXの宇宙データセンター計画（衛星最大100万基）を条件付きで承認した。"
+   ],
+   "items": [
+    {
+     "id": "20261127-ai-01",
+     "category": "ビジネス・投資",
+     "title": "英中銀、AIの資金調達は「複雑で循環的、不透明」　巨大IT企業の潜在的な負担は4兆ドル超",
+     "url": "https://money.usnews.com/investing/news/articles/2026-11-26/bank-of-england-sees-growing-financial-risks-as-ai-borrowing-surges",
+     "keywords": [
+      "イングランド銀行",
+      "金融安定",
+      "AI投資",
+      "データセンター",
+      "債務"
+     ]
+    },
+    {
+     "id": "20261127-ai-02",
+     "category": "半導体・データセンター",
+     "title": "Nvidia、東南アジア4か国へのAIサーバー出荷を停止と報道",
+     "url": "https://www.usnews.com/news/top-news/articles/2026-11-26/nvidia-halts-server-shipments-to-four-southeast-asian-countries-ft-reports",
+     "keywords": [
+      "Nvidia",
+      "輸出規制",
+      "AI半導体",
+      "東南アジア",
+      "データセンター"
+     ]
+    },
+    {
+     "id": "20261127-ai-03",
+     "category": "研究",
+     "title": "Anthropic、企業58社への聞き取り調査　3分の2が「AIで採用を減らした」",
+     "url": "https://www.anthropic.com/research/working-with-ai",
+     "keywords": [
+      "Anthropic",
+      "雇用",
+      "AI導入",
+      "企業向けAI",
+      "海外委託"
+     ]
+    },
+    {
+     "id": "20261127-ai-04",
+     "category": "モデル・製品",
+     "title": "OpenAI、ChatGPTの「Chat」と「Work」を一つに統合へ",
+     "url": "https://www.digitaltrends.com/computing/openai-merges-chat-and-work-in-chatgpt/",
+     "keywords": [
+      "OpenAI",
+      "ChatGPT",
+      "AIエージェント",
+      "Codex",
+      "利用枠"
+     ]
+    },
+    {
+     "id": "20261127-ai-05",
+     "category": "半導体・データセンター",
+     "title": "米FCC、SpaceXの宇宙データセンター計画を条件付き承認　衛星最大100万基",
+     "url": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html",
+     "keywords": [
+      "SpaceX",
+      "宇宙データセンター",
+      "FCC",
+      "電力",
+      "衛星"
+     ]
+    }
+   ]
+  },
   {
    "id": "2026-11-26-thermal",
    "date": "2026-11-26",
