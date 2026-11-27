@@ -1,7 +1,69 @@
 {
  "version": 1,
- "updated": "2026-11-27T07:18:52+09:00",
+ "updated": "2026-11-28T07:18:17+09:00",
  "issues": [
+  {
+   "id": "2026-11-28-ai",
+   "date": "2026-11-28",
+   "series": "ai",
+   "title": "Nvidiaの最上位AIサーバー、上海のデータセンターで見つかる",
+   "lead": [
+    "Bloomberg報道：輸出規制対象のNvidia「GB300」ラックが上海の施設で融資の担保に。どう持ち込まれたかは不明。",
+    "OpenAI、GPT-6.2の利用量の数え間違いを修正。Astraは40%、Solは25%早く上限に届くように。",
+    "Anthropicの「Claude Duet」が日本で提供開始。Fitchは米規制でアジアのデータセンター投資が鈍ると予想。"
+   ],
+   "items": [
+    {
+     "id": "20261128-ai-01",
+     "category": "半導体・データセンター",
+     "title": "Nvidiaの最上位AIサーバー、上海のデータセンターで見つかる　Bloomberg報道",
+     "url": "https://thenextweb.com/news/nvidia-blackwell-chips-alice-huang-shanghai-data-centre-bloomberg",
+     "keywords": [
+      "Nvidia",
+      "AI半導体",
+      "輸出規制",
+      "中国",
+      "Blackwell"
+     ]
+    },
+    {
+     "id": "20261128-ai-02",
+     "category": "モデル・製品",
+     "title": "OpenAI、GPT-6.2の利用量の数え間違いを修正　上限に早く届くように",
+     "url": "https://thenextweb.com/news/openai-billing-mistake-gpt-6-2-usage-limits",
+     "keywords": [
+      "OpenAI",
+      "GPT-6.2",
+      "ChatGPT",
+      "利用上限"
+     ]
+    },
+    {
+     "id": "20261128-ai-03",
+     "category": "日本の動き",
+     "title": "Anthropicの常に動くAIエージェント「Claude Duet」、日本で提供開始",
+     "url": "https://finance.biggo.com/news/d91e2fd5-4932-4bec-9446-23882fd8d933",
+     "keywords": [
+      "Anthropic",
+      "Claude",
+      "AIエージェント",
+      "日本"
+     ]
+    },
+    {
+     "id": "20261128-ai-04",
+     "category": "半導体・データセンター",
+     "title": "Fitch、米国の半導体規制でアジアのデータセンター投資が鈍ると予想",
+     "url": "https://technode.global/2026/11/27/us-chip-curbs-to-slow-and-reshape-southeast-asia-data-center-investments-fitch/",
+     "keywords": [
+      "データセンター",
+      "輸出規制",
+      "東南アジア",
+      "Fitch"
+     ]
+    }
+   ]
+  },
   {
    "id": "2026-11-27-ai",
    "date": "2026-11-27",
