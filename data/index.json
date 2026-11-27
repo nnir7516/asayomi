@@ -1,7 +1,35 @@
 {
  "version": 1,
- "updated": "2026-11-28T07:18:17+09:00",
+ "updated": "2026-11-28T07:19:00+09:00",
  "issues": [
+  {
+   "id": "2026-11-28-thermal",
+   "date": "2026-11-28",
+   "series": "thermal",
+   "title": "磁場で並べたNi粒子の柱を液体金属でつなぎ、柔らかいTIMの熱伝導率を約8倍に",
+   "lead": [
+    "Ni粒子を樹脂に混ぜる前に空気中で磁場により縦の柱に並べ、粒子のすき間を液体金属で埋める2段階の工程（ABBA）を提案。",
+    "柔らかさ（ヤング率 約160kPa）と横方向の電気絶縁を保ったまま、厚さ方向の熱伝導率は約0.95から7.5 W/(m·K)に上がった。",
+    "フィラー粒子間の接触熱抵抗がボトルネックという考え方はTIM選定に役立つが、ASTM D5470による熱抵抗は未測定で、チップ冷却向けではない。"
+   ],
+   "items": [
+    {
+     "id": "20261128-thermal-01",
+     "category": "熱材料",
+     "title": "磁場による多段階フィラー配向で、伸縮できる複合材に異方的な熱の通り道をつくる（ソフトエレクトロニクス向け）",
+     "url": "https://arxiv.org/abs/2611.33381",
+     "keywords": [
+      "TIM",
+      "液体金属",
+      "磁場配向",
+      "異方性熱伝導",
+      "接触熱抵抗"
+     ],
+     "paperId": "arXiv:2611.33381",
+     "titleOriginal": "Magnetically Guided Sequential Multi-Filler Alignment Enables Anisotropic Heat Pathways in Stretchable Composites for Soft Electronics"
+    }
+   ]
+  },
   {
    "id": "2026-11-28-ai",
    "date": "2026-11-28",

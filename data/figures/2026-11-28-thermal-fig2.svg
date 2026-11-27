@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 330">
+<rect width="400" height="330" fill="#ffffff" />
+<text x="200" y="24" font-size="18" text-anchor="middle" fill="#222" font-weight="bold">厚さ方向の熱伝導率</text>
+<text x="200" y="46" font-size="16" text-anchor="middle" fill="#555">単位 W/(m·K)</text>
+<text x="20" y="82" font-size="16" fill="#222">シリコーン単体</text>
+<rect x="20" y="90" width="8" height="18" fill="#5b8fd1" />
+<text x="34" y="105" font-size="16" fill="#222">0.2</text>
+<text x="20" y="132" font-size="16" fill="#222">Ni柱のみ（AB）</text>
+<rect x="20" y="140" width="38" height="18" fill="#5b8fd1" />
+<text x="64" y="155" font-size="16" fill="#222">0.95</text>
+<text x="20" y="182" font-size="16" fill="#222">同組成を混ぜて配向</text>
+<rect x="20" y="190" width="148" height="18" fill="#5b8fd1" />
+<text x="174" y="205" font-size="16" fill="#222">3.7</text>
+<text x="20" y="232" font-size="16" fill="#222">市販パッド（公称）</text>
+<rect x="20" y="240" width="240" height="18" fill="#999" />
+<text x="266" y="255" font-size="16" fill="#222">6.0</text>
+<text x="20" y="282" font-size="16" fill="#222">ABBA 最適</text>
+<rect x="20" y="290" width="300" height="18" fill="#d9534f" />
+<text x="326" y="305" font-size="16" fill="#222">7.5</text>
+<text x="200" y="322" font-size="16" text-anchor="middle" fill="#555">AB〜ABBAは Ni 5µm・10.6vol%</text>
+</svg>

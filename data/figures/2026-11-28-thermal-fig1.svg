@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 330">
+<rect width="400" height="330" fill="#ffffff" />
+<text x="200" y="24" font-size="18" text-anchor="middle" fill="#222" font-weight="bold">ABBA 複合材の断面（模式）</text>
+<rect x="40" y="50" width="320" height="18" fill="#5b8fd1" />
+<text x="200" y="64" font-size="16" text-anchor="middle" fill="#fff">放熱側（ヒートシンク）</text>
+<rect x="40" y="72" width="320" height="170" fill="#eaf2fb" stroke="#7a9cc6" />
+<g fill="#6c757d">
+<circle cx="90" cy="84" r="9" /><circle cx="90" cy="104" r="9" /><circle cx="90" cy="124" r="9" /><circle cx="90" cy="144" r="9" /><circle cx="90" cy="164" r="9" /><circle cx="90" cy="184" r="9" /><circle cx="90" cy="204" r="9" /><circle cx="90" cy="224" r="9" />
+<circle cx="200" cy="84" r="9" /><circle cx="200" cy="104" r="9" /><circle cx="200" cy="124" r="9" /><circle cx="200" cy="144" r="9" /><circle cx="200" cy="164" r="9" /><circle cx="200" cy="184" r="9" /><circle cx="200" cy="204" r="9" /><circle cx="200" cy="224" r="9" />
+<circle cx="310" cy="84" r="9" /><circle cx="310" cy="104" r="9" /><circle cx="310" cy="124" r="9" /><circle cx="310" cy="144" r="9" /><circle cx="310" cy="164" r="9" /><circle cx="310" cy="184" r="9" /><circle cx="310" cy="204" r="9" /><circle cx="310" cy="224" r="9" />
+</g>
+<g fill="#e0a800">
+<ellipse cx="90" cy="94" rx="5" ry="3" /><ellipse cx="90" cy="114" rx="5" ry="3" /><ellipse cx="90" cy="134" rx="5" ry="3" /><ellipse cx="90" cy="154" rx="5" ry="3" /><ellipse cx="90" cy="174" rx="5" ry="3" /><ellipse cx="90" cy="194" rx="5" ry="3" /><ellipse cx="90" cy="214" rx="5" ry="3" />
+<ellipse cx="200" cy="94" rx="5" ry="3" /><ellipse cx="200" cy="114" rx="5" ry="3" /><ellipse cx="200" cy="134" rx="5" ry="3" /><ellipse cx="200" cy="154" rx="5" ry="3" /><ellipse cx="200" cy="174" rx="5" ry="3" /><ellipse cx="200" cy="194" rx="5" ry="3" /><ellipse cx="200" cy="214" rx="5" ry="3" />
+<ellipse cx="310" cy="94" rx="5" ry="3" /><ellipse cx="310" cy="114" rx="5" ry="3" /><ellipse cx="310" cy="134" rx="5" ry="3" /><ellipse cx="310" cy="154" rx="5" ry="3" /><ellipse cx="310" cy="174" rx="5" ry="3" /><ellipse cx="310" cy="194" rx="5" ry="3" /><ellipse cx="310" cy="214" rx="5" ry="3" />
+</g>
+<line x1="112" y1="200" x2="178" y2="200" stroke="#333" stroke-dasharray="4 3" />
+<text x="145" y="194" font-size="16" text-anchor="middle" fill="#333">約160µm</text>
+<text x="145" y="150" font-size="16" text-anchor="middle" fill="#1f4e79">シリコーン</text>
+<text x="255" y="150" font-size="16" text-anchor="middle" fill="#1f4e79">（電気を</text>
+<text x="255" y="170" font-size="16" text-anchor="middle" fill="#1f4e79">通さない）</text>
+<rect x="40" y="246" width="320" height="18" fill="#d9534f" />
+<text x="200" y="260" font-size="16" text-anchor="middle" fill="#fff">発熱側</text>
+<circle cx="52" cy="290" r="8" fill="#6c757d" />
+<text x="66" y="296" font-size="16" fill="#222">Ni粒子（5µm）の柱</text>
+<ellipse cx="232" cy="290" rx="7" ry="4" fill="#e0a800" />
+<text x="246" y="296" font-size="16" fill="#222">液体金属の橋</text>
+<text x="200" y="322" font-size="16" text-anchor="middle" fill="#222">熱は柱に沿って縦に流れる（厚さ約1mm）</text>
+</svg>
